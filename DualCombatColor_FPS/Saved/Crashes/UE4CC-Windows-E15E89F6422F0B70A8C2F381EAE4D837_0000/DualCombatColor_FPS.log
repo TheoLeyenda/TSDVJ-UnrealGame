@@ -1,0 +1,1375 @@
+﻿Log file open, 06/06/20 21:17:24
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: DualCombatColor_FPS
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.136130
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1903) (), CPU: AMD A8-5600K APU with Radeon(tm) HD Graphics   , GPU: AMD Radeon HD 5450
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.06.07-00.17.25:169][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.07-00.17.25:169][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.07-00.17.25:169][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.07-00.17.25:169][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.07-00.17.25:169][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.07-00.17.25:169][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.07-00.17.25:169][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.07-00.17.25:169][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.07-00.17.25:169][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.07-00.17.25:169][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.07-00.17.25:169][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.07-00.17.25:169][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.07-00.17.25:169][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.07-00.17.25:169][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.07-00.17.25:169][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.07-00.17.25:169][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.07-00.17.25:169][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.07-00.17.25:169][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.07-00.17.25:169][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.07-00.17.25:170][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.07-00.17.25:170][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.07-00.17.25:170][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.07-00.17.25:170][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.07-00.17.25:170][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.07-00.17.25:170][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.07-00.17.25:170][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.07-00.17.25:170][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.07-00.17.25:170][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.07-00.17.25:170][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.07-00.17.25:170][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.07-00.17.25:170][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.07-00.17.25:170][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.07-00.17.25:170][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.07-00.17.25:170][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.07-00.17.25:170][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.07-00.17.25:170][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.07-00.17.25:173][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.07-00.17.25:173][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.07-00.17.25:174][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.07-00.17.25:175][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.07-00.17.25:175][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.07-00.17.25:175][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.07-00.17.25:179][  0]LogHAL: Display: Platform has ~ 8 GB [8541040640 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.07-00.17.25:179][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.07-00.17.25:180][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2020.06.07-00.17.25:180][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SSGI.Quality:0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:8]]
+[2020.06.07-00.17.25:181][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.07-00.17.25:182][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
+[2020.06.07-00.17.25:182][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.07-00.17.25:182][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.07-00.17.25:182][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.07-00.17.25:182][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.07-00.17.25:182][  0]LogInit: Computer: DESKTOP-6PDEUV4
+[2020.06.07-00.17.25:182][  0]LogInit: User: Theo
+[2020.06.07-00.17.25:182][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.06.07-00.17.25:182][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2020.06.07-00.17.25:183][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2020.06.07-00.17.25:183][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.07-00.17.25:183][  0]LogMemory: Process Physical Memory: 104.03 MB used, 104.03 MB peak
+[2020.06.07-00.17.25:183][  0]LogMemory: Process Virtual Memory: 99.64 MB used, 99.64 MB peak
+[2020.06.07-00.17.25:183][  0]LogMemory: Physical Memory: 4896.04 MB used,  3249.33 MB free, 8145.37 MB total
+[2020.06.07-00.17.25:183][  0]LogMemory: Virtual Memory: 5117.18 MB used,  134212608.00 MB free, 134217728.00 MB total
+[2020.06.07-00.17.25:187][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.07-00.17.25:211][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.06.07-00.17.25:211][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.06.07-00.17.25:731][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.07-00.17.25:910][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.07-00.17.25:910][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.07-00.17.26:516][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.07-00.17.26:517][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.06.07-00.17.26:517][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.06.07-00.17.26:517][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.07-00.17.26:548][  0]LogD3D11RHI:    0. 'AMD Radeon HD 5450' (Feature Level 11_0)
+[2020.06.07-00.17.26:548][  0]LogD3D11RHI:       2034/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2020.06.07-00.17.26:552][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.07-00.17.26:552][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.07-00.17.26:552][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.07-00.17.26:562][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.07-00.17.26:562][  0]LogD3D11RHI:     GPU DeviceId: 0x68f9 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.07-00.17.26:562][  0]LogWindows: EnumDisplayDevices:
+[2020.06.07-00.17.26:562][  0]LogWindows:    0. 'AMD Radeon HD 5450' (P:1 D:1)
+[2020.06.07-00.17.26:563][  0]LogWindows:    1. 'AMD Radeon HD 5450' (P:0 D:0)
+[2020.06.07-00.17.26:563][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2020.06.07-00.17.26:563][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 5450
+[2020.06.07-00.17.26:563][  0]LogD3D11RHI:   Driver Version: 15.201.1151.1008 (internal:15.201.1151.1008, unified:15.201.1151.1008)
+[2020.06.07-00.17.26:563][  0]LogD3D11RHI:      Driver Date: 11-4-2015
+[2020.06.07-00.17.26:563][  0]LogRHI: Texture pool is 1424 MB (70% of 2034 MB)
+[2020.06.07-00.17.26:603][  0]LogD3D11RHI: AMD Pre GCN architecture detected, some driver workarounds will be in place
+[2020.06.07-00.17.26:614][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.06.07-00.17.26:614][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.07-00.17.26:628][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2020.06.07-00.17.27:129][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.07-00.17.27:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.07-00.17.27:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.07-00.17.27:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.06.07-00.17.27:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.07-00.17.27:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.06.07-00.17.27:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.06.07-00.17.27:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.07-00.17.27:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.06.07-00.17.27:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.07-00.17.27:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.07-00.17.27:181][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.06.07-00.17.27:181][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.07-00.17.27:181][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.06.07-00.17.27:181][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.06.07-00.17.27:181][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.07-00.17.27:181][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.06.07-00.17.27:181][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.07-00.17.27:181][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.07-00.17.27:210][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.07-00.17.27:210][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.07-00.17.27:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.07-00.17.27:246][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.07-00.17.27:258][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.07-00.17.27:270][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.07-00.17.27:288][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.07-00.17.27:306][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.07-00.17.27:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.07-00.17.27:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.07-00.17.27:959][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.07-00.17.27:959][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.07-00.17.27:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.07-00.17.27:988][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.07-00.17.28:002][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.07-00.17.28:016][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.07-00.17.28:016][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.07-00.17.28:020][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.07-00.17.28:059][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/Theo/Desktop/DualCombatColor_FPS/Intermediate/Shaders/WorkingDirectory/11328/).
+[2020.06.07-00.17.28:059][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Theo/AppData/Local/Temp/UnrealShaderWorkingDir/1677D7BE49E40FE5170AC7BDD89F815D/'.
+[2020.06.07-00.17.28:060][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.07-00.17.28:060][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.07-00.17.28:060][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.07-00.17.29:796][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.07-00.17.29:900][  0]LogDerivedDataCache: Loaded boot cache 0.10s 81MB C:/Users/Theo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.06.07-00.17.29:900][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Theo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.06.07-00.17.29:900][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Theo/Desktop/DualCombatColor_FPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.07-00.17.29:900][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.07-00.17.29:900][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Theo/Desktop/DualCombatColor_FPS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.07-00.17.29:900][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.07-00.17.29:914][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.07-00.17.29:914][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.07-00.17.29:914][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.07-00.17.29:915][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Theo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.07-00.17.29:915][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.07-00.17.29:915][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.07-00.17.29:963][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.06.07-00.17.29:968][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.07-00.17.29:969][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.07-00.17.30:041][  0]LogAssetRegistry: FAssetRegistry took 0.0036 seconds to start up
+[2020.06.07-00.17.30:582][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.07-00.17.30:832][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.07-00.17.30:832][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.07-00.17.30:832][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.07-00.17.30:832][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.07-00.17.30:832][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.07-00.17.30:850][  0]LogNetVersion: DualCombatColor_FPS 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1830361772)
+[2020.06.07-00.17.32:810][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.074869 seconds
+[2020.06.07-00.17.32:822][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.06.07-00.17.32:822][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.06.07-00.17.32:822][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.07-00.17.33:446][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.07-00.17.33:578][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.07-00.17.37:673][  0]SourceControl: Source control is disabled
+[2020.06.07-00.17.37:673][  0]SourceControl: Source control is disabled
+[2020.06.07-00.17.37:674][  0]SourceControl: Source control is disabled
+[2020.06.07-00.17.37:676][  0]SourceControl: Source control is disabled
+[2020.06.07-00.17.37:677][  0]SourceControl: Source control is disabled
+[2020.06.07-00.17.37:827][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.07-00.17.37:847][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.07-00.17.37:847][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.07-00.17.38:034][  0]LogOcInput: OculusInput pre-init called
+[2020.06.07-00.17.38:047][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.07-00.17.38:047][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.07-00.17.38:169][  0]LogEngine: Initializing Engine...
+[2020.06.07-00.17.38:172][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.07-00.17.38:175][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.06.07-00.17.38:721][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.07-00.17.38:733][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.07-00.17.38:737][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.07-00.17.38:737][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.07-00.17.38:737][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.07-00.17.38:737][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.07-00.17.38:737][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.07-00.17.38:737][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.07-00.17.38:737][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.07-00.17.38:737][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.07-00.17.38:738][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.07-00.17.38:738][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.07-00.17.38:759][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.07-00.17.38:759][  0]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.06.07-00.17.38:759][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.06.07-00.17.38:759][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.07-00.17.38:759][  0]LogAudioMixer: Display: Channel Count Used: 6
+[2020.06.07-00.17.38:759][  0]LogAudioMixer: Display: Device Channel Count: 6
+[2020.06.07-00.17.38:759][  0]LogAudioMixer: Display: Channel Order:
+[2020.06.07-00.17.38:759][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.07-00.17.38:759][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.07-00.17.38:759][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.07-00.17.38:759][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.07-00.17.38:759][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.06.07-00.17.38:759][  0]LogAudioMixer: Display: 5: BackRight
+[2020.06.07-00.17.38:821][  0]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2020.06.07-00.17.38:825][  0]LogInit: FAudioDevice initialized.
+[2020.06.07-00.17.38:826][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.07-00.17.41:872][  0]LogDerivedDataCache: Saved boot cache 3.05s 81MB C:/Users/Theo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.06.07-00.17.41:879][  0]LogInit: Texture streaming: Enabled
+[2020.06.07-00.17.41:894][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.07-00.17.41:894][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.07-00.17.42:447][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.07-00.17.42:480][  0]LogInit: Transaction tracking system initialized
+[2020.06.07-00.17.42:498][  0]BlueprintLog: New page: Editor Load
+[2020.06.07-00.17.43:213][  0]LocalizationService: Localization service is disabled
+[2020.06.07-00.17.46:108][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Theo/Desktop/DualCombatColor_FPS/Content/' took 0.00s
+[2020.06.07-00.17.46:108][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.07-00.17.46:108][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.07-00.17.47:154][  0]SourceControl: Source control is disabled
+[2020.06.07-00.17.47:154][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Theo/Desktop/DualCombatColor_FPS/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.07-00.17.47:154][  0]LightingResults: New page: Lighting Build
+[2020.06.07-00.17.47:155][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.07-00.17.47:155][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.07-00.17.47:156][  0]MapCheck: New page: Map Check
+[2020.06.07-00.17.47:156][  0]LightingResults: New page: Lighting Build
+[2020.06.07-00.17.47:206][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2020.06.07-00.17.51:937][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.06.07-00.17.56:176][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.07-00.17.56:231][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2020.06.07-00.17.56:232][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.07-00.17.56:232][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.259ms to complete.
+[2020.06.07-00.17.56:232][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 9.078
+[2020.06.07-00.17.59:399][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.07-00.17.59:458][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.07-00.17.59:470][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.07-00.17.59:481][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.07-00.18.00:053][  0]LogCollectionManager: Loaded 0 collections in 0.004464 seconds
+[2020.06.07-00.18.00:241][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Collections/' took 0.00s
+[2020.06.07-00.18.00:241][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Theo/Desktop/DualCombatColor_FPS/Content/Developers/Theo/Collections/' took 0.00s
+[2020.06.07-00.18.00:241][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Theo/Desktop/DualCombatColor_FPS/Content/Collections/' took 0.00s
+[2020.06.07-00.18.00:241][  0]LogContentBrowser: Native class hierarchy populated in 0.0249 seconds. Added 3019 classes and 719 folders.
+[2020.06.07-00.18.00:251][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2020.06.07-00.18.00:346][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.06.07-00.18.00:431][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 2 classes and 3 folders.
+[2020.06.07-00.18.12:464][  0]LogSlate: Took 0.000430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.07-00.18.12:468][  0]LogSlate: Took 0.000451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.07-00.18.12:805][  0]LogSlate: Took 0.180698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.07-00.18.16:684][  0]LogRenderer: Reallocating scene render targets to support 1092x600 Format 9 NumSamples 1 (Frame:1).
+[2020.06.07-00.18.18:996][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.06.07-00.18.18:996][  0]LogLoad: (Engine Initialization) Total time: 56.71 seconds
+[2020.06.07-00.18.18:996][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.07-00.18.20:855][  0]LogContentStreaming: Texture pool size now 400 MB
+[2020.06.07-00.18.21:425][  0]LogSlate: Took 0.000640 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.07-00.21.22:057][111]LogAssetRegistry: Asset discovery search completed in 232.0168 seconds
+[2020.06.07-00.21.22:064][111]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2020.06.07-00.21.38:495][401]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.07-00.21.38:590][401]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.06.07-00.21.38:591][401]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.06.07-00.21.38:643][401]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.07-00.21.48:839][503]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.06.07-00.22.47:730][185]Candidate modules for hot reload:
+[2020.06.07-00.22.47:732][185]  DualCombatColor_FPS
+[2020.06.07-00.22.47:733][185]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DualCombatColor_FPS,632 Win64 Development -TargetType=Editor -Project="C:/Users/Theo/Desktop/DualCombatColor_FPS/DualCombatColor_FPS.uproject" "C:/Users/Theo/Desktop/DualCombatColor_FPS/DualCombatColor_FPS.uproject"  -IgnoreJunk]
+[2020.06.07-00.26.22:944][185]CompilerResultsLog: New page: Compilation - Jun 6, 2020, 6:26:21 PM
+[2020.06.07-00.26.22:965][185]CompilerResultsLog: Creating makefile for DualCombatColor_FPSEditor (.uproject file is newer)
+[2020.06.07-00.26.22:965][185]CompilerResultsLog: Parsing headers for DualCombatColor_FPSEditor
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Theo\Desktop\DualCombatColor_FPS\DualCombatColor_FPS.uproject" "C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\DualCombatColor_FPSEditor\Development\DualCombatColor_FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.06.07-00.26.22:965][185]CompilerResultsLog: Reflection code generated for DualCombatColor_FPSEditor in 23,5664934 seconds
+[2020.06.07-00.26.22:965][185]CompilerResultsLog: Building DualCombatColor_FPSEditor...
+[2020.06.07-00.26.22:965][185]CompilerResultsLog: Using Visual Studio 2017 14.16.27031 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.07-00.26.22:965][185]CompilerResultsLog: Building 15 actions with 4 processes...
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   [1/15] DualCombatColor_FPSProjectile.gen.cpp
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\Definitions.DualCombatColor_FPS.h
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Source\DualCombatColor_FPS/DualCombatColor_FPSProjectile.h
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  c:\users\theo\desktop\dualcombatcolor_fps\intermediate\build\win64\ue4editor\inc\dualcombatcolor_fps\DualCombatColor_FPSProjectile.generated.h
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   [2/15] DualCombatColor_FPSHUD.gen.cpp
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\Definitions.DualCombatColor_FPS.h
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Source\DualCombatColor_FPS/DualCombatColor_FPSHUD.h
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  c:\users\theo\desktop\dualcombatcolor_fps\intermediate\build\win64\ue4editor\inc\dualcombatcolor_fps\DualCombatColor_FPSHUD.generated.h
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   [3/15] DualCombatColor_FPSGameMode.gen.cpp
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\Definitions.DualCombatColor_FPS.h
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+[2020.06.07-00.26.22:965][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Source\DualCombatColor_FPS/DualCombatColor_FPSGameMode.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  c:\users\theo\desktop\dualcombatcolor_fps\intermediate\build\win64\ue4editor\inc\dualcombatcolor_fps\DualCombatColor_FPSGameMode.generated.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   [4/15] DualCombatColor_FPSCharacter.gen.cpp
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\Definitions.DualCombatColor_FPS.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Source\DualCombatColor_FPS/DualCombatColor_FPSCharacter.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  c:\users\theo\desktop\dualcombatcolor_fps\intermediate\build\win64\ue4editor\inc\dualcombatcolor_fps\DualCombatColor_FPSCharacter.generated.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   [5/15] DualCombatColor_FPS.init.gen.cpp
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\Definitions.DualCombatColor_FPS.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   [6/15] DualCombatColor_FPSHUD.cpp
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\Definitions.DualCombatColor_FPS.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo: c:\users\theo\desktop\dualcombatcolor_fps\source\dualcombatcolor_fps\DualCombatColor_FPSHUD.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+[2020.06.07-00.26.22:966][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Inc\DualCombatColor_FPS\DualCombatColor_FPSHUD.generated.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/Canvas.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\CanvasItem.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FontImportOptions.generated.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontProviderInterface.generated.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Font.generated.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Canvas.generated.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   [7/15] DualCombatColor_FPSGameMode.cpp
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\Definitions.DualCombatColor_FPS.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo: c:\users\theo\desktop\dualcombatcolor_fps\source\dualcombatcolor_fps\DualCombatColor_FPSGameMode.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Inc\DualCombatColor_FPS\DualCombatColor_FPSGameMode.generated.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo: c:\users\theo\desktop\dualcombatcolor_fps\source\dualcombatcolor_fps\DualCombatColor_FPSHUD.h
+[2020.06.07-00.26.22:967][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Inc\DualCombatColor_FPS\DualCombatColor_FPSHUD.generated.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo: c:\users\theo\desktop\dualcombatcolor_fps\source\dualcombatcolor_fps\DualCombatColor_FPSCharacter.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Inc\DualCombatColor_FPS\DualCombatColor_FPSCharacter.generated.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   [8/15] DualCombatColor_FPS.cpp
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\Definitions.DualCombatColor_FPS.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo: c:\users\theo\desktop\dualcombatcolor_fps\source\dualcombatcolor_fps\DualCombatColor_FPS.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   [9/15] DualCombatColor_FPSProjectile.cpp
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\Definitions.DualCombatColor_FPS.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo: c:\users\theo\desktop\dualcombatcolor_fps\source\dualcombatcolor_fps\DualCombatColor_FPSProjectile.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Inc\DualCombatColor_FPS\DualCombatColor_FPSProjectile.generated.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+[2020.06.07-00.26.22:968][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   [10/15] DualCombatColor_FPSCharacter.cpp
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\Definitions.DualCombatColor_FPS.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo: c:\users\theo\desktop\dualcombatcolor_fps\source\dualcombatcolor_fps\DualCombatColor_FPSCharacter.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Inc\DualCombatColor_FPS\DualCombatColor_FPSCharacter.generated.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo: c:\users\theo\desktop\dualcombatcolor_fps\source\dualcombatcolor_fps\DualCombatColor_FPSProjectile.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Inc\DualCombatColor_FPS\DualCombatColor_FPSProjectile.generated.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/InputSettings.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerInput.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\GestureRecognizer.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\KeyState.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerInput.generated.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\InputSettings.generated.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayFunctionLibrary.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  c:\program files\epic games\ue_4.24\engine\source\runtime\headmounteddisplay\public\HeadMountedDisplayTypes.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayTypes.generated.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  c:\program files\epic games\ue_4.24\engine\source\runtime\headmounteddisplay\public\IIdentifiableXRDevice.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\IIdentifiableXRDevice.generated.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayFunctionLibrary.generated.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+[2020.06.07-00.26.22:969][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  c:\program files\epic games\ue_4.24\engine\source\runtime\engine\classes\kismet\GameplayStaticsTypes.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\HeadMountedDisplay\Public\MotionControllerComponent.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\SceneViewExtension.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  c:\program files\epic games\ue_4.24\engine\source\runtime\headmounteddisplay\public\IMotionController.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  c:\program files\epic games\ue_4.24\engine\source\runtime\headmounteddisplay\public\LateUpdateManager.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\MotionControllerComponent.generated.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\HeadMountedDisplay\Public\XRMotionControllerBase.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   [11/15] BaseMenuWidget.cpp
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\Definitions.DualCombatColor_FPS.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo: c:\users\theo\desktop\dualcombatcolor_fps\source\dualcombatcolor_fps\BaseMenuWidget.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/Widget.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/Visual.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Visual.generated.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Slate/WidgetTransform.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetTransform.generated.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Blueprint/WidgetNavigation.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Types/NavigationMetaData.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetNavigation.generated.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\Kismet2/CompilerResultsLog.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\EdGraphToken.h
+[2020.06.07-00.26.22:970][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Widget.generated.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/NamedSlotInterface.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\NamedSlotInterface.generated.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Widgets/Layout/Anchors.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate\Anchors.generated.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Animation/WidgetAnimation.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneSequence.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSignedObject.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSignedObject.generated.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneTrack.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\IMovieSceneTrackInstance.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneAnimTypeID.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSection.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneFwd.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSequenceID.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceID.generated.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\KeyParams.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieScene.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSpawnable.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSpawnable.generated.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneBinding.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneBinding.generated.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieScenePossessable.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieScenePossessable.generated.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneObjectBindingID.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneObjectBindingID.generated.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneFrameMigration.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneFrameMigration.generated.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneTimeController.h
+[2020.06.07-00.26.22:971][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/QualifiedFrameTime.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieScene.generated.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendType.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneBlendType.generated.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Generators/MovieSceneEasingFunction.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEasingFunction.generated.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSection.generated.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/InlineValue.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Compilation/MovieSceneSegmentCompiler.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSegment.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/SequencerObjectVersion.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSegment.generated.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrack.generated.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTemplate.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneTrackIdentifier.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/EditorObjectVersion.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrackIdentifier.generated.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationField.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationKey.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationKey.generated.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationField.generated.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTrack.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieScenePlayback.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceTransform.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceTransform.generated.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvalTemplate.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvalTemplateBase.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvalTemplateBase.generated.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneExecutionTokens.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneExecutionToken.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationScope.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/PersistentEvaluationData.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationOperand.h
+[2020.06.07-00.26.22:972][185]CompilerResultsLog:   Nota: inclusi?n del archivo:           C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationOperand.generated.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceInstanceData.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:           C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceInstanceData.generated.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingAccumulator.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/BlendableToken.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingActuatorID.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingActuator.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\IMovieScenePlayer.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:            c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieScenePreAnimatedState.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:            c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSpawnRegister.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:             c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\IMovieSceneObjectSpawner.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:            c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationState.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:            c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/IMovieSceneMotionVectorSimulation.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/BlendableTokenStack.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneInitialValueStore.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneAccumulatedBlendState.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\evaluation\blending\MovieSceneBlendingAccumulator.inl
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Compilation/MovieSceneTemplateInterrogation.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvalTemplate.generated.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneTrackImplementation.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrackImplementation.generated.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTree.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationTrack.generated.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceHierarchy.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSectionParameters.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSectionParameters.generated.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceHierarchy.generated.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationTemplate.generated.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequence.generated.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Animation/WidgetAnimationBinding.h
+[2020.06.07-00.26.22:973][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetAnimationBinding.generated.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetAnimation.generated.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Blueprint/WidgetBlueprintGeneratedClass.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Binding/DynamicPropertyPath.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\PropertyPath\Public\PropertyPathHelpers.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\propertypath\public\PropertyTypeCompatibility.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath\PropertyPathHelpers.generated.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Inc\DualCombatColor_FPS\BaseMenuWidget.generated.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   [12/15] BaseMenuWidget.gen.cpp
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\Definitions.DualCombatColor_FPS.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Source\DualCombatColor_FPS/BaseMenuWidget.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/Widget.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/Visual.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Visual.generated.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Slate/WidgetTransform.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetTransform.generated.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Blueprint/WidgetNavigation.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Types/NavigationMetaData.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetNavigation.generated.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\Kismet2/CompilerResultsLog.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\EdGraphToken.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Widget.generated.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/NamedSlotInterface.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\NamedSlotInterface.generated.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Widgets/Layout/Anchors.h
+[2020.06.07-00.26.22:974][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate\Anchors.generated.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Animation/WidgetAnimation.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneSequence.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSignedObject.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSignedObject.generated.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneTrack.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\IMovieSceneTrackInstance.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneAnimTypeID.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSection.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneFwd.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSequenceID.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceID.generated.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\KeyParams.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieScene.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSpawnable.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSpawnable.generated.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneBinding.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneBinding.generated.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieScenePossessable.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieScenePossessable.generated.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneObjectBindingID.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneObjectBindingID.generated.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneFrameMigration.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneFrameMigration.generated.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneTimeController.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/QualifiedFrameTime.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieScene.generated.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendType.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneBlendType.generated.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Generators/MovieSceneEasingFunction.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEasingFunction.generated.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSection.generated.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/InlineValue.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Compilation/MovieSceneSegmentCompiler.h
+[2020.06.07-00.26.22:975][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSegment.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/SequencerObjectVersion.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSegment.generated.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrack.generated.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTemplate.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneTrackIdentifier.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/EditorObjectVersion.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrackIdentifier.generated.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationField.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationKey.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationKey.generated.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationField.generated.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTrack.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieScenePlayback.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceTransform.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceTransform.generated.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvalTemplate.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvalTemplateBase.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvalTemplateBase.generated.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneExecutionTokens.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneExecutionToken.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationScope.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/PersistentEvaluationData.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationOperand.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:           C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationOperand.generated.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceInstanceData.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:           C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceInstanceData.generated.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingAccumulator.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/BlendableToken.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingActuatorID.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingActuator.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\IMovieScenePlayer.h
+[2020.06.07-00.26.22:976][185]CompilerResultsLog:   Nota: inclusi?n del archivo:            c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieScenePreAnimatedState.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:            c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSpawnRegister.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:             c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\IMovieSceneObjectSpawner.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:            c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationState.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:            c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/IMovieSceneMotionVectorSimulation.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/BlendableTokenStack.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneInitialValueStore.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneAccumulatedBlendState.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\evaluation\blending\MovieSceneBlendingAccumulator.inl
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Compilation/MovieSceneTemplateInterrogation.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvalTemplate.generated.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneTrackImplementation.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrackImplementation.generated.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTree.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationTrack.generated.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceHierarchy.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSectionParameters.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSectionParameters.generated.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceHierarchy.generated.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationTemplate.generated.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequence.generated.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Animation/WidgetAnimationBinding.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetAnimationBinding.generated.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetAnimation.generated.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Blueprint/WidgetBlueprintGeneratedClass.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Binding/DynamicPropertyPath.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\PropertyPath\Public\PropertyPathHelpers.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\propertypath\public\PropertyTypeCompatibility.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath\PropertyPathHelpers.generated.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   Nota: inclusi?n del archivo:  c:\users\theo\desktop\dualcombatcolor_fps\intermediate\build\win64\ue4editor\inc\dualcombatcolor_fps\BaseMenuWidget.generated.h
+[2020.06.07-00.26.22:977][185]CompilerResultsLog:   [13/15] UE4Editor-DualCombatColor_FPS-0632.lib
+[2020.06.07-00.26.22:978][185]CompilerResultsLog:      Creando biblioteca C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\UE4Editor-DualCombatColor_FPS-0632.lib y objeto C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\UE4Editor-DualCombatColor_FPS-0632.exp
+[2020.06.07-00.26.22:978][185]CompilerResultsLog:   [14/15] UE4Editor-DualCombatColor_FPS-0632.dll
+[2020.06.07-00.26.22:978][185]CompilerResultsLog:      Creando biblioteca C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\UE4Editor-DualCombatColor_FPS-0632.suppressed.lib y objeto C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\UE4Editor-DualCombatColor_FPS-0632.suppressed.exp
+[2020.06.07-00.26.22:978][185]CompilerResultsLog:   [15/15] DualCombatColor_FPSEditor.target
+[2020.06.07-00.26.22:978][185]CompilerResultsLog: Total time in Parallel executor: 174,66 seconds
+[2020.06.07-00.26.22:978][185]CompilerResultsLog: Total execution time: 211,95 seconds
+[2020.06.07-00.26.23:089][185]LogMainFrame: MainFrame: Module compiling took 215.584 seconds
+[2020.06.07-00.26.23:717][185]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.06.07-00.26.23:796][185]LogContentBrowser: Native class hierarchy populated in 0.0345 seconds. Added 3021 classes and 722 folders.
+[2020.06.07-00.26.23:860][185]Display: HotReload took 216.7s.
+[2020.06.07-00.26.23:866][185]Warning: HotReload operation took 216.7s.
+[2020.06.07-00.26.42:265][185]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.06.07-00.26.42:405][185]LogHotReload: New module detected: UE4Editor-DualCombatColor_FPS-0632.dll
+[2020.06.07-00.26.43:745][185]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.06.07-00.26.43:812][186]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.07-00.26.43:938][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.06.07-00.26.44:096][186]LogClass: Could not find existing class BaseMenuWidget in package /Script/DualCombatColor_FPS for HotReload, assuming new class
+[2020.06.07-00.26.44:200][186]LogContentBrowser: Native class hierarchy updated for 'DualCombatColor_FPS' in 0.0025 seconds. Added 5 classes and 2 folders.
+[2020.06.07-00.26.44:205][186]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.06.07-00.26.45:784][186]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2020.06.07-00.26.45:841][186]LogContentBrowser: Native class hierarchy populated in 0.0402 seconds. Added 3022 classes and 722 folders.
+[2020.06.07-00.26.45:906][186]Display: HotReload took  2.1s.
+[2020.06.07-00.47.12:679][823]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.06.07-01.01.48:100][425]LogHotReload: New module detected: UE4Editor-DualCombatColor_FPS-0002.dll
+[2020.06.07-01.01.52:146][438]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.07-01.01.52:288][438]LogUObjectHash: Compacting FUObjectHashTables data took   5.87ms
+[2020.06.07-01.01.53:148][438]LogClass: Could not find existing class BaseMenuWidget in package /Script/DualCombatColor_FPS for HotReload, assuming new class
+[2020.06.07-01.01.53:148][438]LogClass: Function BackToMenu is new.
+[2020.06.07-01.01.53:148][438]LogClass: Function Credits is new.
+[2020.06.07-01.01.53:148][438]LogClass: Function Exit is new.
+[2020.06.07-01.01.53:148][438]LogClass: Function Play is new.
+[2020.06.07-01.01.53:148][438]LogClass: Function Resume is new.
+[2020.06.07-01.01.53:148][438]LogClass: Function Retry is new.
+[2020.06.07-01.01.53:398][438]LogHotReload: Re-instancing BaseMenuWidget after hot-reload.
+[2020.06.07-01.01.54:059][438]LogContentBrowser: Native class hierarchy updated for 'DualCombatColor_FPS' in 0.0017 seconds. Added 5 classes and 2 folders.
+[2020.06.07-01.01.54:065][438]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.06.07-01.01.54:233][438]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.06.07-01.01.54:268][438]LogContentBrowser: Native class hierarchy populated in 0.0182 seconds. Added 3022 classes and 722 folders.
+[2020.06.07-01.01.54:272][438]Display: HotReload took  2.1s.
+[2020.06.07-01.02.20:635][868]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.06.07-01.02.20:635][868]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.06.07-01.02.25:123][911]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.06.07-01.02.32:689][993]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.06.07-01.02.51:606][212]Candidate modules for hot reload:
+[2020.06.07-01.02.51:606][212]  DualCombatColor_FPS
+[2020.06.07-01.02.51:606][212]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DualCombatColor_FPS,377 Win64 Development -TargetType=Editor -Project="C:/Users/Theo/Desktop/DualCombatColor_FPS/DualCombatColor_FPS.uproject" "C:/Users/Theo/Desktop/DualCombatColor_FPS/DualCombatColor_FPS.uproject"  -IgnoreJunk]
+[2020.06.07-01.04.00:620][212]CompilerResultsLog: New page: Compilation - Jun 6, 2020, 7:04:00 PM
+[2020.06.07-01.04.00:622][212]CompilerResultsLog: Invalidating makefile for DualCombatColor_FPSEditor (source file added)
+[2020.06.07-01.04.00:622][212]CompilerResultsLog: Parsing headers for DualCombatColor_FPSEditor
+[2020.06.07-01.04.00:622][212]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Theo\Desktop\DualCombatColor_FPS\DualCombatColor_FPS.uproject" "C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\DualCombatColor_FPSEditor\Development\DualCombatColor_FPSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.06.07-01.04.00:622][212]CompilerResultsLog: Reflection code generated for DualCombatColor_FPSEditor in 12,9661924 seconds
+[2020.06.07-01.04.00:622][212]CompilerResultsLog: Building DualCombatColor_FPSEditor...
+[2020.06.07-01.04.00:622][212]CompilerResultsLog: Using Visual Studio 2017 14.16.27031 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.07-01.04.00:622][212]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.06.07-01.04.00:622][212]CompilerResultsLog:   [1/6] DualCombatColor_FPS.init.gen.cpp
+[2020.06.07-01.04.00:622][212]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\Definitions.DualCombatColor_FPS.h
+[2020.06.07-01.04.00:622][212]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+[2020.06.07-01.04.00:622][212]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+[2020.06.07-01.04.00:622][212]CompilerResultsLog:   [2/6] MainMenuWidget.cpp
+[2020.06.07-01.04.00:622][212]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\Definitions.DualCombatColor_FPS.h
+[2020.06.07-01.04.00:622][212]CompilerResultsLog:   Nota: inclusi?n del archivo: c:\users\theo\desktop\dualcombatcolor_fps\source\dualcombatcolor_fps\MainMenuWidget.h
+[2020.06.07-01.04.00:622][212]CompilerResultsLog:   Nota: inclusi?n del archivo:  c:\users\theo\desktop\dualcombatcolor_fps\source\dualcombatcolor_fps\BaseMenuWidget.h
+[2020.06.07-01.04.00:622][212]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
+[2020.06.07-01.04.00:622][212]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
+[2020.06.07-01.04.00:622][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
+[2020.06.07-01.04.00:622][212]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/Widget.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/Visual.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Visual.generated.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Slate/WidgetTransform.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetTransform.generated.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Blueprint/WidgetNavigation.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Types/NavigationMetaData.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetNavigation.generated.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\Kismet2/CompilerResultsLog.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\EdGraphToken.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Widget.generated.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/NamedSlotInterface.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\NamedSlotInterface.generated.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Widgets/Layout/Anchors.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate\Anchors.generated.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Animation/WidgetAnimation.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneSequence.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSignedObject.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSignedObject.generated.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneTrack.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\IMovieSceneTrackInstance.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneAnimTypeID.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSection.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneFwd.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSequenceID.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceID.generated.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\KeyParams.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieScene.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSpawnable.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSpawnable.generated.h
+[2020.06.07-01.04.00:623][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneBinding.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneBinding.generated.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieScenePossessable.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieScenePossessable.generated.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneObjectBindingID.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneObjectBindingID.generated.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneFrameMigration.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneFrameMigration.generated.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneTimeController.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/QualifiedFrameTime.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieScene.generated.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendType.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneBlendType.generated.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Generators/MovieSceneEasingFunction.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEasingFunction.generated.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSection.generated.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/InlineValue.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Compilation/MovieSceneSegmentCompiler.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSegment.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/SequencerObjectVersion.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSegment.generated.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrack.generated.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTemplate.h
+[2020.06.07-01.04.00:624][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneTrackIdentifier.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/EditorObjectVersion.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrackIdentifier.generated.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationField.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationKey.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationKey.generated.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationField.generated.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTrack.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieScenePlayback.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceTransform.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceTransform.generated.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvalTemplate.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvalTemplateBase.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvalTemplateBase.generated.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneExecutionTokens.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneExecutionToken.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationScope.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/PersistentEvaluationData.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationOperand.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:            C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationOperand.generated.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceInstanceData.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:            C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceInstanceData.generated.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingAccumulator.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/BlendableToken.h
+[2020.06.07-01.04.00:625][212]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingActuatorID.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingActuator.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:            c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\IMovieScenePlayer.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:             c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieScenePreAnimatedState.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:             c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSpawnRegister.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:              c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\IMovieSceneObjectSpawner.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:             c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationState.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:             c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/IMovieSceneMotionVectorSimulation.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:            c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/BlendableTokenStack.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:            c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneInitialValueStore.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneAccumulatedBlendState.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\evaluation\blending\MovieSceneBlendingAccumulator.inl
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:            c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Compilation/MovieSceneTemplateInterrogation.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvalTemplate.generated.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneTrackImplementation.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrackImplementation.generated.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTree.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationTrack.generated.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceHierarchy.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSectionParameters.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSectionParameters.generated.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceHierarchy.generated.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationTemplate.generated.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequence.generated.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Animation/WidgetAnimationBinding.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetAnimationBinding.generated.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetAnimation.generated.h
+[2020.06.07-01.04.00:626][212]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Blueprint/WidgetBlueprintGeneratedClass.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Binding/DynamicPropertyPath.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\PropertyPath\Public\PropertyPathHelpers.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\propertypath\public\PropertyTypeCompatibility.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath\PropertyPathHelpers.generated.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Inc\DualCombatColor_FPS\BaseMenuWidget.generated.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Inc\DualCombatColor_FPS\MainMenuWidget.generated.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   [3/6] MainMenuWidget.gen.cpp
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\Definitions.DualCombatColor_FPS.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Theo\Desktop\DualCombatColor_FPS\Source\DualCombatColor_FPS/MainMenuWidget.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:  c:\users\theo\desktop\dualcombatcolor_fps\source\dualcombatcolor_fps\BaseMenuWidget.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/Widget.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/Visual.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Visual.generated.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Slate/WidgetTransform.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetTransform.generated.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Blueprint/WidgetNavigation.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Types/NavigationMetaData.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetNavigation.generated.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\Kismet2/CompilerResultsLog.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\EdGraphToken.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Widget.generated.h
+[2020.06.07-01.04.00:627][212]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Components/NamedSlotInterface.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\NamedSlotInterface.generated.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Widgets/Layout/Anchors.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate\Anchors.generated.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Animation/WidgetAnimation.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneSequence.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSignedObject.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSignedObject.generated.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneTrack.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\IMovieSceneTrackInstance.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneAnimTypeID.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSection.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneFwd.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSequenceID.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceID.generated.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\KeyParams.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieScene.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSpawnable.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSpawnable.generated.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneBinding.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneBinding.generated.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieScenePossessable.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieScenePossessable.generated.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneObjectBindingID.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneObjectBindingID.generated.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneFrameMigration.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneFrameMigration.generated.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneTimeController.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/QualifiedFrameTime.h
+[2020.06.07-01.04.00:628][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieScene.generated.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendType.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneBlendType.generated.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Generators/MovieSceneEasingFunction.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEasingFunction.generated.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSection.generated.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/InlineValue.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Compilation/MovieSceneSegmentCompiler.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSegment.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/SequencerObjectVersion.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSegment.generated.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrack.generated.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTemplate.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneTrackIdentifier.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/EditorObjectVersion.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrackIdentifier.generated.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationField.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationKey.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationKey.generated.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationField.generated.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTrack.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieScenePlayback.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceTransform.h
+[2020.06.07-01.04.00:629][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceTransform.generated.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvalTemplate.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvalTemplateBase.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvalTemplateBase.generated.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneExecutionTokens.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneExecutionToken.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationScope.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/PersistentEvaluationData.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationOperand.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:            C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationOperand.generated.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceInstanceData.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:            C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceInstanceData.generated.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:          c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingAccumulator.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/BlendableToken.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingActuatorID.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingActuator.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:            c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\IMovieScenePlayer.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:             c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieScenePreAnimatedState.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:             c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSpawnRegister.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:              c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\IMovieSceneObjectSpawner.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:             c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationState.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:             c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/IMovieSceneMotionVectorSimulation.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:            c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/BlendableTokenStack.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:            c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneInitialValueStore.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneAccumulatedBlendState.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:           c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\evaluation\blending\MovieSceneBlendingAccumulator.inl
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:            c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Compilation/MovieSceneTemplateInterrogation.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvalTemplate.generated.h
+[2020.06.07-01.04.00:630][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneTrackImplementation.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrackImplementation.generated.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTree.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationTrack.generated.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceHierarchy.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSectionParameters.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:         C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSectionParameters.generated.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:        C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceHierarchy.generated.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationTemplate.generated.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequence.generated.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Animation/WidgetAnimationBinding.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetAnimationBinding.generated.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetAnimation.generated.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Blueprint/WidgetBlueprintGeneratedClass.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\UMG\Public\Binding/DynamicPropertyPath.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\PropertyPath\Public\PropertyPathHelpers.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       c:\program files\epic games\ue_4.24\engine\source\runtime\propertypath\public\PropertyTypeCompatibility.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:       C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath\PropertyPathHelpers.generated.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:      C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:   c:\users\theo\desktop\dualcombatcolor_fps\intermediate\build\win64\ue4editor\inc\dualcombatcolor_fps\BaseMenuWidget.generated.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   Nota: inclusi?n del archivo:  c:\users\theo\desktop\dualcombatcolor_fps\intermediate\build\win64\ue4editor\inc\dualcombatcolor_fps\MainMenuWidget.generated.h
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:   [4/6] UE4Editor-DualCombatColor_FPS-0377.lib
+[2020.06.07-01.04.00:631][212]CompilerResultsLog:      Creando biblioteca C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\UE4Editor-DualCombatColor_FPS-0377.lib y objeto C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\UE4Editor-DualCombatColor_FPS-0377.exp
+[2020.06.07-01.04.00:632][212]CompilerResultsLog:   [5/6] UE4Editor-DualCombatColor_FPS-0377.dll
+[2020.06.07-01.04.00:632][212]CompilerResultsLog:      Creando biblioteca C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\UE4Editor-DualCombatColor_FPS-0377.suppressed.lib y objeto C:\Users\Theo\Desktop\DualCombatColor_FPS\Intermediate\Build\Win64\UE4Editor\Development\DualCombatColor_FPS\UE4Editor-DualCombatColor_FPS-0377.suppressed.exp
+[2020.06.07-01.04.00:632][212]CompilerResultsLog:   [6/6] DualCombatColor_FPSEditor.target
+[2020.06.07-01.04.00:632][212]CompilerResultsLog: Total time in Parallel executor: 45,16 seconds
+[2020.06.07-01.04.00:632][212]CompilerResultsLog: Total execution time: 68,82 seconds
+[2020.06.07-01.04.00:632][212]LogMainFrame: MainFrame: Module compiling took 69.029 seconds
+[2020.06.07-01.04.00:689][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.06.07-01.04.00:714][212]LogContentBrowser: Native class hierarchy populated in 0.0146 seconds. Added 3022 classes and 722 folders.
+[2020.06.07-01.04.00:715][212]Display: HotReload took 69.2s.
+[2020.06.07-01.04.00:725][212]Warning: HotReload operation took 69.2s.
+[2020.06.07-01.04.01:119][212]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Theo/Desktop/DualCombatColor_FPS/Source/DualCombatColor_FPS/MainMenuWidget.h'
+[2020.06.07-01.04.01:249][212]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Theo/Desktop/DualCombatColor_FPS/Source/DualCombatColor_FPS/MainMenuWidget.cpp'
+[2020.06.07-01.04.01:260][212]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.06.07-01.04.01:288][212]LogHotReload: New module detected: UE4Editor-DualCombatColor_FPS-0377.dll
+[2020.06.07-01.04.01:386][213]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.07-01.04.01:506][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.06.07-01.04.02:005][213]LogClass: Could not find existing class MainMenuWidget in package /Script/DualCombatColor_FPS for HotReload, assuming new class
+[2020.06.07-01.04.02:027][213]LogContentBrowser: Native class hierarchy updated for 'DualCombatColor_FPS' in 0.0013 seconds. Added 6 classes and 2 folders.
+[2020.06.07-01.04.02:034][213]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2020.06.07-01.04.02:285][213]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.06.07-01.04.02:310][213]LogContentBrowser: Native class hierarchy populated in 0.0157 seconds. Added 3023 classes and 722 folders.
+[2020.06.07-01.04.02:314][213]Display: HotReload took  0.9s.
+[2020.06.07-02.02.55:473][992]LogHotReload: New module detected: UE4Editor-DualCombatColor_FPS-0004.dll
+[2020.06.07-02.03.03:572][ 18]LogHotReload: Starting Hot-Reload from IDE
+[2020.06.07-02.03.04:966][ 18]LogUObjectHash: Compacting FUObjectHashTables data took  52.38ms
+[2020.06.07-02.03.06:045][ 18]LogClass: Could not find existing class MainMenuWidget in package /Script/DualCombatColor_FPS for HotReload, assuming new class
+[2020.06.07-02.03.06:082][ 18]LogHotReload: Re-instancing MainMenuWidget after hot-reload.
+[2020.06.07-02.03.06:760][ 18]LogContentBrowser: Native class hierarchy updated for 'DualCombatColor_FPS' in 0.0026 seconds. Added 6 classes and 2 folders.
+[2020.06.07-02.03.06:767][ 18]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2020.06.07-02.03.06:995][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2020.06.07-02.03.07:149][ 18]LogContentBrowser: Native class hierarchy populated in 0.0834 seconds. Added 3023 classes and 722 folders.
+[2020.06.07-02.03.07:155][ 18]Display: HotReload took  3.6s.
+[2020.06.07-02.03.45:320][437]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.06.07-02.03.51:791][437]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.07-02.04.10:446][655]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/MainMenuBlueprint_BP.MainMenuBlueprint_BP
+[2020.06.07-02.04.19:694][655]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0027 seconds. Added 121 classes and 0 folders.
+[2020.06.07-02.04.36:690][731]LogSlate: Window 'MainMenuBlueprint_BP' being destroyed
+[2020.06.07-02.05.15:949][ 21]LogEditorTransaction: Undo Wrap Widgets
+[2020.06.07-02.05.16:029][ 21]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.06.07-02.05.20:769][ 21]LogStats: FPlatformStackWalk::StackWalkAndDump -  4.739 s
+[2020.06.07-02.05.20:769][ 21]LogOutputDevice: Error: === Handled ensure: ===
+[2020.06.07-02.05.20:769][ 21]LogOutputDevice: Error: 
+[2020.06.07-02.05.20:769][ 21]LogOutputDevice: Error: Ensure condition failed: !PreviewSlateWidgetWeak.IsValid() [File:D:/Build/++UE4/Sync/Engine/Source/Editor/UMGEditor/Private/WidgetBlueprintEditor.cpp] [Line: 939]
+[2020.06.07-02.05.20:769][ 21]LogOutputDevice: Error: 
+[2020.06.07-02.05.20:769][ 21]LogOutputDevice: Error: Stack: 
+[2020.06.07-02.05.20:769][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcdb5dd889 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2020.06.07-02.05.20:770][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcdb4d75ec UE4Editor-UMGEditor.dll!UnknownFunction []
+[2020.06.07-02.05.20:770][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcdb516dfe UE4Editor-UMGEditor.dll!UnknownFunction []
+[2020.06.07-02.05.20:770][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcd6551b59 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.06.07-02.05.20:770][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcab4e4d6e UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.07-02.05.20:770][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcd0234ecd UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.07-02.05.20:770][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcd65555f0 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.06.07-02.05.20:770][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffccfee22ad UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.07-02.05.20:770][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffccff073b6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.07-02.05.20:770][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffccfef2d4c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.07-02.05.20:770][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffccff8ea93 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.07-02.05.20:770][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffccff2ec6f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.07-02.05.20:770][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcd65525c8 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.06.07-02.05.20:770][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcd8889ada UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.07-02.05.20:770][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcd88c03de UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.07-02.05.20:770][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcd070568e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.07-02.05.20:770][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcd06f3221 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.07-02.05.20:770][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcd8851041 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.07-02.05.20:771][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcd88c224d UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.07-02.05.20:771][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcd88b7b0f UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.07-02.05.20:771][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcf3a74918 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.07-02.05.20:771][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcf3a6242f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.07-02.05.20:771][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcf3a77195 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.07-02.05.20:771][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcf3a5ec40 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.07-02.05.20:771][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffd0d245c0d USER32.dll!UnknownFunction []
+[2020.06.07-02.05.20:771][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffd0d245602 USER32.dll!UnknownFunction []
+[2020.06.07-02.05.20:771][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffcf3a78699 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.07-02.05.20:771][ 21]LogOutputDevice: Error: [Callstack] 0x00007ff643c46db0 UE4Editor.exe!UnknownFunction []
+[2020.06.07-02.05.20:771][ 21]LogOutputDevice: Error: [Callstack] 0x00007ff643c5c3ec UE4Editor.exe!UnknownFunction []
+[2020.06.07-02.05.20:771][ 21]LogOutputDevice: Error: [Callstack] 0x00007ff643c5c4ca UE4Editor.exe!UnknownFunction []
+[2020.06.07-02.05.20:771][ 21]LogOutputDevice: Error: [Callstack] 0x00007ff643c6ceae UE4Editor.exe!UnknownFunction []
+[2020.06.07-02.05.20:771][ 21]LogOutputDevice: Error: [Callstack] 0x00007ff643c6fcbe UE4Editor.exe!UnknownFunction []
+[2020.06.07-02.05.20:771][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffd0ce47bd4 KERNEL32.DLL!UnknownFunction []
+[2020.06.07-02.05.20:771][ 21]LogOutputDevice: Error: [Callstack] 0x00007ffd0d5ece51 ntdll.dll!UnknownFunction []
+[2020.06.07-02.05.20:772][ 21]LogOutputDevice: Error: 
+[2020.06.07-02.05.20:780][ 21]LogStats:                SubmitErrorReport -  0.000 s
