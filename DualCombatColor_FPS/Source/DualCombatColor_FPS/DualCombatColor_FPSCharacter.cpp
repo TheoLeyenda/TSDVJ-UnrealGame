@@ -10,6 +10,7 @@
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Kismet/GameplayStatics.h"
 #include "Blueprint/UserWidget.h"
+#include "MainMenuWidget.h"
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 
@@ -106,7 +107,10 @@ void ADualCombatColor_FPSCharacter::BeginPlay()
 	}
 	if (Player_Menu_Widget_Class != nullptr)
 	{
-		Player_Menu_Widget = CreateWidget(GetWorld(), Player_Menu_Widget_Class);
+		//Player_Menu_Widget = CreateWidget(GetWorld(), Player_Menu_Widget_Class);
+		//Player_Menu_Widget->AddToViewport();
+
+		Player_Menu_Widget = CreateWidget<UMainMenuWidget>(Cast<APlayerController>(GetOwner()), Player_Menu_Widget_Class, FName("MainMenuWidget"));
 		Player_Menu_Widget->AddToViewport();
 	}
 }

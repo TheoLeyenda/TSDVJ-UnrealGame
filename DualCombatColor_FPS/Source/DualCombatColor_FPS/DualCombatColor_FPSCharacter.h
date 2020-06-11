@@ -7,7 +7,7 @@
 #include "DualCombatColor_FPSCharacter.generated.h"
 
 class UInputComponent;
-class UUserWidget;
+class UMainMenuWidget;
 
 UCLASS(config=Game)
 class ADualCombatColor_FPSCharacter : public ACharacter
@@ -50,8 +50,8 @@ public:
 	ADualCombatColor_FPSCharacter();
 
 	UPROPERTY(EditAnywhere, Category = "UI HUD")
-		TSubclassOf<UUserWidget> Player_Menu_Widget_Class;
-	UUserWidget* Player_Menu_Widget;
+		TSubclassOf<UMainMenuWidget> Player_Menu_Widget_Class;
+	UMainMenuWidget* Player_Menu_Widget;
 
 protected:
 	virtual void BeginPlay();

@@ -1,0 +1,1239 @@
+﻿Log file open, 06/10/20 20:41:00
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: DualCombatColor_FPS
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.142793
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1903) (), CPU: AMD A8-5600K APU with Radeon(tm) HD Graphics   , GPU: AMD Radeon HD 5450
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.06.10-23.41.00:592][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2020.06.10-23.41.00:593][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2020.06.10-23.41.00:594][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2020.06.10-23.41.00:595][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.10-23.41.00:595][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.10-23.41.00:596][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.10-23.41.00:597][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.10-23.41.00:597][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.10-23.41.00:597][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.10-23.41.00:600][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.10-23.41.00:600][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.10-23.41.00:600][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.10-23.41.00:600][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.10-23.41.00:600][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.10-23.41.00:600][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.10-23.41.00:600][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.10-23.41.00:600][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.10-23.41.00:600][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.10-23.41.00:600][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.10-23.41.00:600][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.10-23.41.00:601][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.10-23.41.00:602][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.10-23.41.00:603][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.10-23.41.00:603][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.10-23.41.00:603][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.10-23.41.00:608][  0]LogHAL: Display: Platform has ~ 8 GB [8541040640 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.10-23.41.00:608][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.10-23.41.00:608][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.10-23.41.00:608][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.10-23.41.00:608][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2020.06.10-23.41.00:609][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SSGI.Quality:0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.10-23.41.00:610][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.10-23.41.00:610][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2020.06.10-23.41.00:611][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2020.06.10-23.41.00:611][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.10-23.41.00:611][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:8]]
+[2020.06.10-23.41.00:611][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.10-23.41.00:611][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
+[2020.06.10-23.41.00:611][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.10-23.41.00:611][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.10-23.41.00:611][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.10-23.41.00:611][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.10-23.41.00:611][  0]LogInit: Computer: DESKTOP-6PDEUV4
+[2020.06.10-23.41.00:611][  0]LogInit: User: Theo
+[2020.06.10-23.41.00:611][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.06.10-23.41.00:611][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2020.06.10-23.41.00:612][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2020.06.10-23.41.00:612][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.10-23.41.00:612][  0]LogMemory: Process Physical Memory: 105.01 MB used, 105.01 MB peak
+[2020.06.10-23.41.00:612][  0]LogMemory: Process Virtual Memory: 99.82 MB used, 99.82 MB peak
+[2020.06.10-23.41.00:612][  0]LogMemory: Physical Memory: 4236.60 MB used,  3908.77 MB free, 8145.37 MB total
+[2020.06.10-23.41.00:612][  0]LogMemory: Virtual Memory: 5117.20 MB used,  134212608.00 MB free, 134217728.00 MB total
+[2020.06.10-23.41.00:616][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.10-23.41.00:643][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.06.10-23.41.00:643][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.06.10-23.41.00:923][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.10-23.41.00:988][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.10-23.41.00:988][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.10-23.41.01:245][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.10-23.41.01:245][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.06.10-23.41.01:245][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.06.10-23.41.01:245][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.10-23.41.01:264][  0]LogD3D11RHI:    0. 'AMD Radeon HD 5450' (Feature Level 11_0)
+[2020.06.10-23.41.01:264][  0]LogD3D11RHI:       2034/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2020.06.10-23.41.01:270][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.10-23.41.01:271][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.10-23.41.01:271][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.10-23.41.01:283][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.10-23.41.01:283][  0]LogD3D11RHI:     GPU DeviceId: 0x68f9 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.10-23.41.01:283][  0]LogWindows: EnumDisplayDevices:
+[2020.06.10-23.41.01:284][  0]LogWindows:    0. 'AMD Radeon HD 5450' (P:1 D:1)
+[2020.06.10-23.41.01:285][  0]LogWindows:    1. 'AMD Radeon HD 5450' (P:0 D:0)
+[2020.06.10-23.41.01:285][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2020.06.10-23.41.01:285][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 5450
+[2020.06.10-23.41.01:286][  0]LogD3D11RHI:   Driver Version: 15.201.1151.1008 (internal:15.201.1151.1008, unified:15.201.1151.1008)
+[2020.06.10-23.41.01:286][  0]LogD3D11RHI:      Driver Date: 11-4-2015
+[2020.06.10-23.41.01:286][  0]LogRHI: Texture pool is 1424 MB (70% of 2034 MB)
+[2020.06.10-23.41.01:343][  0]LogD3D11RHI: AMD Pre GCN architecture detected, some driver workarounds will be in place
+[2020.06.10-23.41.01:366][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.06.10-23.41.01:366][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.10-23.41.01:385][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2020.06.10-23.41.02:083][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.10-23.41.02:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.10-23.41.02:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.10-23.41.02:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.06.10-23.41.02:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.10-23.41.02:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.06.10-23.41.02:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.06.10-23.41.02:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.10-23.41.02:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.06.10-23.41.02:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.10-23.41.02:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.10-23.41.02:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.06.10-23.41.02:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.10-23.41.02:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.06.10-23.41.02:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.06.10-23.41.02:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.10-23.41.02:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.06.10-23.41.02:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.10-23.41.02:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.10-23.41.02:171][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.10-23.41.02:171][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.10-23.41.02:184][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.10-23.41.02:197][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.10-23.41.02:210][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.10-23.41.02:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.10-23.41.02:234][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.10-23.41.02:247][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.10-23.41.02:289][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.10-23.41.02:289][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.10-23.41.02:315][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.10-23.41.02:315][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.10-23.41.02:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.10-23.41.02:341][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.10-23.41.02:354][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.10-23.41.02:366][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.10-23.41.02:366][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.10-23.41.02:370][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.10-23.41.02:410][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Intermediate/Shaders/WorkingDirectory/9492/).
+[2020.06.10-23.41.02:410][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Theo/AppData/Local/Temp/UnrealShaderWorkingDir/B9AD0ED74C8D2FB32FFEA889089488AA/'.
+[2020.06.10-23.41.02:410][  0]LogXGEController: Cleaning working directory: C:/Users/Theo/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.06.10-23.41.02:411][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.10-23.41.02:411][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.10-23.41.02:411][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.10-23.41.04:096][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.10-23.41.04:199][  0]LogDerivedDataCache: Loaded boot cache 0.10s 78MB C:/Users/Theo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.06.10-23.41.04:199][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Theo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.06.10-23.41.04:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.10-23.41.04:199][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.10-23.41.04:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.10-23.41.04:200][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.10-23.41.04:214][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.10-23.41.04:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.10-23.41.04:214][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.10-23.41.04:216][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Theo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.10-23.41.04:216][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.10-23.41.04:216][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.10-23.41.04:276][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.06.10-23.41.04:281][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.10-23.41.04:282][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.10-23.41.04:359][  0]LogAssetRegistry: FAssetRegistry took 0.0038 seconds to start up
+[2020.06.10-23.41.05:025][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.10-23.41.05:297][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.10-23.41.05:297][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.10-23.41.05:297][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.10-23.41.05:297][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.10-23.41.05:297][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.10-23.41.05:315][  0]LogNetVersion: DualCombatColor_FPS 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1830361772)
+[2020.06.10-23.41.07:274][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.096969 seconds
+[2020.06.10-23.41.07:287][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.06.10-23.41.07:287][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.06.10-23.41.07:287][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.10-23.41.08:118][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.10-23.41.08:122][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.10-23.41.08:170][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter': Can't find file.
+[2020.06.10-23.41.08:170][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter': Can't find file.
+[2020.06.10-23.41.08:170][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C'
+[2020.06.10-23.41.08:170][  0]Error: CDO Constructor (DualCombatColor_FPSGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+[2020.06.10-23.41.08:172][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2020.06.10-23.41.08:172][  0]LogUObjectBase: Warning: Error: CDO Constructor (DualCombatColor_FPSGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+[2020.06.10-23.42.04:519][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.06.10-23.42.04:521][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.06.10-23.42.04:618][  0]SourceControl: Source control is disabled
+[2020.06.10-23.42.04:619][  0]SourceControl: Source control is disabled
+[2020.06.10-23.42.04:621][  0]SourceControl: Source control is disabled
+[2020.06.10-23.42.04:622][  0]SourceControl: Source control is disabled
+[2020.06.10-23.42.04:624][  0]SourceControl: Source control is disabled
+[2020.06.10-23.42.04:777][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.10-23.42.04:796][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.10-23.42.04:796][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.10-23.42.04:925][  0]LogOcInput: OculusInput pre-init called
+[2020.06.10-23.42.04:938][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.10-23.42.04:938][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.10-23.42.05:039][  0]LogEngine: Initializing Engine...
+[2020.06.10-23.42.05:040][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.10-23.42.05:042][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.06.10-23.42.05:568][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.10-23.42.05:578][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.10-23.42.05:608][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.10-23.42.05:608][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.10-23.42.05:608][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.10-23.42.05:608][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.10-23.42.05:608][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.10-23.42.05:608][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.10-23.42.05:608][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.10-23.42.05:608][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.10-23.42.05:609][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.10-23.42.05:609][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.10-23.42.05:631][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.10-23.42.05:631][  0]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.06.10-23.42.05:631][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.06.10-23.42.05:631][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.10-23.42.05:632][  0]LogAudioMixer: Display: Channel Count Used: 6
+[2020.06.10-23.42.05:632][  0]LogAudioMixer: Display: Device Channel Count: 6
+[2020.06.10-23.42.05:632][  0]LogAudioMixer: Display: Channel Order:
+[2020.06.10-23.42.05:632][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.10-23.42.05:632][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.10-23.42.05:632][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.10-23.42.05:632][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.10-23.42.05:632][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.06.10-23.42.05:632][  0]LogAudioMixer: Display: 5: BackRight
+[2020.06.10-23.42.05:728][  0]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2020.06.10-23.42.05:741][  0]LogInit: FAudioDevice initialized.
+[2020.06.10-23.42.05:742][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.10-23.42.06:109][  0]LogDerivedDataCache: Saved boot cache 0.37s 78MB C:/Users/Theo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.06.10-23.42.06:130][  0]LogInit: Texture streaming: Enabled
+[2020.06.10-23.42.06:190][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.10-23.42.06:194][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={D141FCE3-49AD-C457-CC04-ECA8BE4F2332}
+[2020.06.10-23.42.06:194][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.10-23.42.06:220][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.10-23.42.06:315][  0]LogInit: Transaction tracking system initialized
+[2020.06.10-23.42.06:330][  0]BlueprintLog: New page: Editor Load
+[2020.06.10-23.42.06:379][  0]LocalizationService: Localization service is disabled
+[2020.06.10-23.42.08:400][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/' took 0.01s
+[2020.06.10-23.42.08:400][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.10-23.42.08:401][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.10-23.42.09:385][  0]SourceControl: Source control is disabled
+[2020.06.10-23.42.09:385][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Maps/MainMenu_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.10-23.42.09:386][  0]LightingResults: New page: Lighting Build
+[2020.06.10-23.42.09:387][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-23.42.09:387][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-23.42.09:387][  0]MapCheck: New page: Map Check
+[2020.06.10-23.42.09:387][  0]LightingResults: New page: Lighting Build
+[2020.06.10-23.42.09:445][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2020.06.10-23.42.09:763][  0]LogAIModule: Creating AISystem for world MainMenu_Map
+[2020.06.10-23.42.09:773][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.10-23.42.09:824][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2020.06.10-23.42.09:824][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.10-23.42.09:825][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.362ms to complete.
+[2020.06.10-23.42.09:825][  0]LogFileHelpers: Loading map 'MainMenu_Map' took 0.440
+[2020.06.10-23.42.09:964][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.10-23.42.09:975][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.10-23.42.09:987][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.10-23.42.09:998][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.10-23.42.10:006][  0]LogCollectionManager: Loaded 0 collections in 0.003245 seconds
+[2020.06.10-23.42.10:029][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Collections/' took 0.00s
+[2020.06.10-23.42.10:029][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/Developers/Theo/Collections/' took 0.00s
+[2020.06.10-23.42.10:029][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/Collections/' took 0.00s
+[2020.06.10-23.42.10:029][  0]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 3024 classes and 719 folders.
+[2020.06.10-23.42.10:036][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.06.10-23.42.10:123][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.06.10-23.42.10:131][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 2 classes and 3 folders.
+[2020.06.10-23.42.11:840][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.06.10-23.42.11:841][  0]LogLoad: (Engine Initialization) Total time: 73.87 seconds
+[2020.06.10-23.42.11:841][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.10-23.42.13:355][  0]LogRenderer: Reallocating scene render targets to support 64x64 Format 9 NumSamples 1 (Frame:1).
+[2020.06.10-23.42.13:355][  0]LogContentStreaming: Texture pool size now 400 MB
+[2020.06.10-23.42.13:358][  0]LogSlate: Took 0.000412 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.10-23.42.13:362][  0]LogSlate: Took 0.000541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.10-23.42.13:371][  0]LogSlate: Took 0.000406 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.10-23.42.13:555][  0]LogRenderer: Reallocating scene render targets to support 724x360 Format 9 NumSamples 1 (Frame:1).
+[2020.06.10-23.42.13:555][  0]LogD3D11RHI: Error: agsDriverExtensionsDX11_SetDepthBounds(1,0.000000, 1.000000) returned error code 6. **********PLEASE UPDATE YOUR VIDEO DRIVERS*********
+[2020.06.10-23.42.13:555][  0]LogSlate: Took 0.000376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.10-23.42.13:630][  1]LogAssetRegistry: Asset discovery search completed in 69.2727 seconds
+[2020.06.10-23.42.13:638][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2020.06.10-23.42.14:446][  2]LogSlate: Took 0.000309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.10-23.43.54:690][825]LogRendererCore: Warning: Query 'Unaccounted' not ready.
+[2020.06.10-23.43.58:214][ 50]LogRenderer: Reallocating scene render targets to support 1092x600 Format 9 NumSamples 1 (Frame:2837).
+[2020.06.10-23.44.34:359][602]LogHttp: Warning: 000001C3C11439C0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B85F45C-4109-5DB6-12DC-12A92872E195%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=4f6e48c046751b1ac3edfa803d6fbfb1%7Cf3ecf765c47041049db44edf2995a759%7C032d4c91-fd6c-45b8-bc5d-e8bcec5ffbb7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.10-23.44.34:359][602]LogHttp: Warning: 000001C3C11439C0: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.06.10-23.44.34:359][602]LogHttp: Warning: 000001C3C11439C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1c3e63abf70 [can pipeline])
+[2020.06.10-23.44.34:359][602]LogHttp: Warning: 000001C3C11439C0: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2020.06.10-23.44.34:359][602]LogHttp: Warning: 000001C3C11439C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.82.163.3) port 443 (#0))
+[2020.06.10-23.44.34:360][602]LogHttp: Warning: 000001C3C11439C0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.06.10-23.44.34:360][602]LogHttp: Warning: 000001C3C11439C0: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.06.10-23.44.34:360][602]LogHttp: Warning: 000001C3C11439C0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.06.10-23.44.34:360][602]LogHttp: Warning: 000001C3C11439C0: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.06.10-23.44.34:360][602]LogHttp: Warning: 000001C3C11439C0: libcurl info message cache 7 (Closing connection 0)
+[2020.06.10-23.44.34:360][602]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B85F45C-4109-5DB6-12DC-12A92872E195%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=4f6e48c046751b1ac3edfa803d6fbfb1%7Cf3ecf765c47041049db44edf2995a759%7C032d4c91-fd6c-45b8-bc5d-e8bcec5ffbb7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.06.10-23.44.41:585][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2020.06.10-23.44.41:641][708]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/MainMenu_Map52F101814B279B72D1A0B5B963307913.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Maps/MainMenu_Map.umap'
+[2020.06.10-23.44.41:822][708]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/MainMenu_Map_BuiltDataC27A86A44104430E75FD6A879CD3F9CF.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Maps/MainMenu_Map_BuiltData.uasset'
+[2020.06.10-23.44.41:847][708]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.10-23.44.41:847][708]LogContentValidation: Display: Validating World /Game/TheoLeyenda/Maps/MainMenu_Map.MainMenu_Map
+[2020.06.10-23.44.41:847][708]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TheoLeyenda/Maps/MainMenu_Map_BuiltData.MainMenu_Map_BuiltData
+[2020.06.10-23.44.43:666][728]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.10-23.44.43:693][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.10-23.44.43:693][728]PIE: New page: PIE session: MainMenu_Map (Jun 10, 2020, 5:44:43 PM)
+[2020.06.10-23.44.43:695][728]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.06.10-23.44.43:696][728]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.06.10-23.44.43:697][728]LogPlayLevel: Creating play world package: /Game/TheoLeyenda/Maps/UEDPIE_0_MainMenu_Map
+[2020.06.10-23.44.43:700][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003547s)
+[2020.06.10-23.44.43:702][728]LogAIModule: Creating AISystem for world MainMenu_Map
+[2020.06.10-23.44.43:702][728]LogPlayLevel: PIE: World Init took: (0.001501s)
+[2020.06.10-23.44.43:702][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TheoLeyenda/Maps/MainMenu_Map.MainMenu_Map to /Game/TheoLeyenda/Maps/UEDPIE_0_MainMenu_Map.MainMenu_Map (0.005427s)
+[2020.06.10-23.44.43:748][728]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.06.10-23.44.43:751][728]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.10-23.44.43:751][728]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.10-23.44.43:751][728]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.10-23.44.43:751][728]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.10-23.44.43:751][728]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.10-23.44.43:751][728]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.10-23.44.43:751][728]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.10-23.44.43:751][728]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.10-23.44.43:752][728]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.10-23.44.43:752][728]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.10-23.44.43:762][728]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.10-23.44.43:762][728]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.06.10-23.44.43:762][728]LogAudioMixer: Display: Is Default: Yes
+[2020.06.10-23.44.43:762][728]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.10-23.44.43:762][728]LogAudioMixer: Display: Channel Count Used: 6
+[2020.06.10-23.44.43:762][728]LogAudioMixer: Display: Device Channel Count: 6
+[2020.06.10-23.44.43:762][728]LogAudioMixer: Display: Channel Order:
+[2020.06.10-23.44.43:762][728]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.10-23.44.43:762][728]LogAudioMixer: Display: 1: FrontRight
+[2020.06.10-23.44.43:762][728]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.10-23.44.43:762][728]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.10-23.44.43:763][728]LogAudioMixer: Display: 4: BackLeft
+[2020.06.10-23.44.43:763][728]LogAudioMixer: Display: 5: BackRight
+[2020.06.10-23.44.43:809][728]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2020.06.10-23.44.43:813][728]LogInit: FAudioDevice initialized.
+[2020.06.10-23.44.43:860][728]LogLoad: Game class is 'DualCombatColor_GameMode_BP_C'
+[2020.06.10-23.44.43:864][728]LogWorld: Bringing World /Game/TheoLeyenda/Maps/UEDPIE_0_MainMenu_Map.MainMenu_Map up for play (max tick rate 0) at 2020.06.10-20.44.43
+[2020.06.10-23.44.43:865][728]LogWorld: Bringing up level for play took: 0.003375
+[2020.06.10-23.44.43:865][728]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.06.10-23.44.43:871][728]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2020.06.10-23.44.43:871][728]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.10-23.44.43:871][728]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.10-23.44.43:871][728]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.06.10-23.44.43:900][728]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.06.10-23.44.43:929][728]PIE: Play in editor start time for /Game/TheoLeyenda/Maps/UEDPIE_0_MainMenu_Map 0.681
+[2020.06.10-23.44.47:087][780]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-99.139 Y=-274.071 Z=500.000] for [Player2_Target_BP_C]
+[2020.06.10-23.44.47:089][780]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=397.610 Y=-410.978 Z=500.000] for [Player2_Target_BP_C]
+[2020.06.10-23.44.51:261][870]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.10-23.44.51:276][870]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.10-23.44.51:296][870]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.10-23.44.51:411][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.10-23.44.51:411][870]LogWorld: BeginTearingDown for /Game/TheoLeyenda/Maps/UEDPIE_0_MainMenu_Map
+[2020.06.10-23.44.51:434][870]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.10-23.44.51:456][870]LogWorld: UWorld::CleanupWorld for MainMenu_Map, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-23.44.51:458][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-23.44.51:474][870]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.10-23.44.51:495][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-23.44.51:570][870]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.10-23.44.51:604][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.10-23.44.51:766][870]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.06.10-23.44.51:822][871]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.06.10-23.45.13:881][149]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.06.10-23.45.51:316][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2020.06.10-23.45.59:147][620]LogSlate: Took 0.000345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.10-23.46.02:430][659]LogActorFactory: Actor Factory created Plane
+[2020.06.10-23.46.04:576][685]LogActorFactory: Actor Factory created Plane
+[2020.06.10-23.46.31:630][978]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.10-23.46.31:661][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.10-23.46.31:661][978]PIE: New page: PIE session: MainMenu_Map (Jun 10, 2020, 5:46:31 PM)
+[2020.06.10-23.46.31:661][978]LogPlayLevel: Creating play world package: /Game/TheoLeyenda/Maps/UEDPIE_0_MainMenu_Map
+[2020.06.10-23.46.31:666][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004253s)
+[2020.06.10-23.46.31:667][978]LogAIModule: Creating AISystem for world MainMenu_Map
+[2020.06.10-23.46.31:690][978]LogPlayLevel: PIE: World Init took: (0.024336s)
+[2020.06.10-23.46.31:690][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TheoLeyenda/Maps/MainMenu_Map.MainMenu_Map to /Game/TheoLeyenda/Maps/UEDPIE_0_MainMenu_Map.MainMenu_Map (0.028836s)
+[2020.06.10-23.46.31:734][978]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.06.10-23.46.31:738][978]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.10-23.46.31:738][978]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.10-23.46.31:738][978]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.10-23.46.31:738][978]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.10-23.46.31:738][978]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.10-23.46.31:738][978]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.10-23.46.31:738][978]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.10-23.46.31:738][978]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.10-23.46.31:739][978]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.10-23.46.31:739][978]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.10-23.46.31:753][978]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.10-23.46.31:753][978]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.06.10-23.46.31:753][978]LogAudioMixer: Display: Is Default: Yes
+[2020.06.10-23.46.31:753][978]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.10-23.46.31:753][978]LogAudioMixer: Display: Channel Count Used: 6
+[2020.06.10-23.46.31:753][978]LogAudioMixer: Display: Device Channel Count: 6
+[2020.06.10-23.46.31:753][978]LogAudioMixer: Display: Channel Order:
+[2020.06.10-23.46.31:753][978]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.10-23.46.31:753][978]LogAudioMixer: Display: 1: FrontRight
+[2020.06.10-23.46.31:753][978]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.10-23.46.31:753][978]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.10-23.46.31:753][978]LogAudioMixer: Display: 4: BackLeft
+[2020.06.10-23.46.31:753][978]LogAudioMixer: Display: 5: BackRight
+[2020.06.10-23.46.31:800][978]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2020.06.10-23.46.31:804][978]LogInit: FAudioDevice initialized.
+[2020.06.10-23.46.31:813][978]LogLoad: Game class is 'DualCombatColor_GameMode_BP_C'
+[2020.06.10-23.46.31:816][978]LogWorld: Bringing World /Game/TheoLeyenda/Maps/UEDPIE_0_MainMenu_Map.MainMenu_Map up for play (max tick rate 0) at 2020.06.10-20.46.31
+[2020.06.10-23.46.31:817][978]LogWorld: Bringing up level for play took: 0.002433
+[2020.06.10-23.46.31:817][978]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.06.10-23.46.31:819][978]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.10-23.46.31:819][978]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.10-23.46.31:819][978]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.06.10-23.46.31:821][978]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.06.10-23.46.31:821][978]PIE: Play in editor start time for /Game/TheoLeyenda/Maps/UEDPIE_0_MainMenu_Map 0.573
+[2020.06.10-23.46.45:840][208]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.10-23.46.45:857][208]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.10-23.46.45:877][208]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.10-23.46.45:878][208]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.10-23.46.45:878][208]LogWorld: BeginTearingDown for /Game/TheoLeyenda/Maps/UEDPIE_0_MainMenu_Map
+[2020.06.10-23.46.45:878][208]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.10-23.46.45:879][208]LogWorld: UWorld::CleanupWorld for MainMenu_Map, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-23.46.45:879][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-23.46.45:936][208]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.10-23.46.45:945][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-23.46.46:005][208]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.10-23.46.46:011][208]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.10-23.46.46:019][208]LogUObjectHash: Compacting FUObjectHashTables data took   5.30ms
+[2020.06.10-23.46.46:057][209]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.06.10-23.46.53:124][469]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.10-23.47.58:255][439]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.06.10-23.48.06:548][827]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.10-23.49.29:388][784]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TheoLeyenda/Bluprints/DualCombatColor_GameMode_BP.DualCombatColor_GameMode_BP
+[2020.06.10-23.49.29:787][784]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 121 classes and 0 folders.
+[2020.06.10-23.49.31:767][784]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2020.06.10-23.49.31:843][784]LogSlate: Warning: The tab "CompilerResults" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2020.06.10-23.49.32:045][785]LogHttp: Warning: 000001C3F3A6B9C0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B85F45C-4109-5DB6-12DC-12A92872E195%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=4f6e48c046751b1ac3edfa803d6fbfb1%7Cf3ecf765c47041049db44edf2995a759%7C032d4c91-fd6c-45b8-bc5d-e8bcec5ffbb7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.10-23.49.32:045][785]LogHttp: Warning: 000001C3F3A6B9C0: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.06.10-23.49.32:045][785]LogHttp: Warning: 000001C3F3A6B9C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1c3e63abf70 [can pipeline])
+[2020.06.10-23.49.32:045][785]LogHttp: Warning: 000001C3F3A6B9C0: libcurl info message cache 1 (Re-using existing connection! (#2) with host datarouter.ol.epicgames.com)
+[2020.06.10-23.49.32:045][785]LogHttp: Warning: 000001C3F3A6B9C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.22.210.148) port 443 (#2))
+[2020.06.10-23.49.32:045][785]LogHttp: Warning: 000001C3F3A6B9C0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.06.10-23.49.32:045][785]LogHttp: Warning: 000001C3F3A6B9C0: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.06.10-23.49.32:045][785]LogHttp: Warning: 000001C3F3A6B9C0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.06.10-23.49.32:045][785]LogHttp: Warning: 000001C3F3A6B9C0: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.06.10-23.49.32:045][785]LogHttp: Warning: 000001C3F3A6B9C0: libcurl info message cache 7 (Closing connection 2)
+[2020.06.10-23.49.32:101][786]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B85F45C-4109-5DB6-12DC-12A92872E195%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=4f6e48c046751b1ac3edfa803d6fbfb1%7Cf3ecf765c47041049db44edf2995a759%7C032d4c91-fd6c-45b8-bc5d-e8bcec5ffbb7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.06.10-23.49.34:071][845]LogSlate: Window 'My Blueprint' being destroyed
+[2020.06.10-23.49.34:102][845]LogSlate: Window 'My Blueprint' being destroyed
+[2020.06.10-23.49.34:104][845]LogSlate: Window 'CompilerResults' being destroyed
+[2020.06.10-23.49.34:106][845]LogSlate: Window 'CompilerResults' being destroyed
+[2020.06.10-23.49.34:118][845]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-23.49.34:118][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-23.49.34:214][845]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TheoLeyenda/Bluprints/DualCombatColor_GameMode_BP.DualCombatColor_GameMode_BP
+[2020.06.10-23.49.34:900][845]LogSlate: Took 0.000348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.10-23.49.54:813][551]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.10-23.49.58:790][691]BlueprintLog: New page: Compile DualCombatColor_GameMode_BP
+[2020.06.10-23.49.59:394][691]LogUObjectHash: Compacting FUObjectHashTables data took   7.20ms
+[2020.06.10-23.49.59:689][692]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/DualCombatColor_GameMode_BP3B5740614D0FA6E3B6E64A8DB0203450.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Bluprints/DualCombatColor_GameMode_BP.uasset'
+[2020.06.10-23.49.59:725][692]AssetCheck: New page: Asset Save: DualCombatColor_GameMode_BP
+[2020.06.10-23.49.59:725][692]LogContentValidation: Display: Validating Blueprint /Game/TheoLeyenda/Bluprints/DualCombatColor_GameMode_BP.DualCombatColor_GameMode_BP
+[2020.06.10-23.50.08:370][816]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.06.10-23.50.22:044][816]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.10-23.50.32:031][914]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TheoLeyenda/Bluprints/GameModeMainMenu.GameModeMainMenu
+[2020.06.10-23.50.33:155][914]LogRenderer: Reallocating scene render targets to support 1248x744 Format 9 NumSamples 1 (Frame:1).
+[2020.06.10-23.50.40:301][961]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.10-23.50.51:324][ 37]BlueprintLog: New page: Compile GameModeMainMenu
+[2020.06.10-23.50.52:075][ 37]LogUObjectHash: Compacting FUObjectHashTables data took  15.14ms
+[2020.06.10-23.50.52:569][ 40]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/GameModeMainMenu352258A04A610D38EC6D43BF8BDC734B.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Bluprints/GameModeMainMenu.uasset'
+[2020.06.10-23.50.52:605][ 40]AssetCheck: New page: Asset Save: GameModeMainMenu
+[2020.06.10-23.50.52:606][ 40]LogContentValidation: Display: Validating Blueprint /Game/TheoLeyenda/Bluprints/GameModeMainMenu.GameModeMainMenu
+[2020.06.10-23.50.55:253][ 58]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.10-23.50.59:655][ 90]BlueprintLog: New page: Compile GameModeMainMenu
+[2020.06.10-23.51.00:413][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   9.10ms
+[2020.06.10-23.51.01:233][ 95]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/GameModeMainMenu282A833C4E34AB72B2F67C8C03D6D783.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Bluprints/GameModeMainMenu.uasset'
+[2020.06.10-23.51.01:272][ 95]AssetCheck: New page: Asset Save: GameModeMainMenu
+[2020.06.10-23.51.01:272][ 95]LogContentValidation: Display: Validating Blueprint /Game/TheoLeyenda/Bluprints/GameModeMainMenu.GameModeMainMenu
+[2020.06.10-23.51.09:887][158]LogSlate: Window 'GameModeMainMenu' being destroyed
+[2020.06.10-23.51.14:204][333]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.10-23.51.41:383][950]LogUObjectHash: Compacting FUObjectHashTables data took  10.91ms
+[2020.06.10-23.51.41:426][950]LogMetaData: Removing '/Game/TheoLeyenda/Bluprints/GameModeMainMenu_BP.GameModeMainMenu_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TheoLeyenda/Bluprints/GameModeMainMenu.PackageMetaData'
+[2020.06.10-23.51.41:426][950]LogMetaData: Removing '/Game/TheoLeyenda/Bluprints/GameModeMainMenu_BP.SKEL_GameModeMainMenu_BP_C' ref from Metadata '/Game/TheoLeyenda/Bluprints/GameModeMainMenu.PackageMetaData'
+[2020.06.10-23.51.41:426][950]LogMetaData: Removing '/Game/TheoLeyenda/Bluprints/GameModeMainMenu_BP.GameModeMainMenu_BP_C' ref from Metadata '/Game/TheoLeyenda/Bluprints/GameModeMainMenu.PackageMetaData'
+[2020.06.10-23.51.41:426][950]LogMetaData: Removing '/Game/TheoLeyenda/Bluprints/GameModeMainMenu_BP.GameModeMainMenu_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TheoLeyenda/Bluprints/GameModeMainMenu.PackageMetaData'
+[2020.06.10-23.51.41:426][950]LogMetaData: Removing '/Game/TheoLeyenda/Bluprints/GameModeMainMenu_BP.GameModeMainMenu_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TheoLeyenda/Bluprints/GameModeMainMenu.PackageMetaData'
+[2020.06.10-23.51.41:565][950]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/GameModeMainMenu_BP3EBE37844060151D2929BE9D6E19E22B.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Bluprints/GameModeMainMenu_BP.uasset'
+[2020.06.10-23.51.42:432][950]LogUObjectHash: Compacting FUObjectHashTables data took   6.34ms
+[2020.06.10-23.51.42:542][950]LogUObjectHash: Compacting FUObjectHashTables data took   5.47ms
+[2020.06.10-23.51.42:620][950]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2020.06.10-23.51.42:752][950]AssetCheck: New page: Asset Save: GameModeMainMenu_BP
+[2020.06.10-23.51.42:753][950]LogContentValidation: Display: Validating Blueprint /Game/TheoLeyenda/Bluprints/GameModeMainMenu_BP.GameModeMainMenu_BP
+[2020.06.10-23.51.46:349][ 35]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.10-23.54.34:207][573]LogHttp: Warning: 000001C4042BBC40: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B85F45C-4109-5DB6-12DC-12A92872E195%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=4f6e48c046751b1ac3edfa803d6fbfb1%7Cf3ecf765c47041049db44edf2995a759%7C032d4c91-fd6c-45b8-bc5d-e8bcec5ffbb7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.10-23.54.34:207][573]LogHttp: Warning: 000001C4042BBC40: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.06.10-23.54.34:207][573]LogHttp: Warning: 000001C4042BBC40: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1c3e63abf70 [can pipeline])
+[2020.06.10-23.54.34:207][573]LogHttp: Warning: 000001C4042BBC40: libcurl info message cache 1 (Re-using existing connection! (#4) with host datarouter.ol.epicgames.com)
+[2020.06.10-23.54.34:207][573]LogHttp: Warning: 000001C4042BBC40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.88.194.72) port 443 (#4))
+[2020.06.10-23.54.34:207][573]LogHttp: Warning: 000001C4042BBC40: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.06.10-23.54.34:207][573]LogHttp: Warning: 000001C4042BBC40: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.06.10-23.54.34:207][573]LogHttp: Warning: 000001C4042BBC40: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.06.10-23.54.34:207][573]LogHttp: Warning: 000001C4042BBC40: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.06.10-23.54.34:207][573]LogHttp: Warning: 000001C4042BBC40: libcurl info message cache 7 (Closing connection 4)
+[2020.06.10-23.54.34:229][574]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B85F45C-4109-5DB6-12DC-12A92872E195%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=4f6e48c046751b1ac3edfa803d6fbfb1%7Cf3ecf765c47041049db44edf2995a759%7C032d4c91-fd6c-45b8-bc5d-e8bcec5ffbb7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.06.10-23.55.36:349][589]LogAIModule: Creating AISystem for world Entry
+[2020.06.10-23.57.57:349][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/Blueprints/ActorContainerWidget_BP.uasset' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP': Can't find file.
+[2020.06.10-23.57.57:349][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/Blueprints/ActorContainerWidget_BP.uasset' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP': Can't find file.
+[2020.06.10-23.57.57:350][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/Blueprints/ActorContainerWidget_BP.uasset' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:350][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/Blueprints/ActorContainerWidget_BP.uasset' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:350][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/Blueprints/ActorContainerWidget_BP.uasset' failed to load '/Game/Blueprints_NO/Default__ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:350][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/Blueprints/ActorContainerWidget_BP.uasset' failed to load '/Game/Blueprints_NO/Default__ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:351][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/Blueprints/ActorContainerWidget_BP.uasset' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP': Can't find file.
+[2020.06.10-23.57.57:351][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/Blueprints/ActorContainerWidget_BP.uasset' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP': Can't find file.
+[2020.06.10-23.57.57:351][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/Blueprints/ActorContainerWidget_BP.uasset' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:352][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/Blueprints/ActorContainerWidget_BP.uasset' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:352][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/Blueprints/ActorContainerWidget_BP.uasset' failed to load '/Game/Blueprints_NO/Default__ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:352][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/Blueprints/ActorContainerWidget_BP.uasset' failed to load '/Game/Blueprints_NO/Default__ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:352][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/FirstPersonCPP/Maps/MainMenu_Map.umap' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP': Can't find file.
+[2020.06.10-23.57.57:353][238]LoadErrors: Failed to load /Game/Blueprints_NO/ActorContainerWidget_BP.ActorContainerWidget_BP Referenced by ActorContainerWidget_BP
+[2020.06.10-23.57.57:353][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/FirstPersonCPP/Maps/MainMenu_Map.umap' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP': Can't find file.
+[2020.06.10-23.57.57:353][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/FirstPersonCPP/Maps/MainMenu_Map.umap' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:353][238]LoadErrors: Failed to load /Game/Blueprints_NO/ActorContainerWidget_BP_C.ActorContainerWidget_BP_C Referenced by ActorContainerWidget_BP_C
+[2020.06.10-23.57.57:353][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/FirstPersonCPP/Maps/MainMenu_Map.umap' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:354][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/FirstPersonCPP/Maps/MainMenu_Map.umap' failed to load '/Game/Blueprints_NO/Default__ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:354][238]LoadErrors: Failed to load /Game/Blueprints_NO/Default__ActorContainerWidget_BP_C.Default__ActorContainerWidget_BP_C Referenced by Default__ActorContainerWidget_BP_C
+[2020.06.10-23.57.57:354][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/FirstPersonCPP/Maps/MainMenu_Map.umap' failed to load '/Game/Blueprints_NO/Default__ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:355][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/FirstPersonCPP/Maps/MainMenu_Map.umap' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:355][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/FirstPersonCPP/Maps/MainMenu_Map.umap' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:357][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/FirstPersonCPP/Maps/MainMenu_Map.umap' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:357][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/FirstPersonCPP/Maps/MainMenu_Map.umap' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:358][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/FirstPersonCPP/Maps/MainMenu_Map.umap' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:358][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/FirstPersonCPP/Maps/MainMenu_Map.umap' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:359][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/Blueprints/ActorContainerWidget_BP.uasset' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:359][238]LogLinker: Warning: While loading '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/Blueprints/ActorContainerWidget_BP.uasset' failed to load '/Game/Blueprints_NO/ActorContainerWidget_BP_C': Can't find file.
+[2020.06.10-23.57.57:363][238]LogAIModule: Creating AISystem for world MainMenu_Map
+[2020.06.10-23.57.57:450][238]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': ActorContainerWidget_BP_C /Game/FirstPersonCPP/Maps/MainMenu_Map.MainMenu_Map:PersistentLevel.ActorContainerWidget_BP_4
+[2020.06.10-23.57.59:559][261]LogObjectTools: Deleting 1 worlds: /Game/FirstPersonCPP/Maps/MainMenu_Map.MainMenu_Map
+[2020.06.10-23.57.59:559][261]LogObjectTools: Currently 7 active worlds: /Game/TheoLeyenda/Maps/MainMenu_Map.MainMenu_Map, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_5, /Engine/Transient.World_6
+[2020.06.10-23.57.59:653][261]LogUObjectHash: Compacting FUObjectHashTables data took  11.57ms
+[2020.06.10-23.58.04:088][261]LogSlate: Window 'Delete Assets' being destroyed
+[2020.06.10-23.58.04:141][261]LogWorld: UWorld::CleanupWorld for MainMenu_Map, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-23.58.04:141][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-23.58.04:411][261]LogUObjectHash: Compacting FUObjectHashTables data took  13.64ms
+[2020.06.10-23.58.04:533][261]LogUObjectHash: Compacting FUObjectHashTables data took  12.70ms
+[2020.06.10-23.58.04:631][261]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2020.06.10-23.58.07:898][299]LogUObjectHash: Compacting FUObjectHashTables data took  15.25ms
+[2020.06.10-23.58.07:995][299]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/MainMenu_MapE19550114C1104D84CC5AFA4FAB500FA.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Maps/MainMenu_Map.umap'
+[2020.06.10-23.58.08:285][299]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/MainMenu_Map_BuiltData5EE15F2546DE317D63585F86B742900C.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Maps/MainMenu_Map_BuiltData.uasset'
+[2020.06.10-23.58.08:338][299]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.10-23.58.08:339][299]LogContentValidation: Display: Validating World /Game/TheoLeyenda/Maps/MainMenu_Map.MainMenu_Map
+[2020.06.10-23.58.08:339][299]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TheoLeyenda/Maps/MainMenu_Map_BuiltData.MainMenu_Map_BuiltData
+[2020.06.10-23.58.23:035][923]LogHttp: Warning: 000001C420B35800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B85F45C-4109-5DB6-12DC-12A92872E195%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=4f6e48c046751b1ac3edfa803d6fbfb1%7Cf3ecf765c47041049db44edf2995a759%7C032d4c91-fd6c-45b8-bc5d-e8bcec5ffbb7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.10-23.58.23:035][923]LogHttp: Warning: 000001C420B35800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.10-23.58.23:035][923]LogHttp: Warning: 000001C420B35800: libcurl info message cache 0 (Connection 5 seems to be dead!)
+[2020.06.10-23.58.23:035][923]LogHttp: Warning: 000001C420B35800: libcurl info message cache 1 (Closing connection 5)
+[2020.06.10-23.58.23:036][923]LogHttp: Warning: 000001C420B35800: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.06.10-23.58.23:036][923]LogHttp: Warning: 000001C420B35800: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.10-23.58.23:036][923]LogHttp: Warning: 000001C420B35800: libcurl info message cache 4 (Closing connection 6)
+[2020.06.10-23.58.23:055][924]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B85F45C-4109-5DB6-12DC-12A92872E195%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=4f6e48c046751b1ac3edfa803d6fbfb1%7Cf3ecf765c47041049db44edf2995a759%7C032d4c91-fd6c-45b8-bc5d-e8bcec5ffbb7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.06.10-23.59.07:497][284]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2020.06.10-23.59.07:567][284]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/MainMenu_Map3F1C7D6A4A6AF53D1E84729AC0A40193.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Maps/MainMenu_Map.umap'
+[2020.06.10-23.59.07:783][284]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/MainMenu_Map_BuiltData5E0FB6E045200869B26388ACCB8346DD.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Maps/MainMenu_Map_BuiltData.uasset'
+[2020.06.10-23.59.07:819][284]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.10-23.59.07:819][284]LogContentValidation: Display: Validating World /Game/TheoLeyenda/Maps/MainMenu_Map.MainMenu_Map
+[2020.06.10-23.59.07:819][284]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TheoLeyenda/Maps/MainMenu_Map_BuiltData.MainMenu_Map_BuiltData
+[2020.06.10-23.59.32:418][579]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2020.06.10-23.59.32:500][579]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.06.10-23.59.37:430][579]LogSlate: Window 'Save Content' being destroyed
+[2020.06.10-23.59.37:504][579]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/GameModeMainMenu_BP4A0A3048402F3674C4E7888A36BFE98A.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Bluprints/GameModeMainMenu_BP.uasset'
+[2020.06.10-23.59.37:511][579]Cmd: MAP LOAD FILE="../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.10-23.59.37:512][579]LightingResults: New page: Lighting Build
+[2020.06.10-23.59.37:515][579]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2020.06.10-23.59.37:517][579]LogWorld: UWorld::CleanupWorld for MainMenu_Map, bSessionEnded=true, bCleanupResources=true
+[2020.06.10-23.59.37:518][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.10-23.59.37:518][579]MapCheck: New page: Map Check
+[2020.06.10-23.59.37:518][579]LightingResults: New page: Lighting Build
+[2020.06.10-23.59.37:643][579]LogUObjectHash: Compacting FUObjectHashTables data took  13.77ms
+[2020.06.10-23.59.37:885][579]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2020.06.10-23.59.37:972][579]LogUObjectHash: Compacting FUObjectHashTables data took   9.48ms
+[2020.06.10-23.59.38:133][579]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.10-23.59.38:209][579]LogUObjectHash: Compacting FUObjectHashTables data took   6.09ms
+[2020.06.10-23.59.38:308][579]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.10-23.59.38:309][579]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.523ms to complete.
+[2020.06.10-23.59.38:309][579]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.799
+[2020.06.10-23.59.38:411][579]AssetCheck: New page: Asset Save: GameModeMainMenu_BP
+[2020.06.10-23.59.38:412][579]LogContentValidation: Display: Validating Blueprint /Game/TheoLeyenda/Bluprints/GameModeMainMenu_BP.GameModeMainMenu_BP
+[2020.06.10-23.59.49:036][687]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.06.10-23.59.49:565][687]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/FirstPersonExampleMapE1B482AE4CCA6E2F0BAB179A49AA9D2D.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2020.06.10-23.59.55:573][687]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/FirstPersonExampleMap_BuiltData72DD31EC4E315112DD760FBCD2DABC63.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.06.10-23.59.55:670][687]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.10-23.59.55:670][687]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2020.06.10-23.59.55:670][687]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2020.06.11-00.00.18:025][930]LogAIModule: Creating AISystem for world MainMenu_Map
+[2020.06.11-00.00.18:030][930]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TheoLeyenda/Maps/MainMenu_Map.MainMenu_Map
+[2020.06.11-00.00.18:106][930]LogUObjectHash: Compacting FUObjectHashTables data took   5.99ms
+[2020.06.11-00.00.18:110][930]Cmd: MAP LOAD FILE="../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Maps/MainMenu_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.11-00.00.18:110][930]LightingResults: New page: Lighting Build
+[2020.06.11-00.00.18:111][930]LoadErrors: New page: Loading map: MainMenu_Map.umap
+[2020.06.11-00.00.18:112][930]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.11-00.00.18:112][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.11-00.00.18:112][930]MapCheck: New page: Map Check
+[2020.06.11-00.00.18:112][930]LightingResults: New page: Lighting Build
+[2020.06.11-00.00.18:206][930]LogUObjectHash: Compacting FUObjectHashTables data took  11.63ms
+[2020.06.11-00.00.18:556][930]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.11-00.00.18:648][930]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2020.06.11-00.00.18:724][930]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.11-00.00.18:725][930]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.5ms to complete.
+[2020.06.11-00.00.18:725][930]LogFileHelpers: Loading map 'MainMenu_Map' took 0.616
+[2020.06.11-00.00.23:263][983]MapCheck: New page: Map Check
+[2020.06.11-00.00.23:277][983]Cmd: MAP REBUILD ALLVISIBLE
+[2020.06.11-00.00.23:277][983]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.06.11-00.00.23:554][983]LogWorld: UWorld::CleanupWorld for MainMenu_Map, bSessionEnded=true, bCleanupResources=false
+[2020.06.11-00.00.23:677][983]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2020.06.11-00.00.23:711][983]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.11-00.00.23:749][983]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.06.11-00.00.23:749][983]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.06.11-00.00.23:749][983]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.11-00.00.23:784][983]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.11-00.00.23:833][983]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.06.11-00.00.23:833][983]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.06.11-00.00.26:194][983]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.06.11-00.00.26:194][983]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.06.11-00.00.26:194][983]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.06.11-00.00.26:195][983]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.06.11-00.00.26:195][983]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.06.11-00.00.26:195][983]TextureStreamingBuild: Display: Compiling optional shaders took 2.516 seconds.
+[2020.06.11-00.00.26:235][983]LogLevel: Display: Export Material TexCoord Scales took 0.040 seconds.
+[2020.06.11-00.00.26:240][983]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2020.06.11-00.00.26:314][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.06.11-00.00.26:324][983]LightingResults: New page: Lighting Build - Jun 10, 2020, 6:00:26 PM
+[2020.06.11-00.00.26:432][983]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.06.11-00.00.26:512][983]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.06.11-00.00.26:541][983]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.06.11-00.00.27:559][983]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.06.11-00.00.27:559][983]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9492
+[2020.06.11-00.00.34:957][983]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.06.11-00.00.34:957][983]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.06.11-00.00.34:957][983]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.06.11-00.00.34:958][983]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.06.11-00.00.34:958][983]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.06.11-00.00.34:958][983]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.06.11-00.00.35:292][983]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.06.11-00.00.35:292][983]MapCheck: New page: MainMenu_Map - Jun 10, 2020, 6:00:35 PM
+[2020.06.11-00.00.35:293][983]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2020.06.11-00.00.35:294][983]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 1.76ms to complete.
+[2020.06.11-00.00.35:300][983]LogEditorBuildUtils: Build time 0:12
+[2020.06.11-00.00.36:252][984]LogUObjectHash: Compacting FUObjectHashTables data took  18.80ms
+[2020.06.11-00.00.44:243][ 81]Job is a success!
+[2020.06.11-00.00.44:768][ 82]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.108s
+[2020.06.11-00.00.44:769][ 82]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.06.11-00.00.44:769][ 82]LogVolumetricLightmapImport:      BrickData (all levels) 1.0Mb
+[2020.06.11-00.00.44:769][ 82]LogVolumetricLightmapImport:      Bricks at depth
+[2020.06.11-00.00.44:769][ 82]LogVolumetricLightmapImport:          0: 0.5% covering 100.0% of volume
+[2020.06.11-00.00.44:769][ 82]LogVolumetricLightmapImport:          1: 7.4% covering 25.0% of volume
+[2020.06.11-00.00.44:769][ 82]LogVolumetricLightmapImport:          2: 92.1% covering 4.9% of volume
+[2020.06.11-00.00.44:769][ 82]LogVolumetricLightmapImport:      Bricks in each level
+[2020.06.11-00.00.44:769][ 82]LogVolumetricLightmapImport:          MainMenu_Map 			 216 bricks 	 100.0% (Persistent Level)
+[2020.06.11-00.00.45:078][ 82]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2020.06.11-00.00.45:078][ 82]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2020.06.11-00.00.45:241][ 82]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X128)
+[2020.06.11-00.00.45:242][ 82]LogStaticLightingSystem: MainMenu_Map_BuiltData storing lightmap data for 21 meshes in 1 LightmapResourceClusters (21.0 Meshes per cluster).
+[2020.06.11-00.00.45:335][ 82]Lightmass on DESKTOP-6PDEUV4: 7.13 sec total, 259 ms importing, 51 ms setup, 2.14 sec photons, 4.55 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 18.2 sec total, 6.45 sec processing.
+[2020.06.11-00.00.45:345][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   6.87ms
+[2020.06.11-00.00.45:382][ 82]LogStaticLightingSystem: Illumination: 18.8 sec (272 ms encoding lightmaps, 108 ms encoding shadowmaps)
+[2020.06.11-00.00.45:382][ 82]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 2 textures
+[2020.06.11-00.00.45:382][ 82]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 1 textures
+[2020.06.11-00.00.45:980][ 82]DumpUnbuiltLightIteractions
+[2020.06.11-00.00.45:980][ 82]Lights with unbuilt interactions: 0
+[2020.06.11-00.00.45:980][ 82]
+[2020.06.11-00.00.45:980][ 82]Primitives with unbuilt interactions: 0
+[2020.06.11-00.00.46:072][ 83]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.06.11-00.00.46:072][ 83]MapCheck: New page: MainMenu_Map - Jun 10, 2020, 6:00:46 PM
+[2020.06.11-00.00.46:073][ 83]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.871ms to complete.
+[2020.06.11-00.00.49:478][120]Cmd: DELETE
+[2020.06.11-00.00.49:478][120]Cmd: ACTOR DELETE
+[2020.06.11-00.00.49:525][120]LogEditorActor: Deleted Actor: FirstPersonCharacter_BP_C
+[2020.06.11-00.00.49:697][120]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
+[2020.06.11-00.00.49:699][120]LogEditorActor: Deleted 1 Actors (0.175 secs)
+[2020.06.11-00.01.15:708][435]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2020.06.11-00.01.15:758][435]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/MainMenu_Map14E5F05F4C8C9C2096631C830369BDC6.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Maps/MainMenu_Map.umap'
+[2020.06.11-00.01.15:972][435]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/MainMenu_Map_BuiltDataE458D13C48F017670EE61180A4BCAA41.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Maps/MainMenu_Map_BuiltData.uasset'
+[2020.06.11-00.01.16:020][435]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.11-00.01.16:020][435]LogContentValidation: Display: Validating World /Game/TheoLeyenda/Maps/MainMenu_Map.MainMenu_Map
+[2020.06.11-00.01.16:020][435]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TheoLeyenda/Maps/MainMenu_Map_BuiltData.MainMenu_Map_BuiltData
+[2020.06.11-00.01.50:273][868]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.11-00.01.54:963][924]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.11-00.01.55:589][929]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.11-00.01.56:601][943]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.11-00.02.07:323][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   6.90ms
+[2020.06.11-00.02.07:386][ 66]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/MainMenu_MapD452089A45AD68C93B6C3583F9E045ED.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Maps/MainMenu_Map.umap'
+[2020.06.11-00.02.07:591][ 66]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/MainMenu_Map_BuiltDataEEF1DA1443CCA8A95B0A08B2636D5995.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Maps/MainMenu_Map_BuiltData.uasset'
+[2020.06.11-00.02.07:630][ 66]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.11-00.02.07:630][ 66]LogContentValidation: Display: Validating World /Game/TheoLeyenda/Maps/MainMenu_Map.MainMenu_Map
+[2020.06.11-00.02.07:630][ 66]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TheoLeyenda/Maps/MainMenu_Map_BuiltData.MainMenu_Map_BuiltData
+[2020.06.11-00.02.14:897][149]Cmd: DELETE
+[2020.06.11-00.02.14:897][149]Cmd: ACTOR DELETE
+[2020.06.11-00.02.14:900][149]LogEditorActor: Deleted Actor: PlayerStart
+[2020.06.11-00.02.14:976][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.06.11-00.02.14:978][149]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2020.06.11-00.02.39:374][414]Cmd: DELETE
+[2020.06.11-00.02.39:374][414]Cmd: ACTOR DELETE
+[2020.06.11-00.02.39:378][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:380][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:381][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:383][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:384][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:385][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:386][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:387][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:388][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:389][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:390][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:391][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:392][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:393][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:394][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:396][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:397][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:398][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:399][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:400][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-00.02.39:467][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.06.11-00.02.39:468][414]LogEditorActor: Deleted 20 Actors (0.094 secs)
+[2020.06.11-00.02.44:052][462]Cmd: DELETE
+[2020.06.11-00.02.44:052][462]Cmd: ACTOR DELETE
+[2020.06.11-00.02.44:054][462]LogEditorActor: Deleted Actor: PointLight
+[2020.06.11-00.02.44:153][462]LogUObjectHash: Compacting FUObjectHashTables data took   5.81ms
+[2020.06.11-00.02.44:154][462]LogEditorActor: Deleted 1 Actors (0.102 secs)
+[2020.06.11-00.02.45:433][477]Cmd: DELETE
+[2020.06.11-00.02.45:433][477]Cmd: ACTOR DELETE
+[2020.06.11-00.02.45:434][477]LogEditorActor: Deleted Actor: PointLight
+[2020.06.11-00.02.45:532][477]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2020.06.11-00.02.45:532][477]LogEditorActor: Deleted 1 Actors (0.100 secs)
+[2020.06.11-00.02.48:565][512]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2020.06.11-00.02.48:596][512]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/MainMenu_MapFFF846374617F4A148AE219827D1B849.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Maps/MainMenu_Map.umap'
+[2020.06.11-00.02.48:808][512]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/MainMenu_Map_BuiltDataB2D79CEC490DB06616145EBD568025FB.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Maps/MainMenu_Map_BuiltData.uasset'
+[2020.06.11-00.02.48:850][512]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.11-00.02.48:850][512]LogContentValidation: Display: Validating World /Game/TheoLeyenda/Maps/MainMenu_Map.MainMenu_Map
+[2020.06.11-00.02.48:850][512]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TheoLeyenda/Maps/MainMenu_Map_BuiltData.MainMenu_Map_BuiltData
+[2020.06.11-00.03.01:081][641]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TheoLeyenda/Bluprints/MenusHUD_BP.MenusHUD_BP
+[2020.06.11-00.03.01:912][641]LogSlate: Warning: The tab "CompilerResults" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2020.06.11-00.03.03:743][691]LogSlate: Window 'My Blueprint' being destroyed
+[2020.06.11-00.03.03:770][691]LogSlate: Window 'My Blueprint' being destroyed
+[2020.06.11-00.03.03:772][691]LogSlate: Window 'CompilerResults' being destroyed
+[2020.06.11-00.03.03:775][691]LogSlate: Window 'CompilerResults' being destroyed
+[2020.06.11-00.03.03:819][691]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.06.11-00.03.03:819][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.11-00.03.03:930][691]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TheoLeyenda/Bluprints/MenusHUD_BP.MenusHUD_BP
+[2020.06.11-00.03.06:208][749]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.11-00.03.11:743][951]BlueprintLog: New page: Compile MenusHUD_BP
+[2020.06.11-00.03.12:420][951]LogUObjectHash: Compacting FUObjectHashTables data took   7.33ms
+[2020.06.11-00.03.15:319][ 52]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/MenusHUD_BP8D3FE8064181BFDF42D198A1ECF80D37.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Bluprints/MenusHUD_BP.uasset'
+[2020.06.11-00.03.15:354][ 52]AssetCheck: New page: Asset Save: MenusHUD_BP
+[2020.06.11-00.03.15:354][ 52]LogContentValidation: Display: Validating Blueprint /Game/TheoLeyenda/Bluprints/MenusHUD_BP.MenusHUD_BP
+[2020.06.11-00.03.36:794][247]LogHttp: Warning: 000001C410DD8540: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B85F45C-4109-5DB6-12DC-12A92872E195%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=4f6e48c046751b1ac3edfa803d6fbfb1%7Cf3ecf765c47041049db44edf2995a759%7C032d4c91-fd6c-45b8-bc5d-e8bcec5ffbb7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.11-00.03.36:794][247]LogHttp: Warning: 000001C410DD8540: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.06.11-00.03.36:795][247]LogHttp: Warning: 000001C410DD8540: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1c3e63abf70 [can pipeline])
+[2020.06.11-00.03.36:795][247]LogHttp: Warning: 000001C410DD8540: libcurl info message cache 1 (Re-using existing connection! (#8) with host datarouter.ol.epicgames.com)
+[2020.06.11-00.03.36:795][247]LogHttp: Warning: 000001C410DD8540: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.45.40.11) port 443 (#8))
+[2020.06.11-00.03.36:795][247]LogHttp: Warning: 000001C410DD8540: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.06.11-00.03.36:795][247]LogHttp: Warning: 000001C410DD8540: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.06.11-00.03.36:795][247]LogHttp: Warning: 000001C410DD8540: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.06.11-00.03.36:795][247]LogHttp: Warning: 000001C410DD8540: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.06.11-00.03.36:795][247]LogHttp: Warning: 000001C410DD8540: libcurl info message cache 7 (Closing connection 8)
+[2020.06.11-00.03.37:128][248]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B85F45C-4109-5DB6-12DC-12A92872E195%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=4f6e48c046751b1ac3edfa803d6fbfb1%7Cf3ecf765c47041049db44edf2995a759%7C032d4c91-fd6c-45b8-bc5d-e8bcec5ffbb7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.06.11-00.04.02:161][374]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter_BP.FirstPersonCharacter_BP
+[2020.06.11-00.04.02:792][374]LogSlate: Warning: The tab "CompilerResults" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2020.06.11-00.04.04:871][416]LogSlate: Window 'My Blueprint' being destroyed
+[2020.06.11-00.04.04:901][416]LogSlate: Window 'My Blueprint' being destroyed
+[2020.06.11-00.04.04:903][416]LogSlate: Window 'CompilerResults' being destroyed
+[2020.06.11-00.04.04:905][416]LogSlate: Window 'CompilerResults' being destroyed
+[2020.06.11-00.04.04:906][416]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.06.11-00.04.04:906][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.11-00.04.05:027][416]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter_BP.FirstPersonCharacter_BP
+[2020.06.11-00.04.07:298][460]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.11-00.05.02:243][546]LogUObjectHash: Compacting FUObjectHashTables data took   9.15ms
+[2020.06.11-00.05.02:286][546]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/MainMenu_MapF9E4FAA3410450475EFB2DB49D30C790.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Maps/MainMenu_Map.umap'
+[2020.06.11-00.05.02:521][546]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/MainMenu_Map_BuiltData7D70BA8645FA2C7CA7EF95957D2B6658.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/TheoLeyenda/Maps/MainMenu_Map_BuiltData.uasset'
+[2020.06.11-00.05.02:562][546]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.11-00.05.02:562][546]LogContentValidation: Display: Validating World /Game/TheoLeyenda/Maps/MainMenu_Map.MainMenu_Map
+[2020.06.11-00.05.02:563][546]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TheoLeyenda/Maps/MainMenu_Map_BuiltData.MainMenu_Map_BuiltData
+[2020.06.11-00.05.19:145][800]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.11-00.05.19:201][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.11-00.05.19:201][800]PIE: New page: PIE session: MainMenu_Map (Jun 10, 2020, 6:05:19 PM)
+[2020.06.11-00.05.19:204][800]LogPlayLevel: Creating play world package: /Game/TheoLeyenda/Maps/UEDPIE_0_MainMenu_Map
+[2020.06.11-00.05.19:206][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001691s)
+[2020.06.11-00.05.19:208][800]LogAIModule: Creating AISystem for world MainMenu_Map
+[2020.06.11-00.05.19:208][800]LogPlayLevel: PIE: World Init took: (0.002001s)
+[2020.06.11-00.05.19:208][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TheoLeyenda/Maps/MainMenu_Map.MainMenu_Map to /Game/TheoLeyenda/Maps/UEDPIE_0_MainMenu_Map.MainMenu_Map (0.003954s)
+[2020.06.11-00.05.19:303][800]LogUObjectHash: Compacting FUObjectHashTables data took   7.72ms
+[2020.06.11-00.05.19:305][800]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.11-00.05.19:305][800]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.11-00.05.19:305][800]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.11-00.05.19:305][800]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.11-00.05.19:305][800]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.11-00.05.19:305][800]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.11-00.05.19:306][800]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.11-00.05.19:306][800]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.11-00.05.19:306][800]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.11-00.05.19:306][800]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.11-00.05.19:319][800]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.11-00.05.19:319][800]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.06.11-00.05.19:319][800]LogAudioMixer: Display: Is Default: Yes
+[2020.06.11-00.05.19:319][800]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.11-00.05.19:319][800]LogAudioMixer: Display: Channel Count Used: 6
+[2020.06.11-00.05.19:319][800]LogAudioMixer: Display: Device Channel Count: 6
+[2020.06.11-00.05.19:320][800]LogAudioMixer: Display: Channel Order:
+[2020.06.11-00.05.19:320][800]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.11-00.05.19:320][800]LogAudioMixer: Display: 1: FrontRight
+[2020.06.11-00.05.19:320][800]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.11-00.05.19:320][800]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.11-00.05.19:320][800]LogAudioMixer: Display: 4: BackLeft
+[2020.06.11-00.05.19:320][800]LogAudioMixer: Display: 5: BackRight
+[2020.06.11-00.05.19:353][800]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2020.06.11-00.05.19:358][800]LogInit: FAudioDevice initialized.
+[2020.06.11-00.05.19:370][800]LogLoad: Game class is 'GameModeMainMenu_BP_C'
+[2020.06.11-00.05.19:371][800]LogWorld: Bringing World /Game/TheoLeyenda/Maps/UEDPIE_0_MainMenu_Map.MainMenu_Map up for play (max tick rate 0) at 2020.06.10-21.05.19
+[2020.06.11-00.05.19:372][800]LogWorld: Bringing up level for play took: 0.000935
+[2020.06.11-00.05.19:372][800]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.06.11-00.05.19:374][800]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.11-00.05.19:375][800]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.11-00.05.19:375][800]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.06.11-00.05.19:399][800]PIE: Error: CreateWidget called with a null class.
