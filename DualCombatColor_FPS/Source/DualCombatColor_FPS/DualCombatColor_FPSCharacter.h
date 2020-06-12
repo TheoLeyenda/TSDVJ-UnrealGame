@@ -7,7 +7,7 @@
 #include "DualCombatColor_FPSCharacter.generated.h"
 
 class UInputComponent;
-class UMainMenuWidget;
+class UPauseMenuWidget;
 
 UCLASS(config=Game)
 class ADualCombatColor_FPSCharacter : public ACharacter
@@ -50,11 +50,14 @@ public:
 	ADualCombatColor_FPSCharacter();
 
 	UPROPERTY(EditAnywhere, Category = "UI HUD")
-		TSubclassOf<UMainMenuWidget> Player_Menu_Widget_Class;
-	UMainMenuWidget* Player_Menu_Widget;
+		TSubclassOf<UPauseMenuWidget> PauseMenuWidget_Class;
+	UPauseMenuWidget* PauseMenuWidget;
 
 protected:
 	virtual void BeginPlay();
+	void CreatedPauseMenu();
+
+	void OpenPauseMenu();
 
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
@@ -86,7 +89,6 @@ public:
 	uint32 bUsingMotionControllers : 1;
 
 protected:
-	
 	/** Fires a projectile. */
 	void OnFire();
 

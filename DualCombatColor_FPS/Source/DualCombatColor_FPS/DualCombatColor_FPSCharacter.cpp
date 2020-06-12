@@ -12,6 +12,7 @@
 #include "Blueprint/UserWidget.h"
 #include "MainMenuWidget.h"
 #include "MotionControllerComponent.h"
+#include "PauseMenuWidget.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
@@ -105,16 +106,19 @@ void ADualCombatColor_FPSCharacter::BeginPlay()
 		VR_Gun->SetHiddenInGame(true, true);
 		Mesh1P->SetHiddenInGame(false, true);
 	}
-	if (Player_Menu_Widget_Class != nullptr)
+	CreatedPauseMenu();
+}
+void ADualCombatColor_FPSCharacter::CreatedPauseMenu()
+{
+	if (PauseMenuWidget_Class != nullptr)
 	{
 		//Player_Menu_Widget = CreateWidget(GetWorld(), Player_Menu_Widget_Class);
 		//Player_Menu_Widget->AddToViewport();
 
-		Player_Menu_Widget = CreateWidget<UMainMenuWidget>(Cast<APlayerController>(GetOwner()), Player_Menu_Widget_Class, FName("MainMenuWidget"));
-		Player_Menu_Widget->AddToViewport();
+		PauseMenuWidget = CreateWidget<UPauseMenuWidget>(Cast<APlayerController>(GetOwner()), PauseMenuWidget_Class, FName("PauseMenuWidget"));
+		PauseMenuWidget->AddToViewport();
 	}
 }
-
 //////////////////////////////////////////////////////////////////////////
 // Input
 
@@ -146,6 +150,21 @@ void ADualCombatColor_FPSCharacter::SetupPlayerInputComponent(class UInputCompon
 	PlayerInputComponent->BindAxis("TurnRate", this, &ADualCombatColor_FPSCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &ADualCombatColor_FPSCharacter::LookUpAtRate);
+
+	//Activate Pause Menu
+	PlayerInputComponent->BindAction("Pause", IE_Pressed, this, &ADualCombatColor_FPSCharacter::OpenPauseMenu);
+}
+
+void ADualCombatColor_FPSCharacter::OpenPauseMenu()
+{
+	if (PauseMenuWidget != nullptr) 
+	{
+		PauseMenuWidget->ActivateMe();
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("PauseMenuWidget Nulo"));
+	}
 }
 
 void ADualCombatColor_FPSCharacter::OnFire()
