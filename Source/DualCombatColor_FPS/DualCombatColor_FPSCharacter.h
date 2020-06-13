@@ -69,6 +69,7 @@ protected:
 	virtual void Tick(float DeltaSeconds) override;
 	//Game Play Functions and Variables
 	int score;
+	bool isPaused;
 	void PauseGame();
 	UPROPERTY()
 	APlayerController* playerController;

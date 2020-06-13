@@ -90,6 +90,7 @@ ADualCombatColor_FPSCharacter::ADualCombatColor_FPSCharacter()
 
 	//Puntaje Pre - Asignado solo para testear.
 	score = 500;
+	isPaused = false;
 	
 }
 
@@ -103,10 +104,11 @@ void ADualCombatColor_FPSCharacter::BeginPlay()
 
 	if (GetWorld() != nullptr)
 	{
-		CheckCursorVisible();
-		if (GetWorld()->GetFirstPlayerController() != nullptr)
+		//CheckCursorVisible();
+		playerController = GetWorld()->GetFirstPlayerController();
+		if (playerController != nullptr)
 		{
-			playerController = GetWorld()->GetFirstPlayerController();
+			UE_LOG(LogTemp, Warning, TEXT("GetFirstPlayerController Existe"));
 		}
 		else
 		{
@@ -137,10 +139,32 @@ void ADualCombatColor_FPSCharacter::BeginPlay()
 }
 void ADualCombatColor_FPSCharacter::Tick(float DeltaSeconds)
 {
-	if (playerController != nullptr)
+
+	if(!PauseMenuWidget)
+		UE_LOG(LogTemp, Warning, TEXT("pause bad"));
+
+	if (!VictoryMenuWidget)
+		UE_LOG(LogTemp, Warning, TEXT("victory bad"));
+
+	if (!DefeatMenuWidget)
+		UE_LOG(LogTemp, Warning, TEXT("defeat bad"));
+
+	bool MenuSuccefullyLoaded = (!DefeatMenuWidget && !VictoryMenuWidget) && !PauseMenuWidget;
+
+	if (!MenuSuccefullyLoaded) 
 	{
-		CheckCursorVisible();
+		if (playerController)
+			CheckCursorVisible();
+		else
+			UE_LOG(LogTemp, Warning, TEXT("Player nulo"));
 	}
+	else 
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Menu alguno es nulo"));
+	}
+		
+
+	
 }
 //////////////////////////////////////////////////////////////////////////
 // Input
@@ -188,31 +212,33 @@ void ADualCombatColor_FPSCharacter::SetupPlayerInputComponent(class UInputCompon
 
 void ADualCombatColor_FPSCharacter::PauseGame()
 {
-	UGameplayStatics::SetGamePaused(GetWorld(), true);
+	isPaused = !isPaused;
+	UGameplayStatics::SetGamePaused(GetWorld(), isPaused);
 }
 void ADualCombatColor_FPSCharacter::CheckCursorVisible()
 {
-	/*if(PauseMenuWidget->Visibility == ESlateVisibility::Visible 
-		|| VictoryMenuWidget->Visibility == ESlateVisibility::Visible 
-		|| DefeatMenuWidget->Visibility == ESlateVisibility::Visible)
-	{
-		//Muestra el cursor del mouse.
-		//playerController->bShowMouseCursor = true;
-		
-	}
-	else
-	{
-		//Oculta el cursor del mouse.
-		//playerController->bShowMouseCursor = false;
-	}*/
-	if (PauseMenuWidget->Visibility == ESlateVisibility::Visible)
+	//if(PauseMenuWidget->Visibility == ESlateVisibility::Visible 
+	//	|| VictoryMenuWidget->Visibility == ESlateVisibility::Visible 
+	//	|| DefeatMenuWidget->Visibility == ESlateVisibility::Visible)
+	//{
+	//	//Muestra el cursor del mouse.
+	//	//playerController->bShowMouseCursor = true;
+	//	
+	//}
+	//else
+	//{
+	//	//Oculta el cursor del mouse.
+	//	//playerController->bShowMouseCursor = false;
+	//}
+
+	/* if (PauseMenuWidget->Visibility == ESlateVisibility::Visible)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Visible"));
 	}
 	else if(PauseMenuWidget->Visibility == ESlateVisibility::Hidden)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Chupala"));
-	}
+		UE_LOG(LogTemp, Warning, TEXT("Invisible"));
+	}*/
 }
 //-------------------------------UI - FUNCTIONS---------------------------------------//
 void ADualCombatColor_FPSCharacter::CreatedPauseMenu()
@@ -272,15 +298,16 @@ void ADualCombatColor_FPSCharacter::OpenDefeatMenu()
 
 void ADualCombatColor_FPSCharacter::OpenPauseMenu()
 {
+	UE_LOG(LogTemp, Warning, TEXT("P"));
 	if (PauseMenuWidget != nullptr) 
 	{
 		PauseMenuWidget->ActivateMe();
-		PauseGame();
 	}
 	else
 	{
 		UE_LOG(LogTemp, Warning, TEXT("PauseMenuWidget Nulo"));
 	}
+	PauseGame();
 }
 //-------------------------------------------------------------------------------------//
 

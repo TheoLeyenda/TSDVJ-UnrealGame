@@ -10,6 +10,8 @@
 void UPauseMenuWidget::NativeOnInitialized()
 {
 	Super::NativeOnInitialized();
+	//CanvasPauseMenu->SetVisibility(ESlateVisibility::Hidden);
+
 	if (ButtonResume != nullptr)
 	{
 		ButtonResume->OnClicked.AddDynamic(this, &ThisClass::OnClikedButtonResume);
