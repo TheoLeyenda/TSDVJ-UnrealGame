@@ -64,7 +64,6 @@ void UMainMenuWidget::OnClikedButtonBackToMenu()
 
 void UMainMenuWidget::ExitGame()
 {
-	//UKismetSystemLibrary::QuitEditor();
 	APlayerController* playerController = GetWorld()->GetFirstPlayerController();
 	if (playerController != nullptr) 
 	{

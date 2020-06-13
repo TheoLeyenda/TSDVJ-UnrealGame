@@ -31,8 +31,7 @@ void UPauseMenuWidget::ActivateMe()
 {
 	if (CanvasPauseMenu != nullptr)
 	{
-		UGameplayStatics::SetGamePaused(GetWorld(), true);
-		UE_LOG(LogTemp, Warning, TEXT("ActivateMe"));
+		//UE_LOG(LogTemp, Warning, TEXT("ActivateMe"));
 		CanvasPauseMenu->SetVisibility(ESlateVisibility::Visible);
 	}
 }
@@ -42,7 +41,7 @@ void UPauseMenuWidget::DeactivateMe()
 	if (CanvasPauseMenu != nullptr)
 	{
 		UGameplayStatics::SetGamePaused(GetWorld(), false);
-		UE_LOG(LogTemp, Warning, TEXT("DeactivateMe"));
+		//UE_LOG(LogTemp, Warning, TEXT("DeactivateMe"));
 		CanvasPauseMenu->SetVisibility(ESlateVisibility::Hidden);
 	}
 }
@@ -73,7 +72,6 @@ void UPauseMenuWidget::OnClikedButtonExit()
 
 void UPauseMenuWidget::ExitGame()
 {
-	//UKismetSystemLibrary::QuitEditor();
 	APlayerController* playerController = GetWorld()->GetFirstPlayerController();
 	if (playerController != nullptr)
 	{

@@ -8,6 +8,8 @@
 
 class UInputComponent;
 class UPauseMenuWidget;
+class UVictoryMenuWidget;
+class UDefeatMenuWidget;
 
 UCLASS(config=Game)
 class ADualCombatColor_FPSCharacter : public ACharacter
@@ -53,12 +55,40 @@ public:
 		TSubclassOf<UPauseMenuWidget> PauseMenuWidget_Class;
 	UPauseMenuWidget* PauseMenuWidget;
 
+	UPROPERTY(EditAnywhere, Category = "UI HUD")
+		TSubclassOf<UVictoryMenuWidget> VictoryMenuWidget_Class;
+	UVictoryMenuWidget* VictoryMenuWidget;
+
+	UPROPERTY(EditAnywhere, Category = "UI HUD")
+		TSubclassOf<UDefeatMenuWidget> DefeatMenuWidget_Class;
+	UDefeatMenuWidget* DefeatMenuWidget;
+
 protected:
+
 	virtual void BeginPlay();
+	virtual void Tick(float DeltaSeconds) override;
+	//Game Play Functions and Variables
+	int score;
+	void PauseGame();
+	UPROPERTY()
+	APlayerController* playerController;
+	//-------------------
+
+	// Menu Functions
 	void CreatedPauseMenu();
+	
+	void CreatedVictoryMenu();
+	
+	void CreatedDefeatMenu();
 
 	void OpenPauseMenu();
 
+	void OpenVictoryMenu();
+
+	void OpenDefeatMenu();
+
+	void CheckCursorVisible();
+	//-------------------
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)

@@ -13,6 +13,8 @@
 #include "MainMenuWidget.h"
 #include "MotionControllerComponent.h"
 #include "PauseMenuWidget.h"
+#include "VictoryMenuWidget.h"
+#include "DefeatMenuWidget.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
@@ -85,6 +87,10 @@ ADualCombatColor_FPSCharacter::ADualCombatColor_FPSCharacter()
 
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
+
+	//Puntaje Pre - Asignado solo para testear.
+	score = 500;
+	
 }
 
 void ADualCombatColor_FPSCharacter::BeginPlay()
@@ -94,6 +100,23 @@ void ADualCombatColor_FPSCharacter::BeginPlay()
 
 	//Attach gun mesh component to Skeleton, doing it here because the skeleton is not yet created in the constructor
 	FP_Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
+
+	if (GetWorld() != nullptr)
+	{
+		CheckCursorVisible();
+		if (GetWorld()->GetFirstPlayerController() != nullptr)
+		{
+			playerController = GetWorld()->GetFirstPlayerController();
+		}
+		else
+		{
+			UE_LOG(LogTemp, Warning, TEXT("GetFirstPlayerController nulo"));
+		}
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("GetWorld nulo"));
+	}
 
 	// Show or hide the two versions of the gun based on whether or not we're using motion controllers.
 	if (bUsingMotionControllers)
@@ -106,17 +129,17 @@ void ADualCombatColor_FPSCharacter::BeginPlay()
 		VR_Gun->SetHiddenInGame(true, true);
 		Mesh1P->SetHiddenInGame(false, true);
 	}
+	//Created Menus
 	CreatedPauseMenu();
+	CreatedVictoryMenu();
+	CreatedDefeatMenu();
+	//---------------
 }
-void ADualCombatColor_FPSCharacter::CreatedPauseMenu()
+void ADualCombatColor_FPSCharacter::Tick(float DeltaSeconds)
 {
-	if (PauseMenuWidget_Class != nullptr)
+	if (playerController != nullptr)
 	{
-		//Player_Menu_Widget = CreateWidget(GetWorld(), Player_Menu_Widget_Class);
-		//Player_Menu_Widget->AddToViewport();
-
-		PauseMenuWidget = CreateWidget<UPauseMenuWidget>(Cast<APlayerController>(GetOwner()), PauseMenuWidget_Class, FName("PauseMenuWidget"));
-		PauseMenuWidget->AddToViewport();
+		CheckCursorVisible();
 	}
 }
 //////////////////////////////////////////////////////////////////////////
@@ -153,6 +176,98 @@ void ADualCombatColor_FPSCharacter::SetupPlayerInputComponent(class UInputCompon
 
 	//Activate Pause Menu
 	PlayerInputComponent->BindAction("Pause", IE_Pressed, this, &ADualCombatColor_FPSCharacter::OpenPauseMenu);
+
+	//Activate Win Menu (Only Debug)
+	PlayerInputComponent->BindAction("Win_Button", IE_Pressed, this, &ADualCombatColor_FPSCharacter::OpenVictoryMenu);
+
+	//Activate Lose Menu (Only Debug)
+	PlayerInputComponent->BindAction("Lose_Button", IE_Pressed, this, &ADualCombatColor_FPSCharacter::OpenDefeatMenu);
+}
+
+//------------------------------Game Functions----------------------------------------//
+
+void ADualCombatColor_FPSCharacter::PauseGame()
+{
+	UGameplayStatics::SetGamePaused(GetWorld(), true);
+}
+void ADualCombatColor_FPSCharacter::CheckCursorVisible()
+{
+	/*if(PauseMenuWidget->Visibility == ESlateVisibility::Visible 
+		|| VictoryMenuWidget->Visibility == ESlateVisibility::Visible 
+		|| DefeatMenuWidget->Visibility == ESlateVisibility::Visible)
+	{
+		//Muestra el cursor del mouse.
+		//playerController->bShowMouseCursor = true;
+		
+	}
+	else
+	{
+		//Oculta el cursor del mouse.
+		//playerController->bShowMouseCursor = false;
+	}*/
+	if (PauseMenuWidget->Visibility == ESlateVisibility::Visible)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Visible"));
+	}
+	else if(PauseMenuWidget->Visibility == ESlateVisibility::Hidden)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Chupala"));
+	}
+}
+//-------------------------------UI - FUNCTIONS---------------------------------------//
+void ADualCombatColor_FPSCharacter::CreatedPauseMenu()
+{
+	if (PauseMenuWidget_Class != nullptr)
+	{
+		PauseMenuWidget = CreateWidget<UPauseMenuWidget>(Cast<APlayerController>(GetOwner()), PauseMenuWidget_Class, FName("PauseMenuWidget"));
+		PauseMenuWidget->AddToViewport();
+	}
+}
+
+void ADualCombatColor_FPSCharacter::CreatedVictoryMenu()
+{
+	if (VictoryMenuWidget_Class != nullptr)
+	{
+		VictoryMenuWidget = CreateWidget<UVictoryMenuWidget>(Cast<APlayerController>(GetOwner()), VictoryMenuWidget_Class, FName("VictoryMenuWidget"));
+		VictoryMenuWidget->AddToViewport();
+	}
+}
+
+void ADualCombatColor_FPSCharacter::CreatedDefeatMenu()
+{
+	if (DefeatMenuWidget_Class != nullptr)
+	{
+		DefeatMenuWidget = CreateWidget<UDefeatMenuWidget>(Cast<APlayerController>(GetOwner()), DefeatMenuWidget_Class, FName("DefeatMenuWidget"));
+		DefeatMenuWidget->AddToViewport();
+	}
+}
+
+void ADualCombatColor_FPSCharacter::OpenVictoryMenu()
+{
+	if (VictoryMenuWidget != nullptr)
+	{
+		VictoryMenuWidget->ActivateMe();
+		VictoryMenuWidget->SetScoreText(score);
+		PauseGame();
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("VictoryMenuWidget Nulo"));
+	}
+}
+
+void ADualCombatColor_FPSCharacter::OpenDefeatMenu()
+{
+	if (DefeatMenuWidget != nullptr)
+	{
+		DefeatMenuWidget->ActivateMe();
+		DefeatMenuWidget->SetScoreText(score);
+		PauseGame();
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("DefeatMenuWidgetMenuWidget Nulo"));
+	}
 }
 
 void ADualCombatColor_FPSCharacter::OpenPauseMenu()
@@ -160,12 +275,14 @@ void ADualCombatColor_FPSCharacter::OpenPauseMenu()
 	if (PauseMenuWidget != nullptr) 
 	{
 		PauseMenuWidget->ActivateMe();
+		PauseGame();
 	}
 	else
 	{
 		UE_LOG(LogTemp, Warning, TEXT("PauseMenuWidget Nulo"));
 	}
 }
+//-------------------------------------------------------------------------------------//
 
 void ADualCombatColor_FPSCharacter::OnFire()
 {

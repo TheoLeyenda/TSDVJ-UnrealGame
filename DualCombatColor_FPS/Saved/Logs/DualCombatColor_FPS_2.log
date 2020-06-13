@@ -1,4 +1,4 @@
-﻿Log file open, 06/08/20 07:08:55
+﻿Log file open, 06/13/20 00:16:51
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: DualCombatColor_FPS
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.948181
+LogStats: Stats thread started at 0.156139
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -130,7 +130,7 @@ LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
 LogInit: Compiled with Visual C++: 19.16.27032.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.24
-LogInit: Command Line: 
+LogInit: Command Line:  -skipcompile
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 25
@@ -163,618 +163,681 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.06.08-10.08.56:381][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.06.08-10.08.56:381][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.06.08-10.08.56:381][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
-[2020.06.08-10.08.56:381][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
-[2020.06.08-10.08.56:382][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
-[2020.06.08-10.08.56:383][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
-[2020.06.08-10.08.56:384][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
-[2020.06.08-10.08.56:384][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
-[2020.06.08-10.08.56:384][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
-[2020.06.08-10.08.56:384][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
-[2020.06.08-10.08.56:384][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
-[2020.06.08-10.08.56:384][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
-[2020.06.08-10.08.56:384][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
-[2020.06.08-10.08.56:384][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
-[2020.06.08-10.08.56:384][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
-[2020.06.08-10.08.56:384][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
-[2020.06.08-10.08.56:384][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
-[2020.06.08-10.08.56:384][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
-[2020.06.08-10.08.56:384][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
-[2020.06.08-10.08.56:384][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
-[2020.06.08-10.08.56:385][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
-[2020.06.08-10.08.56:385][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
-[2020.06.08-10.08.56:385][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
-[2020.06.08-10.08.56:385][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
-[2020.06.08-10.08.56:385][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
-[2020.06.08-10.08.56:385][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
-[2020.06.08-10.08.56:385][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
-[2020.06.08-10.08.56:385][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
-[2020.06.08-10.08.56:385][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
-[2020.06.08-10.08.56:385][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
-[2020.06.08-10.08.56:385][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
-[2020.06.08-10.08.56:385][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
-[2020.06.08-10.08.56:385][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
-[2020.06.08-10.08.56:386][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
-[2020.06.08-10.08.56:386][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
-[2020.06.08-10.08.56:386][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
-[2020.06.08-10.08.56:386][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
-[2020.06.08-10.08.56:386][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
-[2020.06.08-10.08.56:386][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
-[2020.06.08-10.08.56:386][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
-[2020.06.08-10.08.56:386][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
-[2020.06.08-10.08.56:386][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
-[2020.06.08-10.08.56:386][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
-[2020.06.08-10.08.56:387][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
-[2020.06.08-10.08.56:387][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
-[2020.06.08-10.08.56:387][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.06.08-10.08.56:387][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.06.08-10.08.56:387][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.06.08-10.08.56:387][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.06.08-10.08.56:387][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.06.08-10.08.56:387][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.06.08-10.08.56:388][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.06.08-10.08.56:388][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.06.08-10.08.56:388][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.06.08-10.08.56:388][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.06.08-10.08.56:388][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.06.08-10.08.56:388][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.06.08-10.08.56:388][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.06.08-10.08.56:388][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.06.08-10.08.56:389][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
-[2020.06.08-10.08.56:389][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.06.08-10.08.56:389][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.06.08-10.08.56:389][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.06.08-10.08.56:389][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.06.08-10.08.56:389][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.06.08-10.08.56:389][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.06.08-10.08.56:389][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.06.08-10.08.56:390][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.06.08-10.08.56:390][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.06.08-10.08.56:390][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.06.08-10.08.56:390][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.06.08-10.08.56:390][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.06.08-10.08.56:390][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.06.08-10.08.56:390][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
-[2020.06.08-10.08.56:390][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
-[2020.06.08-10.08.56:398][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
-[2020.06.08-10.08.56:398][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.06.08-10.08.56:398][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.06.08-10.08.56:399][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
-[2020.06.08-10.08.56:399][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.06.08-10.08.56:399][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
-[2020.06.08-10.08.56:399][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.06.08-10.08.56:399][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.06.08-10.08.56:399][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.06.08-10.08.56:399][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.06.08-10.08.56:399][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.06.08-10.08.56:399][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.06.08-10.08.56:399][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.06.08-10.08.56:399][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.06.08-10.08.56:399][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.06.08-10.08.56:400][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.06.08-10.08.56:400][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.06.08-10.08.56:400][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.06.08-10.08.56:400][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.06.08-10.08.56:400][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.06.08-10.08.56:400][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.06.08-10.08.56:400][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.06.08-10.08.56:400][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.06.08-10.08.56:400][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.06.08-10.08.56:400][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
-[2020.06.08-10.08.56:400][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.06.08-10.08.56:400][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.06.08-10.08.56:401][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.06.08-10.08.56:401][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.06.08-10.08.56:401][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.06.08-10.08.56:401][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.06.08-10.08.56:401][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.06.08-10.08.56:401][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.06.08-10.08.56:401][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.06.08-10.08.56:401][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.06.08-10.08.56:401][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.06.08-10.08.56:401][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.06.08-10.08.56:401][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.06.08-10.08.56:401][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.06.08-10.08.56:402][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.06.08-10.08.56:402][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.06.08-10.08.56:402][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.06.08-10.08.56:402][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.06.08-10.08.56:402][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.06.08-10.08.56:402][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.06.08-10.08.56:402][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.06.08-10.08.56:402][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.06.08-10.08.56:402][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.06.08-10.08.56:402][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.06.08-10.08.56:402][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.06.08-10.08.56:402][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.06.08-10.08.56:403][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.06.08-10.08.56:403][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.06.08-10.08.56:403][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.06.08-10.08.56:403][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.06.08-10.08.56:403][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
-[2020.06.08-10.08.56:403][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.06.08-10.08.56:403][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.06.08-10.08.56:403][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.06.08-10.08.56:403][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.06.08-10.08.56:403][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.06.08-10.08.56:403][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.06.08-10.08.56:403][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.06.08-10.08.56:403][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.06.08-10.08.56:404][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.06.08-10.08.56:404][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
-[2020.06.08-10.08.56:404][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.06.08-10.08.56:404][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.06.08-10.08.56:404][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.06.08-10.08.56:404][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.06.08-10.08.56:404][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.06.08-10.08.56:404][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.06.08-10.08.56:404][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.06.08-10.08.56:404][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.06.08-10.08.56:405][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.06.08-10.08.56:405][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.06.08-10.08.56:405][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.06.08-10.08.56:405][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.06.08-10.08.56:405][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.06.08-10.08.56:405][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.06.08-10.08.56:405][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.06.08-10.08.56:405][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.06.08-10.08.56:405][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.06.08-10.08.56:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.06.08-10.08.56:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.06.08-10.08.56:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.06.08-10.08.56:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.06.08-10.08.56:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.06.08-10.08.56:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.06.08-10.08.56:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.06.08-10.08.56:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.06.08-10.08.56:407][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.06.08-10.08.56:407][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
-[2020.06.08-10.08.56:408][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.06.08-10.08.56:408][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.06.08-10.08.56:408][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
-[2020.06.08-10.08.56:408][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.06.08-10.08.56:408][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.06.08-10.08.56:409][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.06.08-10.08.56:409][  0]LogInit: Selected Device Profile: [Windows]
-[2020.06.08-10.08.56:409][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.06.08-10.08.56:417][  0]LogHAL: Display: Platform has ~ 8 GB [8541040640 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.06.08-10.08.56:417][  0]LogInit: Going up to parent DeviceProfile []
-[2020.06.08-10.08.56:417][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
-[2020.06.08-10.08.56:417][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.06.08-10.08.56:417][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.06.08-10.08.56:417][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
-[2020.06.08-10.08.56:417][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
-[2020.06.08-10.08.56:417][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
-[2020.06.08-10.08.56:417][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
-[2020.06.08-10.08.56:417][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
-[2020.06.08-10.08.56:417][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
-[2020.06.08-10.08.56:417][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
-[2020.06.08-10.08.56:417][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
-[2020.06.08-10.08.56:417][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
-[2020.06.08-10.08.56:417][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
-[2020.06.08-10.08.56:417][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
-[2020.06.08-10.08.56:417][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
-[2020.06.08-10.08.56:417][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
-[2020.06.08-10.08.56:417][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
-[2020.06.08-10.08.56:417][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
-[2020.06.08-10.08.56:417][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
-[2020.06.08-10.08.56:418][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.SSGI.Quality:0]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
-[2020.06.08-10.08.56:419][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.06.08-10.08.56:420][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.06.08-10.08.56:420][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
-[2020.06.08-10.08.56:420][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
-[2020.06.08-10.08.56:420][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
-[2020.06.08-10.08.56:420][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
-[2020.06.08-10.08.56:420][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:8]]
-[2020.06.08-10.08.56:420][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.06.08-10.08.56:420][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
-[2020.06.08-10.08.56:420][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.06.08-10.08.56:420][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.06.08-10.08.56:420][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.06.08-10.08.56:420][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
-[2020.06.08-10.08.56:421][  0]LogInit: Computer: DESKTOP-6PDEUV4
-[2020.06.08-10.08.56:421][  0]LogInit: User: Theo
-[2020.06.08-10.08.56:421][  0]LogInit: CPU Page size=4096, Cores=2
-[2020.06.08-10.08.56:421][  0]LogInit: High frequency timer resolution =14.318180 MHz
-[2020.06.08-10.08.56:421][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2020.06.08-10.08.56:421][  0]LogMemory: Platform Memory Stats for Windows
-[2020.06.08-10.08.56:421][  0]LogMemory: Process Physical Memory: 104.68 MB used, 104.69 MB peak
-[2020.06.08-10.08.56:421][  0]LogMemory: Process Virtual Memory: 99.72 MB used, 99.72 MB peak
-[2020.06.08-10.08.56:421][  0]LogMemory: Physical Memory: 6819.03 MB used,  1326.34 MB free, 8145.37 MB total
-[2020.06.08-10.08.56:421][  0]LogMemory: Virtual Memory: 5117.18 MB used,  134212608.00 MB free, 134217728.00 MB total
-[2020.06.08-10.08.56:434][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.06.08-10.08.56:490][  0]LogInit: Overriding language with editor language configuration option (en).
-[2020.06.08-10.08.56:490][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2020.06.08-10.08.57:493][  0]LogInit: Setting process to per monitor DPI aware
-[2020.06.08-10.08.57:593][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.06.08-10.08.57:593][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.06.08-10.08.58:232][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.06.08-10.08.58:232][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.06.08-10.08.58:232][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.06.08-10.08.58:232][  0]LogD3D11RHI: D3D11 adapters:
-[2020.06.08-10.08.58:273][  0]LogD3D11RHI:    0. 'AMD Radeon HD 5450' (Feature Level 11_0)
-[2020.06.08-10.08.58:273][  0]LogD3D11RHI:       2034/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2020.06.08-10.08.58:278][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.06.08-10.08.58:278][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.06.08-10.08.58:278][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.06.08-10.08.58:314][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.06.08-10.08.58:315][  0]LogD3D11RHI:     GPU DeviceId: 0x68f9 (for the marketing name, search the web for "GPU Device Id")
-[2020.06.08-10.08.58:315][  0]LogWindows: EnumDisplayDevices:
-[2020.06.08-10.08.58:315][  0]LogWindows:    0. 'AMD Radeon HD 5450' (P:1 D:1)
-[2020.06.08-10.08.58:317][  0]LogWindows:    1. 'AMD Radeon HD 5450' (P:0 D:0)
-[2020.06.08-10.08.58:318][  0]LogWindows: DebugString: FoundDriverCount:2 
-[2020.06.08-10.08.58:318][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 5450
-[2020.06.08-10.08.58:318][  0]LogD3D11RHI:   Driver Version: 15.201.1151.1008 (internal:15.201.1151.1008, unified:15.201.1151.1008)
-[2020.06.08-10.08.58:318][  0]LogD3D11RHI:      Driver Date: 11-4-2015
-[2020.06.08-10.08.58:318][  0]LogRHI: Texture pool is 1424 MB (70% of 2034 MB)
-[2020.06.08-10.08.58:412][  0]LogD3D11RHI: AMD Pre GCN architecture detected, some driver workarounds will be in place
-[2020.06.08-10.08.58:439][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
-[2020.06.08-10.08.58:439][  0]LogD3D11RHI: Async texture creation enabled
-[2020.06.08-10.08.58:476][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2020.06.08-10.09.00:351][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.06.08-10.09.00:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.06.08-10.09.00:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.06.08-10.09.00:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.06.08-10.09.00:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.06.08-10.09.00:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.06.08-10.09.00:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.06.08-10.09.00:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.06.08-10.09.00:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.06.08-10.09.00:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.06.08-10.09.00:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.06.08-10.09.00:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.06.08-10.09.00:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.06.08-10.09.00:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.06.08-10.09.00:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.06.08-10.09.00:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.06.08-10.09.00:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.06.08-10.09.00:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.06.08-10.09.00:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.06.08-10.09.00:572][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.06.08-10.09.00:572][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.06.08-10.09.00:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.06.08-10.09.00:630][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.06.08-10.09.00:655][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.06.08-10.09.00:691][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.06.08-10.09.00:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.06.08-10.09.00:755][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.06.08-10.09.00:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.06.08-10.09.00:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.06.08-10.09.00:922][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.06.08-10.09.00:922][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.06.08-10.09.00:943][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.06.08-10.09.00:977][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.06.08-10.09.01:013][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.06.08-10.09.01:044][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.06.08-10.09.01:044][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.06.08-10.09.01:053][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.06.08-10.09.01:139][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/Theo/Desktop/DualCombatColor_FPS/Intermediate/Shaders/WorkingDirectory/7804/).
-[2020.06.08-10.09.01:140][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Theo/AppData/Local/Temp/UnrealShaderWorkingDir/58094DE14EC7A8CD00AC4599A1E12D6E/'.
-[2020.06.08-10.09.01:141][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.06.08-10.09.01:141][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.06.08-10.09.01:141][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.06.08-10.09.04:784][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.06.08-10.09.05:082][  0]LogDerivedDataCache: Loaded boot cache 0.30s 81MB C:/Users/Theo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.06.08-10.09.05:083][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Theo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.06.08-10.09.05:083][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Theo/Desktop/DualCombatColor_FPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.06.08-10.09.05:083][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.06.08-10.09.05:083][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Theo/Desktop/DualCombatColor_FPS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.06.08-10.09.05:083][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.06.08-10.09.05:110][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.06.08-10.09.05:110][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.06.08-10.09.05:110][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.06.08-10.09.05:140][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Theo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.06.08-10.09.05:140][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.06.08-10.09.05:140][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.06.08-10.09.05:271][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.06.08-10.09.05:284][  0]LogSlate: Using FreeType 2.10.0
-[2020.06.08-10.09.05:286][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.06.08-10.09.05:477][  0]LogAssetRegistry: FAssetRegistry took 0.0075 seconds to start up
-[2020.06.08-10.09.06:799][  0]LogInit: Selected Device Profile: [Windows]
-[2020.06.08-10.09.07:437][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.06.08-10.09.07:437][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.06.08-10.09.07:437][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.06.08-10.09.07:437][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.06.08-10.09.07:437][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.06.08-10.09.07:475][  0]LogNetVersion: DualCombatColor_FPS 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1830361772)
-[2020.06.08-10.09.13:097][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.148974 seconds
-[2020.06.08-10.09.13:116][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.06.08-10.09.13:116][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.06.08-10.09.13:116][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.06.08-10.09.15:353][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.06.08-10.09.15:406][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.06.08-10.09.16:620][  0]SourceControl: Source control is disabled
-[2020.06.08-10.09.16:620][  0]SourceControl: Source control is disabled
-[2020.06.08-10.09.16:622][  0]SourceControl: Source control is disabled
-[2020.06.08-10.09.16:624][  0]SourceControl: Source control is disabled
-[2020.06.08-10.09.16:629][  0]SourceControl: Source control is disabled
-[2020.06.08-10.09.16:957][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.06.08-10.09.16:988][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.06.08-10.09.16:988][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.06.08-10.09.17:341][  0]LogOcInput: OculusInput pre-init called
-[2020.06.08-10.09.17:377][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.06.08-10.09.17:377][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.06.08-10.09.18:073][  0]LogEngine: Initializing Engine...
-[2020.06.08-10.09.18:077][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.06.08-10.09.18:082][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.06.08-10.09.19:646][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.06.08-10.09.19:671][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.06.08-10.09.19:691][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.06.08-10.09.19:691][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.06.08-10.09.19:691][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.06.08-10.09.19:692][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.06.08-10.09.19:692][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.06.08-10.09.19:692][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.06.08-10.09.19:692][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.06.08-10.09.19:692][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.06.08-10.09.19:693][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.06.08-10.09.19:694][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.06.08-10.09.19:778][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.06.08-10.09.19:778][  0]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
-[2020.06.08-10.09.19:778][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.06.08-10.09.19:779][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.06.08-10.09.19:780][  0]LogAudioMixer: Display: Channel Count Used: 6
-[2020.06.08-10.09.19:780][  0]LogAudioMixer: Display: Device Channel Count: 6
-[2020.06.08-10.09.19:780][  0]LogAudioMixer: Display: Channel Order:
-[2020.06.08-10.09.19:780][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.06.08-10.09.19:780][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.06.08-10.09.19:780][  0]LogAudioMixer: Display: 2: FrontCenter
-[2020.06.08-10.09.19:780][  0]LogAudioMixer: Display: 3: LowFrequency
-[2020.06.08-10.09.19:780][  0]LogAudioMixer: Display: 4: BackLeft
-[2020.06.08-10.09.19:780][  0]LogAudioMixer: Display: 5: BackRight
-[2020.06.08-10.09.19:948][  0]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
-[2020.06.08-10.09.19:967][  0]LogInit: FAudioDevice initialized.
-[2020.06.08-10.09.19:967][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.06.08-10.09.20:619][  0]LogDerivedDataCache: Saved boot cache 0.65s 81MB C:/Users/Theo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.06.08-10.09.20:637][  0]LogInit: Texture streaming: Enabled
-[2020.06.08-10.09.20:670][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.06.08-10.09.20:670][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.06.08-10.09.20:739][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.06.08-10.09.20:925][  0]LogInit: Transaction tracking system initialized
-[2020.06.08-10.09.20:966][  0]BlueprintLog: New page: Editor Load
-[2020.06.08-10.09.21:077][  0]LocalizationService: Localization service is disabled
-[2020.06.08-10.09.26:634][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Theo/Desktop/DualCombatColor_FPS/Content/' took 0.09s
-[2020.06.08-10.09.26:634][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.06.08-10.09.26:634][  0]LogCook: Display: Mobile HDR setting 1
-[2020.06.08-10.09.29:004][  0]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2020.06.08-10.09.29:105][  0]SourceControl: Source control is disabled
-[2020.06.08-10.09.29:105][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Theo/Desktop/DualCombatColor_FPS/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.06.08-10.09.29:108][  0]LightingResults: New page: Lighting Build
-[2020.06.08-10.09.29:111][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.06.08-10.09.29:111][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.08-10.09.29:112][  0]MapCheck: New page: Map Check
-[2020.06.08-10.09.29:112][  0]LightingResults: New page: Lighting Build
-[2020.06.08-10.09.29:216][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
-[2020.06.08-10.09.29:643][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2020.06.08-10.09.29:657][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.06.08-10.09.29:822][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
-[2020.06.08-10.09.29:822][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.06.08-10.09.29:823][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.443ms to complete.
-[2020.06.08-10.09.29:823][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.718
-[2020.06.08-10.09.30:166][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.08-10.09.30:196][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.08-10.09.30:230][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.08-10.09.30:263][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.08-10.09.30:283][  0]LogCollectionManager: Loaded 0 collections in 0.004516 seconds
-[2020.06.08-10.09.30:341][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Theo/Desktop/DualCombatColor_FPS/Saved/Collections/' took 0.01s
-[2020.06.08-10.09.30:341][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Theo/Desktop/DualCombatColor_FPS/Content/Developers/Theo/Collections/' took 0.00s
-[2020.06.08-10.09.30:341][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Theo/Desktop/DualCombatColor_FPS/Content/Collections/' took 0.00s
-[2020.06.08-10.09.30:341][  0]LogContentBrowser: Native class hierarchy populated in 0.0361 seconds. Added 3023 classes and 719 folders.
-[2020.06.08-10.09.30:362][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0020 seconds. Added 0 classes and 0 folders.
-[2020.06.08-10.09.33:063][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0021 seconds. Added 0 classes and 0 folders.
-[2020.06.08-10.09.33:107][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 2 classes and 3 folders.
-[2020.06.08-10.09.38:461][  0]LogSlate: Took 0.000563 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.06.08-10.09.38:465][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.06.08-10.09.38:534][  0]LogSlate: Took 0.053529 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.06.08-10.09.39:020][  0]LogRenderer: Reallocating scene render targets to support 1092x600 Format 9 NumSamples 1 (Frame:1).
-[2020.06.08-10.09.40:392][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2020.06.08-10.09.40:392][  0]LogLoad: (Engine Initialization) Total time: 50.94 seconds
-[2020.06.08-10.09.40:393][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.06.08-10.09.43:041][  0]LogContentStreaming: Texture pool size now 400 MB
-[2020.06.08-10.09.44:604][  3]LogAssetRegistry: Asset discovery search completed in 39.1303 seconds
-[2020.06.08-10.09.44:621][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
-[2020.06.08-10.09.47:273][ 11]LogSlate: Took 0.000520 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.06.08-10.10.08:828][110]LogSlate: Took 0.001138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.06.08-10.10.08:868][110]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TheoLeyenda/Bluprints/DualCombatColor_GameMode_BP.DualCombatColor_GameMode_BP
-[2020.06.08-10.10.10:208][110]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 121 classes and 0 folders.
-[2020.06.08-10.10.17:462][129]LogSlate: Window 'My Blueprint' being destroyed
-[2020.06.08-10.10.17:569][129]LogSlate: Window 'My Blueprint' being destroyed
-[2020.06.08-10.10.17:573][129]LogSlate: Window 'DualCombatColor_GameMode_BP' being destroyed
-[2020.06.08-10.10.17:604][129]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2020.06.08-10.10.17:605][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.08-10.10.17:905][129]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TheoLeyenda/Bluprints/DualCombatColor_GameMode_BP.DualCombatColor_GameMode_BP
-[2020.06.08-10.10.19:322][129]LogSlate: Took 0.000671 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.06.08-10.10.31:733][262]BlueprintLog: New page: Compile DualCombatColor_GameMode_BP
-[2020.06.08-10.10.32:397][262]LogUObjectHash: Compacting FUObjectHashTables data took   7.75ms
-[2020.06.08-10.10.33:350][268]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/DualCombatColor_FPS/Saved/DualCombatColor_GameMode_BP251457B744D1960DC2315AB72EAA8DE2.tmp' to '../../../../../../Users/Theo/Desktop/DualCombatColor_FPS/Content/TheoLeyenda/Bluprints/DualCombatColor_GameMode_BP.uasset'
-[2020.06.08-10.10.33:406][268]AssetCheck: New page: Asset Save: DualCombatColor_GameMode_BP
-[2020.06.08-10.10.33:406][268]LogContentValidation: Display: Validating Blueprint /Game/TheoLeyenda/Bluprints/DualCombatColor_GameMode_BP.DualCombatColor_GameMode_BP
-[2020.06.08-10.10.37:434][318]LogSlate: Window 'DualCombatColor_GameMode_BP' being destroyed
-[2020.06.08-10.10.39:983][358]LogTemp: Repeating last play command: Selected Viewport
-[2020.06.08-10.10.40:063][358]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2020.06.08-10.10.40:095][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.06.08-10.10.40:097][358]PIE: New page: PIE session: FirstPersonExampleMap (Jun 8, 2020, 4:10:40 AM)
-[2020.06.08-10.10.40:100][358]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.06.08-10.10.40:104][358]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2020.06.08-10.10.40:104][358]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2020.06.08-10.10.40:182][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077657s)
-[2020.06.08-10.10.40:186][358]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2020.06.08-10.10.40:186][358]LogPlayLevel: PIE: World Init took: (0.003633s)
-[2020.06.08-10.10.40:188][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.084360s)
-[2020.06.08-10.10.40:319][358]LogUObjectHash: Compacting FUObjectHashTables data took  21.97ms
-[2020.06.08-10.10.40:323][358]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.06.08-10.10.40:323][358]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.06.08-10.10.40:323][358]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.06.08-10.10.40:323][358]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.06.08-10.10.40:323][358]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.06.08-10.10.40:323][358]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.06.08-10.10.40:323][358]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.06.08-10.10.40:323][358]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.06.08-10.10.40:324][358]LogAudio: Display: Using built-in audio occlusion.
-[2020.06.08-10.10.40:324][358]LogAudioMixer: Display: Initializing audio mixer.
-[2020.06.08-10.10.40:397][358]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.06.08-10.10.40:397][358]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
-[2020.06.08-10.10.40:397][358]LogAudioMixer: Display: Is Default: Yes
-[2020.06.08-10.10.40:397][358]LogAudioMixer: Display: Sample Rate: 48000
-[2020.06.08-10.10.40:397][358]LogAudioMixer: Display: Channel Count Used: 6
-[2020.06.08-10.10.40:397][358]LogAudioMixer: Display: Device Channel Count: 6
-[2020.06.08-10.10.40:397][358]LogAudioMixer: Display: Channel Order:
-[2020.06.08-10.10.40:397][358]LogAudioMixer: Display: 0: FrontLeft
-[2020.06.08-10.10.40:397][358]LogAudioMixer: Display: 1: FrontRight
-[2020.06.08-10.10.40:397][358]LogAudioMixer: Display: 2: FrontCenter
-[2020.06.08-10.10.40:397][358]LogAudioMixer: Display: 3: LowFrequency
-[2020.06.08-10.10.40:397][358]LogAudioMixer: Display: 4: BackLeft
-[2020.06.08-10.10.40:397][358]LogAudioMixer: Display: 5: BackRight
-[2020.06.08-10.10.40:496][358]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
-[2020.06.08-10.10.40:500][358]LogInit: FAudioDevice initialized.
-[2020.06.08-10.10.40:514][358]LogLoad: Game class is 'DualCombatColor_GameMode_BP_C'
-[2020.06.08-10.10.40:523][358]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.06.08-07.10.40
-[2020.06.08-10.10.40:523][358]LogWorld: Bringing up level for play took: 0.006917
-[2020.06.08-10.10.40:524][358]LogOnline: OSS: Creating online subsystem instance for: :Context_6
-[2020.06.08-10.10.40:541][358]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0024 seconds. Added 20 classes and 0 folders.
-[2020.06.08-10.10.40:542][358]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2020.06.08-10.10.40:542][358]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2020.06.08-10.10.40:542][358]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2020.06.08-10.10.40:580][358]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2020.06.08-10.10.40:580][358]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.859
-[2020.06.08-10.10.40:581][358]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2020.06.08-10.10.46:755][363]LogWindows: Error: === Critical error: ===
-[2020.06.08-10.10.46:755][363]LogWindows: Error: 
-[2020.06.08-10.10.46:755][363]LogWindows: Error: Fatal error!
-[2020.06.08-10.10.46:755][363]LogWindows: Error: 
-[2020.06.08-10.10.46:755][363]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x000001b0
-[2020.06.08-10.10.46:755][363]LogWindows: Error: 
-[2020.06.08-10.10.46:755][363]LogWindows: Error: [Callstack] 0x00007ffcbfecf5eb UE4Editor-Engine.dll!UnknownFunction []
-[2020.06.08-10.10.46:755][363]LogWindows: Error: [Callstack] 0x00007ffcbfed1547 UE4Editor-Engine.dll!UnknownFunction []
-[2020.06.08-10.10.46:755][363]LogWindows: Error: [Callstack] 0x00007ffcd83693ae UE4Editor-DualCombatColor_FPS.dll!ADualCombatColor_GameMode::SpawnObject() [c:\users\theo\desktop\dualcombatcolor_fps\source\dualcombatcolor_fps\dualcombatcolor_gamemode.cpp:65]
-[2020.06.08-10.10.46:755][363]LogWindows: Error: [Callstack] 0x00007ffcd83694c8 UE4Editor-DualCombatColor_FPS.dll!ADualCombatColor_GameMode::StartGame() [c:\users\theo\desktop\dualcombatcolor_fps\source\dualcombatcolor_fps\dualcombatcolor_gamemode.cpp:30]
-[2020.06.08-10.10.46:756][363]LogWindows: Error: [Callstack] 0x00007ffcc0721019 UE4Editor-Engine.dll!UnknownFunction []
-[2020.06.08-10.10.46:756][363]LogWindows: Error: [Callstack] 0x00007ffcc0753bbd UE4Editor-Engine.dll!UnknownFunction []
-[2020.06.08-10.10.46:756][363]LogWindows: Error: [Callstack] 0x00007ffcbfed6839 UE4Editor-Engine.dll!UnknownFunction []
-[2020.06.08-10.10.46:756][363]LogWindows: Error: [Callstack] 0x00007ffccf04ad60 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2020.06.08-10.10.46:756][363]LogWindows: Error: [Callstack] 0x00007ffccf8ae476 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2020.06.08-10.10.46:756][363]LogWindows: Error: [Callstack] 0x00007ff7795d7f62 UE4Editor.exe!UnknownFunction []
-[2020.06.08-10.10.46:756][363]LogWindows: Error: [Callstack] 0x00007ff7795ec3ec UE4Editor.exe!UnknownFunction []
-[2020.06.08-10.10.46:756][363]LogWindows: Error: [Callstack] 0x00007ff7795ec4ca UE4Editor.exe!UnknownFunction []
-[2020.06.08-10.10.46:756][363]LogWindows: Error: [Callstack] 0x00007ff7795fceae UE4Editor.exe!UnknownFunction []
-[2020.06.08-10.10.46:756][363]LogWindows: Error: [Callstack] 0x00007ff7795ffcbe UE4Editor.exe!UnknownFunction []
-[2020.06.08-10.10.46:756][363]LogWindows: Error: [Callstack] 0x00007ffd0ce47bd4 KERNEL32.DLL!UnknownFunction []
-[2020.06.08-10.10.46:756][363]LogWindows: Error: [Callstack] 0x00007ffd0d5ece51 ntdll.dll!UnknownFunction []
-[2020.06.08-10.10.46:756][363]LogWindows: Error: 
-[2020.06.08-10.10.46:876][363]LogExit: Executing StaticShutdownAfterError
-[2020.06.08-10.10.46:885][363]LogWindows: FPlatformMisc::RequestExit(1)
-[2020.06.08-10.10.46:886][363]LogCore: Engine exit requested (reason: Win RequestExit)
-[2020.06.08-10.10.46:945][363]Log file closed, 06/08/20 07:10:46
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2020.06.13-03.16.58:287][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2020.06.13-03.16.58:288][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2020.06.13-03.16.58:289][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.13-03.16.58:290][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.13-03.16.58:290][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.13-03.16.58:291][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.13-03.16.58:291][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.13-03.16.58:291][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.13-03.16.58:291][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.13-03.16.58:291][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.13-03.16.58:291][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.13-03.16.58:291][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.13-03.16.58:291][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.13-03.16.58:291][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.13-03.16.58:291][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.13-03.16.58:291][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.13-03.16.58:291][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.13-03.16.58:291][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.13-03.16.58:294][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.13-03.16.58:294][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.13-03.16.58:294][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.13-03.16.58:294][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.13-03.16.58:294][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.13-03.16.58:294][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.13-03.16.58:294][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.13-03.16.58:294][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.13-03.16.58:294][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.13-03.16.58:295][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.13-03.16.58:296][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.13-03.16.58:297][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.13-03.16.58:297][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.13-03.16.58:297][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.13-03.16.58:297][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.13-03.16.58:297][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.13-03.16.58:297][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.13-03.16.58:366][  0]LogHAL: Display: Platform has ~ 8 GB [8541040640 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.13-03.16.58:366][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.13-03.16.58:366][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2020.06.13-03.16.58:366][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2020.06.13-03.16.58:367][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SSGI.Quality:0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Scalability.ini]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:8]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
+[2020.06.13-03.16.58:368][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.13-03.16.58:411][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.13-03.16.58:411][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.13-03.16.58:411][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Config/Windows/Engine.ini]
+[2020.06.13-03.16.58:412][  0]LogInit: Computer: DESKTOP-6PDEUV4
+[2020.06.13-03.16.58:412][  0]LogInit: User: Theo
+[2020.06.13-03.16.58:412][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.06.13-03.16.58:412][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2020.06.13-03.16.58:412][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2020.06.13-03.16.58:412][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.13-03.16.58:412][  0]LogMemory: Process Physical Memory: 105.53 MB used, 105.53 MB peak
+[2020.06.13-03.16.58:412][  0]LogMemory: Process Virtual Memory: 99.86 MB used, 99.86 MB peak
+[2020.06.13-03.16.58:412][  0]LogMemory: Physical Memory: 5417.87 MB used,  2727.50 MB free, 8145.37 MB total
+[2020.06.13-03.16.58:412][  0]LogMemory: Virtual Memory: 5117.20 MB used,  134212608.00 MB free, 134217728.00 MB total
+[2020.06.13-03.16.58:437][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.13-03.17.01:873][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.06.13-03.17.01:873][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.06.13-03.17.16:484][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.13-03.17.19:001][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.13-03.17.19:001][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.13-03.18.12:594][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.13-03.18.12:594][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.06.13-03.18.12:594][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.06.13-03.18.12:594][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.13-03.18.12:628][  0]LogD3D11RHI:    0. 'AMD Radeon HD 5450' (Feature Level 11_0)
+[2020.06.13-03.18.12:628][  0]LogD3D11RHI:       2034/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2020.06.13-03.18.13:417][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.13-03.18.13:417][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.13-03.18.13:417][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.13-03.18.13:440][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.13-03.18.13:440][  0]LogD3D11RHI:     GPU DeviceId: 0x68f9 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.13-03.18.13:440][  0]LogWindows: EnumDisplayDevices:
+[2020.06.13-03.18.13:441][  0]LogWindows:    0. 'AMD Radeon HD 5450' (P:1 D:1)
+[2020.06.13-03.18.13:443][  0]LogWindows:    1. 'AMD Radeon HD 5450' (P:0 D:0)
+[2020.06.13-03.18.13:443][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2020.06.13-03.18.13:444][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 5450
+[2020.06.13-03.18.13:444][  0]LogD3D11RHI:   Driver Version: 15.201.1151.1008 (internal:15.201.1151.1008, unified:15.201.1151.1008)
+[2020.06.13-03.18.13:444][  0]LogD3D11RHI:      Driver Date: 11-4-2015
+[2020.06.13-03.18.13:444][  0]LogRHI: Texture pool is 1424 MB (70% of 2034 MB)
+[2020.06.13-03.18.15:909][  0]LogD3D11RHI: AMD Pre GCN architecture detected, some driver workarounds will be in place
+[2020.06.13-03.18.15:938][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.06.13-03.18.15:938][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.13-03.18.15:952][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2020.06.13-03.18.19:061][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.13-03.18.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.13-03.18.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.13-03.18.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.06.13-03.18.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.13-03.18.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.06.13-03.18.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.06.13-03.18.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.13-03.18.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.06.13-03.18.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.13-03.18.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.13-03.18.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.06.13-03.18.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.13-03.18.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.06.13-03.18.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.06.13-03.18.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.13-03.18.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.06.13-03.18.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.13-03.18.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.13-03.18.19:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.13-03.18.19:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.13-03.18.20:056][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.13-03.18.20:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.13-03.18.20:299][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.13-03.18.20:477][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.13-03.18.20:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.13-03.18.20:861][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.13-03.18.21:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.13-03.18.21:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.13-03.18.21:500][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.13-03.18.21:500][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.13-03.18.21:638][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.13-03.18.21:738][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.13-03.18.21:884][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.13-03.18.22:050][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.13-03.18.22:050][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.13-03.18.22:451][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.13-03.18.25:005][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Intermediate/Shaders/WorkingDirectory/14136/).
+[2020.06.13-03.18.25:005][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Theo/AppData/Local/Temp/UnrealShaderWorkingDir/C746BDC8466E8D4CFD85BCB451BC4617/'.
+[2020.06.13-03.18.25:063][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.13-03.18.25:064][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.13-03.18.25:064][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.13-03.19.04:931][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.13-03.19.07:618][  0]LogDerivedDataCache: Loaded boot cache 2.69s 78MB C:/Users/Theo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.06.13-03.19.07:618][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Theo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.06.13-03.19.07:618][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.13-03.19.07:618][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.13-03.19.07:618][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.13-03.19.07:618][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.13-03.19.07:757][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.13-03.19.07:757][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.13-03.19.07:757][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.13-03.19.07:760][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Theo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.13-03.19.07:760][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.13-03.19.07:760][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.13-03.19.07:879][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.06.13-03.19.07:885][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.13-03.19.08:411][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.13-03.19.37:983][  0]LogAssetRegistry: FAssetRegistry took 0.0133 seconds to start up
+[2020.06.13-03.19.39:191][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.13-03.19.44:757][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.13-03.19.44:758][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.13-03.19.44:758][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.13-03.19.44:758][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.13-03.19.44:758][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.13-03.19.45:731][  0]LogNetVersion: DualCombatColor_FPS 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1830361772)
+[2020.06.13-03.22.31:651][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.593045 seconds
+[2020.06.13-03.22.31:665][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.06.13-03.22.31:665][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.06.13-03.22.31:666][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.13-03.22.54:441][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.13-03.22.54:568][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.13-03.22.56:165][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter': Can't find file.
+[2020.06.13-03.22.56:166][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter': Can't find file.
+[2020.06.13-03.22.56:166][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C'
+[2020.06.13-03.22.56:166][  0]Error: CDO Constructor (DualCombatColor_FPSGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+[2020.06.13-03.22.56:170][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2020.06.13-03.22.56:170][  0]LogUObjectBase: Warning: Error: CDO Constructor (DualCombatColor_FPSGameMode): Failed to find /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+
+[2020.06.13-03.22.59:012][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.06.13-03.23.00:907][  0]SourceControl: Source control is disabled
+[2020.06.13-03.23.00:907][  0]SourceControl: Source control is disabled
+[2020.06.13-03.23.01:175][  0]SourceControl: Source control is disabled
+[2020.06.13-03.23.01:264][  0]SourceControl: Source control is disabled
+[2020.06.13-03.23.01:339][  0]SourceControl: Source control is disabled
+[2020.06.13-03.23.07:460][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.13-03.23.08:095][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.13-03.23.08:096][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.13-03.23.09:652][  0]LogOcInput: OculusInput pre-init called
+[2020.06.13-03.23.10:097][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.13-03.23.10:097][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.13-03.23.11:437][  0]LogEngine: Initializing Engine...
+[2020.06.13-03.23.11:439][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.13-03.23.11:441][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.06.13-03.23.13:186][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.13-03.23.13:567][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.13-03.23.13:695][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.13-03.23.13:695][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.13-03.23.13:695][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.13-03.23.13:695][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.13-03.23.13:695][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.13-03.23.13:695][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.13-03.23.13:695][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.13-03.23.13:695][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.13-03.23.13:696][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.13-03.23.13:696][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.13-03.23.13:840][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.13-03.23.13:841][  0]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.06.13-03.23.13:841][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.06.13-03.23.13:841][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.13-03.23.13:841][  0]LogAudioMixer: Display: Channel Count Used: 6
+[2020.06.13-03.23.13:841][  0]LogAudioMixer: Display: Device Channel Count: 6
+[2020.06.13-03.23.13:841][  0]LogAudioMixer: Display: Channel Order:
+[2020.06.13-03.23.13:841][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.13-03.23.13:841][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.13-03.23.13:841][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.13-03.23.13:841][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.13-03.23.13:841][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.06.13-03.23.13:841][  0]LogAudioMixer: Display: 5: BackRight
+[2020.06.13-03.23.13:930][  0]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2020.06.13-03.23.13:936][  0]LogInit: FAudioDevice initialized.
+[2020.06.13-03.23.13:937][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.13-03.23.14:727][  0]LogDerivedDataCache: Saved boot cache 0.79s 78MB C:/Users/Theo/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.06.13-03.23.14:879][  0]LogInit: Texture streaming: Enabled
+[2020.06.13-03.23.17:266][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.13-03.23.17:266][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.13-03.23.18:108][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.13-03.23.20:397][  0]LogInit: Transaction tracking system initialized
+[2020.06.13-03.23.24:169][  0]BlueprintLog: New page: Editor Load
+[2020.06.13-03.23.28:619][  0]LocalizationService: Localization service is disabled
+[2020.06.13-03.23.42:676][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/' took 0.03s
+[2020.06.13-03.23.42:676][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.13-03.23.42:677][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.13-03.23.55:377][  0]SourceControl: Source control is disabled
+[2020.06.13-03.23.55:378][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/DualCombatColor/Maps/MainMenu_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.13-03.23.55:381][  0]LightingResults: New page: Lighting Build
+[2020.06.13-03.23.55:500][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.13-03.23.55:500][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.13-03.23.55:501][  0]MapCheck: New page: Map Check
+[2020.06.13-03.23.55:501][  0]LightingResults: New page: Lighting Build
+[2020.06.13-03.23.55:598][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2020.06.13-03.23.56:213][  0]LogAIModule: Creating AISystem for world MainMenu_Map
+[2020.06.13-03.23.56:275][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.13-03.23.56:335][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.06.13-03.23.56:335][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.13-03.23.56:336][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.288ms to complete.
+[2020.06.13-03.23.56:336][  0]LogFileHelpers: Loading map 'MainMenu_Map' took 0.958
+[2020.06.13-03.23.56:497][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.06.13-03.23.57:081][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.13-03.23.57:094][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.13-03.23.57:106][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.13-03.23.57:121][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.13-03.23.57:479][  0]LogCollectionManager: Loaded 0 collections in 0.003834 seconds
+[2020.06.13-03.23.57:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/Collections/' took 0.00s
+[2020.06.13-03.23.57:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/Developers/Theo/Collections/' took 0.00s
+[2020.06.13-03.23.57:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/Collections/' took 0.00s
+[2020.06.13-03.23.57:687][  0]LogContentBrowser: Native class hierarchy populated in 0.0253 seconds. Added 3027 classes and 719 folders.
+[2020.06.13-03.23.58:055][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.06.13-03.24.10:605][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2020.06.13-03.24.11:176][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 2 classes and 3 folders.
+[2020.06.13-03.24.19:007][  0]LogSlate: Took 0.118720 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.13-03.24.19:219][  0]LogSlate: Took 0.208365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.13-03.24.19:291][  0]LogSlate: Took 0.064091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.13-03.24.19:626][  0]LogSlate: Took 0.333631 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.06.13-03.24.20:696][  0]LogRenderer: Reallocating scene render targets to support 1092x600 Format 9 NumSamples 1 (Frame:1).
+[2020.06.13-03.24.21:532][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2020.06.13-03.24.21:534][  0]LogLoad: (Engine Initialization) Total time: 488.16 seconds
+[2020.06.13-03.24.21:534][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.13-03.24.23:709][  0]LogActorFactory: Actor Factory created Cone
+[2020.06.13-03.24.23:950][  0]LogContentStreaming: Texture pool size now 400 MB
+[2020.06.13-03.24.35:317][ 72]LogAssetRegistry: Asset discovery search completed in 297.3370 seconds
+[2020.06.13-03.24.35:322][ 72]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2020.06.13-03.25.05:779][270]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.13-03.25.05:843][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.13-03.25.06:012][270]PIE: New page: PIE session: MainMenu_Map (Jun 12, 2020, 9:25:05 PM)
+[2020.06.13-03.25.06:015][270]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.06.13-03.25.06:018][270]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.06.13-03.25.06:018][270]LogPlayLevel: Creating play world package: /Game/DualCombatColor/Maps/UEDPIE_0_MainMenu_Map
+[2020.06.13-03.25.06:020][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001633s)
+[2020.06.13-03.25.06:022][270]LogAIModule: Creating AISystem for world MainMenu_Map
+[2020.06.13-03.25.06:022][270]LogPlayLevel: PIE: World Init took: (0.001853s)
+[2020.06.13-03.25.06:022][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DualCombatColor/Maps/MainMenu_Map.MainMenu_Map to /Game/DualCombatColor/Maps/UEDPIE_0_MainMenu_Map.MainMenu_Map (0.004070s)
+[2020.06.13-03.25.06:105][270]LogUObjectHash: Compacting FUObjectHashTables data took   8.14ms
+[2020.06.13-03.25.06:119][270]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.13-03.25.06:119][270]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.13-03.25.06:119][270]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.13-03.25.06:119][270]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.13-03.25.06:119][270]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.13-03.25.06:119][270]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.13-03.25.06:119][270]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.13-03.25.06:119][270]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.13-03.25.06:120][270]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.13-03.25.06:120][270]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.13-03.25.06:139][270]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.13-03.25.06:140][270]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.06.13-03.25.06:140][270]LogAudioMixer: Display: Is Default: Yes
+[2020.06.13-03.25.06:140][270]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.13-03.25.06:140][270]LogAudioMixer: Display: Channel Count Used: 6
+[2020.06.13-03.25.06:140][270]LogAudioMixer: Display: Device Channel Count: 6
+[2020.06.13-03.25.06:140][270]LogAudioMixer: Display: Channel Order:
+[2020.06.13-03.25.06:140][270]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.13-03.25.06:140][270]LogAudioMixer: Display: 1: FrontRight
+[2020.06.13-03.25.06:140][270]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.13-03.25.06:141][270]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.13-03.25.06:141][270]LogAudioMixer: Display: 4: BackLeft
+[2020.06.13-03.25.06:141][270]LogAudioMixer: Display: 5: BackRight
+[2020.06.13-03.25.06:194][270]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2020.06.13-03.25.06:197][270]LogInit: FAudioDevice initialized.
+[2020.06.13-03.25.06:213][270]LogLoad: Game class is 'GameModeMainMenu_BP_C'
+[2020.06.13-03.25.06:220][270]LogWorld: Bringing World /Game/DualCombatColor/Maps/UEDPIE_0_MainMenu_Map.MainMenu_Map up for play (max tick rate 0) at 2020.06.13-00.25.06
+[2020.06.13-03.25.06:221][270]LogWorld: Bringing up level for play took: 0.001616
+[2020.06.13-03.25.06:221][270]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.06.13-03.25.06:509][270]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0022 seconds. Added 20 classes and 0 folders.
+[2020.06.13-03.25.06:510][270]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.13-03.25.06:510][270]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.13-03.25.06:510][270]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.06.13-03.25.06:512][270]LogTemp: Warning: ShowMenuElements
+[2020.06.13-03.25.06:513][270]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.06.13-03.25.06:513][270]PIE: Play in editor start time for /Game/DualCombatColor/Maps/UEDPIE_0_MainMenu_Map -0.109
+[2020.06.13-03.25.08:886][304]LogTemp: Warning: Mapa Nulo
+[2020.06.13-03.25.15:520][399]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.13-03.25.15:521][399]LogWorld: BeginTearingDown for /Game/DualCombatColor/Maps/UEDPIE_0_MainMenu_Map
+[2020.06.13-03.25.15:521][399]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.13-03.25.15:522][399]LogWorld: UWorld::CleanupWorld for MainMenu_Map, bSessionEnded=true, bCleanupResources=true
+[2020.06.13-03.25.15:522][399]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.13-03.25.15:661][399]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.13-03.25.15:667][399]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.13-03.25.15:754][399]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.13-03.25.15:760][399]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.13-03.25.15:775][399]LogUObjectHash: Compacting FUObjectHashTables data took  11.64ms
+[2020.06.13-03.25.15:822][400]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.06.13-03.25.19:806][437]LogSlate: Took 0.327649 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.13-03.25.22:763][469]LogSlate: Took 0.000714 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.13-03.25.22:810][469]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/DualCombatColor/Bluprints/MainMenuWidget_BP.MainMenuWidget_BP
+[2020.06.13-03.25.23:616][469]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 121 classes and 0 folders.
+[2020.06.13-03.25.28:865][469]LogSlate: Took 0.092329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.13-03.25.35:434][598]LogAIModule: Creating AISystem for world Entry
+[2020.06.13-03.25.42:957][635]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.06.13-03.25.44:507][665]BlueprintLog: New page: Compile MainMenuWidget_BP
+[2020.06.13-03.25.44:725][665]LogUObjectHash: Compacting FUObjectHashTables data took  19.68ms
+[2020.06.13-03.25.48:016][685]LogSavePackage: Moving '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Saved/MainMenuWidget_BP732BA95E4927602EA140A09A48EEE7F6.tmp' to '../../../../../../Users/Theo/Desktop/TSDVJ-UnrealGame/DualCombatColor_FPS/Content/DualCombatColor/Bluprints/MainMenuWidget_BP.uasset'
+[2020.06.13-03.25.48:067][685]AssetCheck: New page: Asset Save: MainMenuWidget_BP
+[2020.06.13-03.25.48:067][685]LogContentValidation: Display: Validating WidgetBlueprint /Game/DualCombatColor/Bluprints/MainMenuWidget_BP.MainMenuWidget_BP
+[2020.06.13-03.25.56:406][820]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.13-03.25.56:497][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.13-03.25.56:497][820]PIE: New page: PIE session: MainMenu_Map (Jun 12, 2020, 9:25:56 PM)
+[2020.06.13-03.25.56:498][820]LogPlayLevel: Creating play world package: /Game/DualCombatColor/Maps/UEDPIE_0_MainMenu_Map
+[2020.06.13-03.25.56:500][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002269s)
+[2020.06.13-03.25.56:502][820]LogAIModule: Creating AISystem for world MainMenu_Map
+[2020.06.13-03.25.56:502][820]LogPlayLevel: PIE: World Init took: (0.002084s)
+[2020.06.13-03.25.56:502][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DualCombatColor/Maps/MainMenu_Map.MainMenu_Map to /Game/DualCombatColor/Maps/UEDPIE_0_MainMenu_Map.MainMenu_Map (0.004580s)
+[2020.06.13-03.25.56:624][820]LogUObjectHash: Compacting FUObjectHashTables data took  13.80ms
+[2020.06.13-03.25.56:631][820]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.13-03.25.56:632][820]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.13-03.25.56:632][820]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.13-03.25.56:632][820]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.13-03.25.56:632][820]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.13-03.25.56:632][820]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.13-03.25.56:633][820]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.13-03.25.56:633][820]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.13-03.25.56:635][820]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.13-03.25.56:635][820]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.13-03.25.56:663][820]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.13-03.25.56:663][820]LogAudioMixer: Display: Name: Altavoces (Realtek High Definition Audio)
+[2020.06.13-03.25.56:663][820]LogAudioMixer: Display: Is Default: Yes
+[2020.06.13-03.25.56:663][820]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.13-03.25.56:663][820]LogAudioMixer: Display: Channel Count Used: 6
+[2020.06.13-03.25.56:663][820]LogAudioMixer: Display: Device Channel Count: 6
+[2020.06.13-03.25.56:663][820]LogAudioMixer: Display: Channel Order:
+[2020.06.13-03.25.56:663][820]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.13-03.25.56:663][820]LogAudioMixer: Display: 1: FrontRight
+[2020.06.13-03.25.56:663][820]LogAudioMixer: Display: 2: FrontCenter
+[2020.06.13-03.25.56:663][820]LogAudioMixer: Display: 3: LowFrequency
+[2020.06.13-03.25.56:663][820]LogAudioMixer: Display: 4: BackLeft
+[2020.06.13-03.25.56:663][820]LogAudioMixer: Display: 5: BackRight
+[2020.06.13-03.25.56:731][820]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2020.06.13-03.25.56:735][820]LogInit: FAudioDevice initialized.
+[2020.06.13-03.25.56:757][820]LogLoad: Game class is 'GameModeMainMenu_BP_C'
+[2020.06.13-03.25.56:760][820]LogWorld: Bringing World /Game/DualCombatColor/Maps/UEDPIE_0_MainMenu_Map.MainMenu_Map up for play (max tick rate 0) at 2020.06.13-00.25.56
+[2020.06.13-03.25.56:761][820]LogWorld: Bringing up level for play took: 0.001974
+[2020.06.13-03.25.56:761][820]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.06.13-03.25.56:768][820]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.13-03.25.56:768][820]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.13-03.25.56:768][820]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.06.13-03.25.56:775][820]LogTemp: Warning: ShowMenuElements
+[2020.06.13-03.25.56:776][820]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.06.13-03.25.56:776][820]PIE: Play in editor start time for /Game/DualCombatColor/Maps/UEDPIE_0_MainMenu_Map 0.155
+[2020.06.13-03.25.58:108][841]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2020.06.13-03.25.58:108][841]LogGameState: Match State Changed from InProgress to LeavingMap
+[2020.06.13-03.25.58:109][841]LogNet: Browse: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2020.06.13-03.25.58:109][841]LogLoad: LoadMap: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2020.06.13-03.25.58:110][841]LogWorld: BeginTearingDown for /Game/DualCombatColor/Maps/UEDPIE_0_MainMenu_Map
+[2020.06.13-03.25.58:111][841]LogWorld: UWorld::CleanupWorld for MainMenu_Map, bSessionEnded=true, bCleanupResources=true
+[2020.06.13-03.25.58:111][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.13-03.25.58:111][841]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.13-03.25.58:240][841]LogUObjectHash: Compacting FUObjectHashTables data took  19.27ms
+[2020.06.13-03.25.58:242][841]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.06.13-03.25.58:303][841]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058285s)
+[2020.06.13-03.25.58:305][841]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.06.13-03.25.58:305][841]LogPlayLevel: PIE: World Init took: (0.001889s)
+[2020.06.13-03.25.58:305][841]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.062853s)
+[2020.06.13-03.25.58:305][841]LogLoad: Game class is 'DualCombatColor_GameMode_BP_C'
+[2020.06.13-03.25.58:312][841]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.06.13-00.25.58
+[2020.06.13-03.25.58:315][841]LogWorld: Bringing up level for play took: 0.008453
+[2020.06.13-03.25.58:318][841]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.13-03.25.58:318][841]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.06.13-03.25.58:318][841]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.06.13-03.27.29:756][841]LogWindows: Error: === Critical error: ===
+[2020.06.13-03.27.29:756][841]LogWindows: Error: 
+[2020.06.13-03.27.29:756][841]LogWindows: Error: Fatal error!
+[2020.06.13-03.27.29:756][841]LogWindows: Error: 
+[2020.06.13-03.27.29:756][841]LogWindows: Error: 
+[2020.06.13-03.27.29:877][841]LogExit: Executing StaticShutdownAfterError
+[2020.06.13-03.27.30:088][841]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.06.13-03.27.30:088][841]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.06.13-03.27.30:303][841]Log file closed, 06/13/20 00:27:30
