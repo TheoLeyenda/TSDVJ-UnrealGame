@@ -39,7 +39,7 @@ void UVictoryMenuWidget::SetScoreText(int _score)
 {
 	if (textYouScore != nullptr)
 	{
-		FString text = FString::Printf(TEXT("%s, %i"), *textYouScore->Text.ToString(), _score);
+		FString text = FString::Printf(TEXT("%s %i"), *textYouScore->Text.ToString(), _score);
 
 		//FString text1 = textYouScore->Text.ToString();
 		//FString text2 = FString::Printf(TEXT("%i"), _score);
