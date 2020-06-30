@@ -35,6 +35,6 @@ void AActorObstacleCanyon::Shoot()
 {
 	ADualCombatColor_FPSProjectile* RefProjectile;
 	RefProjectile = GetWorld()->SpawnActor<ADualCombatColor_FPSProjectile>(Projectile, GetActorLocation(), GetActorRotation());
-	RefProjectile->bShooterPlayer = true;
+	RefProjectile->bShooterPlayer = false;
 }
 
