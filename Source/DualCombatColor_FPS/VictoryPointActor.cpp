@@ -32,6 +32,10 @@ void AVictoryPointActor::BeginPlay()
 void AVictoryPointActor::OnAssetLoadingComplete()
 {
 	MeshTP->SetSkeletalMesh(MeshTP_Ptr.Get());
+	//FALTA Attachear el componente MeshTP a este actor
+	//MeshTP->SetupAttachment(this);
+	MeshTP->SetRelativeRotation(GetActorRotation());
+	MeshTP->SetRelativeLocation(GetActorLocation());
 }
 
 // Called every frame
