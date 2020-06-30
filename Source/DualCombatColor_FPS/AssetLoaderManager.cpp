@@ -29,7 +29,7 @@ void AAssetLoaderManager::AddAssetToLoad(TSoftObjectPtr<UObject> AssetToBeLoaded
 {
 	AssetsToLoad.Add(AssetToBeLoaded);
 }
-void AAssetLoaderManager::LoadAssets(/*TFunction<void()> OnReadyCallback,*/ bool bAsyncLoad) 
+void AAssetLoaderManager::LoadAssets(bool bAsyncLoad) 
 {
 	TArray<FSoftObjectPath> ItemsToStream;
 
@@ -38,20 +38,9 @@ void AAssetLoaderManager::LoadAssets(/*TFunction<void()> OnReadyCallback,*/ bool
 	{
 		ItemsToStream.AddUnique(AssetsToLoad[i].ToStringReference());
 	}
-	//if (bAsyncLoad) 
-	//{
-		Streamble.RequestAsyncLoad(ItemsToStream, FStreamableDelegate::CreateUObject(this, &AAssetLoaderManager::OnAssetLoaded));
-	//}
-	//else 
-	//{
-		//Streamble.RequestSyncLoad(ItemsToStream, FStreamableDelegate::CreateUObject(this, &AAssetLoaderManager::OnAssetLoaded));
-	//}
+	//Carga Asyncronica (Async)
+	Streamble.RequestAsyncLoad(ItemsToStream, FStreamableDelegate::CreateUObject(this, &AAssetLoaderManager::OnAssetLoaded));
+	
+	//FALTA AGREGAR CARGA Syncronica (Sync)
 }
-
-// Called every frame
-/*void AAssetLoaderManager::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}*/
 

@@ -23,6 +23,15 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 		TSoftObjectPtr<USkeletalMesh> MeshTP_Ptr;
+
+	UPROPERTY(EditAnywhere)
+		bool bForceInitialPosition;
+
+	UPROPERTY(EditAnywhere)
+		FVector InitialPosition;
+
+	UPROPERTY(EditAnywhere)
+		FRotator InitialRotation;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

@@ -21,7 +21,8 @@ class ADualCombatColor_FPSProjectile : public AActor
 
 public:
 	ADualCombatColor_FPSProjectile();
-
+	UPROPERTY(EditAnywhere)
+	bool bShooterPlayer;
 	/** called when projectile hits something */
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);

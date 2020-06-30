@@ -18,6 +18,11 @@ AVictoryPointActor::AVictoryPointActor()
 void AVictoryPointActor::BeginPlay()
 {
 	Super::BeginPlay();
+	if (bForceInitialPosition) 
+	{
+		SetActorLocation(InitialPosition);
+		SetActorRotation(InitialRotation);
+	}
 
 	AAssetLoaderManager* AssetLoader = Cast<AAssetLoaderManager>(AAssetLoaderManager::StaticClass()->GetDefaultObject());
 	AssetLoader->AddAssetToLoad(MeshTP);
