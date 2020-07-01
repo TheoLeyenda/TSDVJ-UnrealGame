@@ -19,9 +19,9 @@ public:
 	AParkour_GameMode();
 	virtual void Tick(float DeltaTime) override;
 	virtual void BeginPlay() override;
-
 	//UPROPERTY(EditAnywhere, BlueprintReadOnly)
 		//TArray<TSubclassOf<APlatformPawn>> platforms;
+
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<APlatformPawn> platformPawn_Class;
 

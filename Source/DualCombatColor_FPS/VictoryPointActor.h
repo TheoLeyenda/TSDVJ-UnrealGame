@@ -18,10 +18,10 @@ public:
 	// Sets default values for this actor's properties
 	AVictoryPointActor();
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere)
 		USkeletalMeshComponent* MeshTP;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere)
 		TSoftObjectPtr<USkeletalMesh> MeshTP_Ptr;
 
 	UPROPERTY(EditAnywhere)

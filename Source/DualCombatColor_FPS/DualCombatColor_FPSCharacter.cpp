@@ -15,6 +15,8 @@
 #include "PauseMenuWidget.h"
 #include "VictoryMenuWidget.h"
 #include "DefeatMenuWidget.h"
+#include "PlatformPawn.h"
+#include "UI_PlayerWidget.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
@@ -89,7 +91,8 @@ ADualCombatColor_FPSCharacter::ADualCombatColor_FPSCharacter()
 	//bUsingMotionControllers = true;
 
 	//Puntaje Pre - Asignado solo para testear.
-	score = 500;
+	dataPlayer.score = 0;
+	dataPlayer.life = 100;
 	isPaused = false;
 	
 }
@@ -98,7 +101,7 @@ void ADualCombatColor_FPSCharacter::BeginPlay()
 {
 	// Call the base class  
 	Super::BeginPlay();
-
+	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &ADualCombatColor_FPSCharacter::OnComponentBeginOverlap);
 	//Attach gun mesh component to Skeleton, doing it here because the skeleton is not yet created in the constructor
 	FP_Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
 
@@ -135,6 +138,9 @@ void ADualCombatColor_FPSCharacter::BeginPlay()
 	CreatedPauseMenu();
 	CreatedVictoryMenu();
 	CreatedDefeatMenu();
+	CreatedUI_Player();
+	UI_PlayerWidget->SetScoreText(dataPlayer.score);
+	UI_PlayerWidget->SetCurrentLifeText(dataPlayer.life);
 	//---------------
 }
 void ADualCombatColor_FPSCharacter::Tick(float DeltaSeconds)
@@ -165,6 +171,25 @@ void ADualCombatColor_FPSCharacter::Tick(float DeltaSeconds)
 		
 
 	
+}
+
+void ADualCombatColor_FPSCharacter::OnComponentBeginOverlap(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromeSweep, const FHitResult& SweepResult)
+{
+	if (OtherActor->ActorHasTag("Plattform"))
+	{
+		APlatformPawn* platform = Cast<APlatformPawn>(OtherActor);
+		if (platform != nullptr) 
+		{
+			if (!platform->bIsTread) 
+			{
+				platform->bIsTread = true;
+				dataPlayer.score = dataPlayer.score + addScoreForPlatformTread;
+				UI_PlayerWidget->SetScoreText(dataPlayer.score);
+			}
+		}
+		UE_LOG(LogTemp, Warning, TEXT("Colisionaste WACHIN"));
+		
+	}
 }
 //////////////////////////////////////////////////////////////////////////
 // Input
@@ -241,6 +266,16 @@ void ADualCombatColor_FPSCharacter::CheckCursorVisible()
 	}*/
 }
 //-------------------------------UI - FUNCTIONS---------------------------------------//
+
+void ADualCombatColor_FPSCharacter::CreatedUI_Player()
+{
+	if (UI_PlayerWidget_Class != nullptr)
+	{
+		UI_PlayerWidget = CreateWidget<UUI_PlayerWidget>(Cast<APlayerController>(GetOwner()), UI_PlayerWidget_Class, FName("UI_PlayerWidget"));
+		UI_PlayerWidget->AddToViewport();
+	}
+}
+
 void ADualCombatColor_FPSCharacter::CreatedPauseMenu()
 {
 	if (PauseMenuWidget_Class != nullptr)
@@ -273,7 +308,7 @@ void ADualCombatColor_FPSCharacter::OpenVictoryMenu()
 	if (VictoryMenuWidget != nullptr)
 	{
 		VictoryMenuWidget->ActivateMe();
-		VictoryMenuWidget->SetScoreText(score);
+		VictoryMenuWidget->SetScoreText(dataPlayer.score);
 		PauseGame();
 	}
 	else
@@ -287,7 +322,7 @@ void ADualCombatColor_FPSCharacter::OpenDefeatMenu()
 	if (DefeatMenuWidget != nullptr)
 	{
 		DefeatMenuWidget->ActivateMe();
-		DefeatMenuWidget->SetScoreText(score);
+		DefeatMenuWidget->SetScoreText(dataPlayer.score);
 		PauseGame();
 	}
 	else

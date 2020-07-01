@@ -10,6 +10,20 @@ class UInputComponent;
 class UPauseMenuWidget;
 class UVictoryMenuWidget;
 class UDefeatMenuWidget;
+class UUI_PlayerWidget;
+
+USTRUCT()
+struct FDataPlayer
+{
+	GENERATED_BODY()
+public:
+	UPROPERTY()
+	int score;
+	UPROPERTY()
+	int numberCurrentLevel;
+	UPROPERTY()
+	int life;
+};
 
 UCLASS(config=Game)
 class ADualCombatColor_FPSCharacter : public ACharacter
@@ -52,6 +66,10 @@ public:
 	ADualCombatColor_FPSCharacter();
 
 	UPROPERTY(EditAnywhere, Category = "UI HUD")
+		TSubclassOf<UUI_PlayerWidget> UI_PlayerWidget_Class;
+	UUI_PlayerWidget* UI_PlayerWidget;
+
+	UPROPERTY(EditAnywhere, Category = "UI HUD")
 		TSubclassOf<UPauseMenuWidget> PauseMenuWidget_Class;
 	UPauseMenuWidget* PauseMenuWidget;
 
@@ -68,14 +86,25 @@ protected:
 	virtual void BeginPlay();
 	virtual void Tick(float DeltaSeconds) override;
 	//Game Play Functions and Variables
-	int score;
+	//int score;
+	UPROPERTY(EditAnywhere)
+		int addScoreForPlatformTread = 10;
 	bool isPaused;
 	void PauseGame();
 	UPROPERTY()
+		FDataPlayer dataPlayer;
+
+	UPROPERTY()
 	APlayerController* playerController;
 	//-------------------
+	//Collision Function
+	UFUNCTION()
+		void OnComponentBeginOverlap(class UPrimitiveComponent* HitComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp,
+			int32 OtherBodyIndex, bool bFromeSweep, const FHitResult& SweepResult);
 
-	// Menu Functions
+	// Menu Functionsç
+	void CreatedUI_Player();
+
 	void CreatedPauseMenu();
 	
 	void CreatedVictoryMenu();
