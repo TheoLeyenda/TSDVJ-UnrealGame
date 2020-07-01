@@ -17,6 +17,8 @@
 #include "DefeatMenuWidget.h"
 #include "PlatformPawn.h"
 #include "UI_PlayerWidget.h"
+#include "VictoryPointActor.h"
+#include "ParkourGameInstance.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
@@ -89,12 +91,6 @@ ADualCombatColor_FPSCharacter::ADualCombatColor_FPSCharacter()
 
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
-
-	//Puntaje Pre - Asignado solo para testear.
-	dataPlayer.score = 0;
-	dataPlayer.life = 100;
-	isPaused = false;
-	
 }
 
 void ADualCombatColor_FPSCharacter::BeginPlay()
@@ -134,6 +130,19 @@ void ADualCombatColor_FPSCharacter::BeginPlay()
 		VR_Gun->SetHiddenInGame(true, true);
 		Mesh1P->SetHiddenInGame(false, true);
 	}
+
+	UParkourGameInstance* parkourGameInstance = Cast<UParkourGameInstance>(GetGameInstance());
+	if (parkourGameInstance != nullptr) 
+	{
+		dataPlayer.numberCurrentLevel = parkourGameInstance->currentData.currentLevel;
+		dataPlayer.score = parkourGameInstance->currentData.currentScore;
+		dataPlayer.life = 100;
+	}
+	else 
+	{
+		UE_LOG(LogTemp, Warning, TEXT("parkourGameInstance nulo"));
+	}
+	isPaused = false;
 	//Created Menus
 	CreatedPauseMenu();
 	CreatedVictoryMenu();
@@ -141,6 +150,7 @@ void ADualCombatColor_FPSCharacter::BeginPlay()
 	CreatedUI_Player();
 	UI_PlayerWidget->SetScoreText(dataPlayer.score);
 	UI_PlayerWidget->SetCurrentLifeText(dataPlayer.life);
+	UI_PlayerWidget->SetCurrentLevelText(dataPlayer.numberCurrentLevel);
 	//---------------
 }
 void ADualCombatColor_FPSCharacter::Tick(float DeltaSeconds)
@@ -187,8 +197,23 @@ void ADualCombatColor_FPSCharacter::OnComponentBeginOverlap(UPrimitiveComponent*
 				UI_PlayerWidget->SetScoreText(dataPlayer.score);
 			}
 		}
-		UE_LOG(LogTemp, Warning, TEXT("Colisionaste WACHIN"));
-		
+	}
+	if(OtherActor->ActorHasTag("VictoryPoint"))
+	{
+		UE_LOG(LogTemp, Warning, TEXT("NextLevel Collision"));
+		AVictoryPointActor* victoryPoint = Cast<AVictoryPointActor>(OtherActor);
+		if (victoryPoint != nullptr)
+		{
+			UParkourGameInstance* parkourGameInstance = Cast<UParkourGameInstance>(GetGameInstance());
+			parkourGameInstance->currentData.currentLevel++;
+			parkourGameInstance->currentData.currentScore = dataPlayer.score;
+			//parkourGameInstance->SetAssetLoaderInstance(this);
+			victoryPoint->LoadNextLevel();
+		}
+		else 
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Victory Point Nulo"));
+		}
 	}
 }
 //////////////////////////////////////////////////////////////////////////

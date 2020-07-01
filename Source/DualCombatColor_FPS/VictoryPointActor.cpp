@@ -5,6 +5,8 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "UObject/SoftObjectPtr.h"
 #include "AssetLoaderManager.h"
+#include "kismet/GameplayStatics.h"
+#include "Engine/World.h"
 
 // Sets default values
 AVictoryPointActor::AVictoryPointActor()
@@ -31,11 +33,18 @@ void AVictoryPointActor::BeginPlay()
 
 void AVictoryPointActor::OnAssetLoadingComplete()
 {
-	MeshTP->SetSkeletalMesh(MeshTP_Ptr.Get());
-	//FALTA Attachear el componente MeshTP a este actor
-	//MeshTP->SetupAttachment(this);
-	MeshTP->SetRelativeRotation(GetActorRotation());
-	MeshTP->SetRelativeLocation(GetActorLocation());
+	if (MeshTP != nullptr && MeshTP_Ptr.Get() != nullptr) 
+	{
+		MeshTP->SetSkeletalMesh(MeshTP_Ptr.Get());
+		//FALTA Attachear el componente MeshTP a este actor
+		//MeshTP->SetupAttachment(this);
+		MeshTP->SetRelativeRotation(GetActorRotation());
+		MeshTP->SetRelativeLocation(GetActorLocation());
+	}
+	else 
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Punteros de VictoryPoint Nulos"));
+	}
 }
 
 // Called every frame
@@ -43,5 +52,18 @@ void AVictoryPointActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+void AVictoryPointActor::LoadNextLevel() 
+{
+	if (NextLevelMap == nullptr)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Mapa Nulo"));
+	}
+	if (NextLevelMap != nullptr)
+	{
+		FName nameMap = FName(*NextLevelMap.GetAssetName());
+		UGameplayStatics::OpenLevel(this, nameMap);
+		//UE_LOG(LogTemp, Warning, TEXT("Cargando Mapa"));
+	}
 }
 

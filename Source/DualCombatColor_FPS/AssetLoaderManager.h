@@ -29,6 +29,8 @@ public:
 	UFUNCTION()
 		void OnAssetLoaded();
 
+
+
 	void AddAssetToLoad(TSoftObjectPtr<UObject> AssetToBeLoaded);
 
 	void LoadAssets(bool bAsyncLoad = true);

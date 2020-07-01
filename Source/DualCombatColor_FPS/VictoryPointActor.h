@@ -32,14 +32,22 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		FRotator InitialRotation;
+
+	UPROPERTY(EditAnywhere)
+		TSoftObjectPtr<UWorld> NextLevelMap;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	
 	UFUNCTION()
 		void OnAssetLoadingComplete();
+
+	
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	
+	UFUNCTION()
+		void LoadNextLevel();
 
 };

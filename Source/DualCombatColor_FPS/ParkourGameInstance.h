@@ -6,6 +6,19 @@
 #include "Engine/GameInstance.h"
 #include "ParkourGameInstance.generated.h"
 
+USTRUCT()
+struct FCurrentData
+{
+	GENERATED_BODY()
+public:
+	UPROPERTY()
+		int currentScore;
+	UPROPERTY()
+		int currentLevel;
+	//UPROPERTY()
+		//int currentLifePlayer;
+};
+
 class AAssetLoaderManager;
 /**
  * 
@@ -15,6 +28,11 @@ class DUALCOMBATCOLOR_FPS_API UParkourGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
 public:
+	UParkourGameInstance();
+
+	UPROPERTY()
+		FCurrentData currentData;
+	
 	void SetAssetLoaderInstance(AAssetLoaderManager* NewManager);
 	AAssetLoaderManager* GetAssetLoaderManagerInstance();
 private:
