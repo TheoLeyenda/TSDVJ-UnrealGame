@@ -16,6 +16,7 @@
 #include "VictoryMenuWidget.h"
 #include "DefeatMenuWidget.h"
 #include "PlatformPawn.h"
+#include "Engine/StaticMesh.h"
 #include "UI_PlayerWidget.h"
 #include "VictoryPointActor.h"
 #include "ParkourGameInstance.h"
@@ -34,7 +35,6 @@ ADualCombatColor_FPSCharacter::ADualCombatColor_FPSCharacter()
 	// set our turn rates for input
 	BaseTurnRate = 45.f;
 	BaseLookUpRate = 45.f;
-
 	// Create a CameraComponent	
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
@@ -95,12 +95,17 @@ ADualCombatColor_FPSCharacter::ADualCombatColor_FPSCharacter()
 
 void ADualCombatColor_FPSCharacter::BeginPlay()
 {
-	// Call the base class  
+	// Call the base class
 	Super::BeginPlay();
+
+	//UStaticMesh* staticMesh;
+
+	//staticMesh->SetMaterial(,);
+
 	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &ADualCombatColor_FPSCharacter::OnComponentBeginOverlap);
 	//Attach gun mesh component to Skeleton, doing it here because the skeleton is not yet created in the constructor
 	FP_Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
-
+	
 	if (GetWorld() != nullptr)
 	{
 		//CheckCursorVisible();
@@ -156,6 +161,7 @@ void ADualCombatColor_FPSCharacter::BeginPlay()
 void ADualCombatColor_FPSCharacter::Tick(float DeltaSeconds)
 {
 
+	CheckDie();
 	if(!PauseMenuWidget)
 		UE_LOG(LogTemp, Warning, TEXT("pause bad"));
 
@@ -178,9 +184,19 @@ void ADualCombatColor_FPSCharacter::Tick(float DeltaSeconds)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Menu alguno es nulo"));
 	}
-		
-
 	
+}
+void ADualCombatColor_FPSCharacter::Die()
+{
+	//Si te moris se reinicia el nivel
+	UGameplayStatics::OpenLevel(GetWorld(), FName(*GetWorld()->GetName()), false);
+}
+void ADualCombatColor_FPSCharacter::CheckDie()
+{
+	if (dataPlayer.life <= 0)
+	{
+		Die();
+	}
 }
 
 void ADualCombatColor_FPSCharacter::OnComponentBeginOverlap(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromeSweep, const FHitResult& SweepResult)

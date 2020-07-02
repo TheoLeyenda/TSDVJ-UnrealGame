@@ -81,6 +81,8 @@ public:
 		TSubclassOf<UDefeatMenuWidget> DefeatMenuWidget_Class;
 	UDefeatMenuWidget* DefeatMenuWidget;
 
+	UPROPERTY()
+		FDataPlayer dataPlayer;
 protected:
 
 	virtual void BeginPlay();
@@ -91,8 +93,7 @@ protected:
 		int addScoreForPlatformTread = 10;
 	bool isPaused;
 	void PauseGame();
-	UPROPERTY()
-		FDataPlayer dataPlayer;
+	
 
 	UPROPERTY()
 	APlayerController* playerController;
@@ -102,7 +103,7 @@ protected:
 		void OnComponentBeginOverlap(class UPrimitiveComponent* HitComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp,
 			int32 OtherBodyIndex, bool bFromeSweep, const FHitResult& SweepResult);
 
-	// Menu Functionsç
+	// Menu Functions
 	void CreatedUI_Player();
 
 	void CreatedPauseMenu();
@@ -119,6 +120,10 @@ protected:
 
 	void CheckCursorVisible();
 	//-------------------
+
+	void CheckDie();
+
+	void Die();
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
