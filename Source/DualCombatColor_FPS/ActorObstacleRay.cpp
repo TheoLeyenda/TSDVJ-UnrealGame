@@ -46,7 +46,7 @@ void AActorObstacleRay::CheckShootRay()
 	{
 		if (HitResult.Actor.IsValid())
 		{
-			if (HitResult.Actor.Tags[0] == FName(TEXT("Player")))
+			if (HitResult.GetActor()->Tags[0] == FName(TEXT("Player")))
 			{
 				ADualCombatColor_FPSCharacter* Player = Cast<ADualCombatColor_FPSCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
 				if (Player != nullptr)

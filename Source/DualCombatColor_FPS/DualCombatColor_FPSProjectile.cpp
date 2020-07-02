@@ -3,6 +3,9 @@
 #include "DualCombatColor_FPSProjectile.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Components/SphereComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "DualCombatColor_FPSCharacter.h"
+#include "UI_PlayerWidget.h"
 
 ADualCombatColor_FPSProjectile::ADualCombatColor_FPSProjectile() 
 {
@@ -39,6 +42,17 @@ void ADualCombatColor_FPSProjectile::OnHit(UPrimitiveComponent* HitComp, AActor*
 		if (OtherActor->ActorHasTag("Pared") && !bShooterPlayer) 
 		{
 			Destroy();
+		}
+		if (OtherActor->ActorHasTag("Player") && !bShooterPlayer) 
+		{
+			ADualCombatColor_FPSCharacter* Player = Cast<ADualCombatColor_FPSCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+			if (Player != nullptr)
+			{
+				Player->dataPlayer.life = Player->dataPlayer.life - damageBullet;
+				Player->UI_PlayerWidget->SetCurrentLifeText(Player->dataPlayer.life);
+
+				Destroy();
+			}
 		}
 	}
 	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL) && OtherComp->IsSimulatingPhysics())

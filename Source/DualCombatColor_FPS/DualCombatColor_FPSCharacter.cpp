@@ -412,7 +412,8 @@ void ADualCombatColor_FPSCharacter::OnFire()
 				ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
 
 				// spawn the projectile at the muzzle
-				World->SpawnActor<ADualCombatColor_FPSProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+				ADualCombatColor_FPSProjectile* projectile = World->SpawnActor<ADualCombatColor_FPSProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+				projectile->bShooterPlayer = true;
 			}
 		}
 	}

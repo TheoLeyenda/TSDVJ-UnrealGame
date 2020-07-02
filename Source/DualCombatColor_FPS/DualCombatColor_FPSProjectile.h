@@ -6,6 +6,10 @@
 #include "GameFramework/Actor.h"
 #include "DualCombatColor_FPSProjectile.generated.h"
 
+class ADualCombatColor_FPSCharacter;
+class UGameplayStatics;
+class UUI_PlayerWidget;
+
 UCLASS(config=Game)
 class ADualCombatColor_FPSProjectile : public AActor
 {
@@ -23,6 +27,9 @@ public:
 	ADualCombatColor_FPSProjectile();
 	UPROPERTY(EditAnywhere)
 	bool bShooterPlayer;
+
+	UPROPERTY(EditAnywhere)
+		int damageBullet = 10;
 	/** called when projectile hits something */
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
