@@ -55,15 +55,6 @@ void AVictoryPointActor::Tick(float DeltaTime)
 }
 void AVictoryPointActor::LoadNextLevel() 
 {
-	if (NextLevelMap == nullptr)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Mapa Nulo"));
-	}
-	if (NextLevelMap != nullptr)
-	{
-		FName nameMap = FName(*NextLevelMap.GetAssetName());
 		UGameplayStatics::OpenLevel(this, nameMap);
-		//UE_LOG(LogTemp, Warning, TEXT("Cargando Mapa"));
-	}
 }
 

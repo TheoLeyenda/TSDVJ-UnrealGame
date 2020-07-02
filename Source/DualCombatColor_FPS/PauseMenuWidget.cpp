@@ -55,16 +55,7 @@ void UPauseMenuWidget::OnClikedButtonResume()
 
 void UPauseMenuWidget::OnClikedButtonBackToMenu()
 {
-	if (Map == nullptr)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Mapa Nulo"));
-	}
-	if (Map != nullptr)
-	{
-		FName nameMap = FName(*Map.GetAssetName());
-		UGameplayStatics::OpenLevel(this, nameMap);
-		//UE_LOG(LogTemp, Warning, TEXT("Cargando Mapa"));
-	}
+	UGameplayStatics::OpenLevel(this, nameMap);
 }
 
 void UPauseMenuWidget::OnClikedButtonExit()

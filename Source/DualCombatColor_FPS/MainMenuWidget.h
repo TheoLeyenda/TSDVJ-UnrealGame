@@ -13,8 +13,11 @@ UCLASS()
 class DUALCOMBATCOLOR_FPS_API UMainMenuWidget : public UUserWidget
 {
 	GENERATED_BODY()
+
+public:
+	UPROPERTY(EditAnywhere)
+		FName nameMap;
 protected:
-	//UPROPERTY(/*BlueprintReadWrite,meta = (BindWidget),*/ EditAnywhere)
 	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
 		class UButton* ButtonPlay;
 
@@ -33,14 +36,6 @@ protected:
 	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
 		class UWidget* CanvasCredits;
 
-	/*UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		 TArray<class UWidget*> WidgetCredits;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		 TArray<class UWidget*> WidgetMenu;*/
-
-	UPROPERTY(EditAnywhere)
-		TSoftObjectPtr<UWorld> Map;
 public:
 	virtual void NativeOnInitialized() override;
 	virtual void NativeDestruct() override;

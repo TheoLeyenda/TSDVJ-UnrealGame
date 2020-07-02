@@ -25,9 +25,6 @@ protected:
 
 	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
 		class UWidget* CanvasDefeatMenu;
-
-	//UPROPERTY(EditAnywhere)
-		//TSoftObjectPtr<UWorld> Map;
 public:
 	virtual void NativeOnInitialized() override;
 	virtual void NativeDestruct() override;

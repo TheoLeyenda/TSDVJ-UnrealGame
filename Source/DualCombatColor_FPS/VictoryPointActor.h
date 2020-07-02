@@ -34,7 +34,7 @@ public:
 		FRotator InitialRotation;
 
 	UPROPERTY(EditAnywhere)
-		TSoftObjectPtr<UWorld> NextLevelMap;
+		FName nameMap;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

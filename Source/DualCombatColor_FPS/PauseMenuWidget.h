@@ -13,6 +13,9 @@ UCLASS()
 class DUALCOMBATCOLOR_FPS_API UPauseMenuWidget : public UUserWidget
 {
 	GENERATED_BODY()
+public:
+	UPROPERTY(EditAnywhere)
+		FName nameMap;
 
 protected:
 	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
@@ -27,8 +30,6 @@ protected:
 	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
 		class UWidget* CanvasPauseMenu;
 
-	UPROPERTY(EditAnywhere)
-		TSoftObjectPtr<UWorld> Map;
 public:
 	virtual void NativeOnInitialized() override;
 	virtual void NativeDestruct() override;
