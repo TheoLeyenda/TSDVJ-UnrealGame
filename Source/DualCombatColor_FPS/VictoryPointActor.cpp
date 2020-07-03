@@ -33,13 +33,13 @@ void AVictoryPointActor::BeginPlay()
 
 void AVictoryPointActor::OnAssetLoadingComplete()
 {
-	if (MeshTP != nullptr && MeshTP_Ptr.Get() != nullptr) 
+	if (MeshTP) 
 	{
-		MeshTP->SetSkeletalMesh(MeshTP_Ptr.Get());
-		//FALTA Attachear el componente MeshTP a este actor
-		//MeshTP->SetupAttachment(this);
-		MeshTP->SetRelativeRotation(GetActorRotation());
-		MeshTP->SetRelativeLocation(GetActorLocation());
+		USkeletalMesh* tempMesh = MeshTP_Ptr.Get();
+		if (tempMesh)
+			MeshTP->SetSkeletalMesh(tempMesh);
+		MeshTP->SetRelativeLocationAndRotation(GetActorLocation(), GetActorRotation());
+
 	}
 	else 
 	{
