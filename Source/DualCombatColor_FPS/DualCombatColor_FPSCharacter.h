@@ -82,7 +82,7 @@ public:
 	UDefeatMenuWidget* DefeatMenuWidget;
 
 	UPROPERTY()
-		FDataPlayer dataPlayer;
+		FDataPlayer FdataPlayer;
 protected:
 
 	virtual void BeginPlay();

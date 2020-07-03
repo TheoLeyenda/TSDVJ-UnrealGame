@@ -51,8 +51,8 @@ void AActorObstacleRay::CheckShootRay()
 				ADualCombatColor_FPSCharacter* Player = Cast<ADualCombatColor_FPSCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
 				if (Player != nullptr)
 				{
-					Player->dataPlayer.life = Player->dataPlayer.life - Damage;
-					Player->UI_PlayerWidget->SetCurrentLifeText(Player->dataPlayer.life);
+					Player->FdataPlayer.life = Player->FdataPlayer.life - Damage;
+					Player->UI_PlayerWidget->SetCurrentLifeText(Player->FdataPlayer.life);
 
 					Destroy();
 				}

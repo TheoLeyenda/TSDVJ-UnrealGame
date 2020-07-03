@@ -16,10 +16,10 @@ AActorContainerWidget::AActorContainerWidget()
 void AActorContainerWidget::BeginPlay()
 {
 	Super::BeginPlay();
-	if (Player_Menu_Widget_Class != nullptr)
+	if (SPlayer_Menu_Widget_Class != nullptr)
 	{
-		Player_Menu_Widget = CreateWidget(GetWorld(), Player_Menu_Widget_Class);
-		Player_Menu_Widget->AddToViewport();
+		SPlayer_Menu_Widget = CreateWidget(GetWorld(), SPlayer_Menu_Widget_Class);
+		SPlayer_Menu_Widget->AddToViewport();
 	}
 	
 }

@@ -139,9 +139,9 @@ void ADualCombatColor_FPSCharacter::BeginPlay()
 	UParkourGameInstance* parkourGameInstance = Cast<UParkourGameInstance>(GetGameInstance());
 	if (parkourGameInstance != nullptr) 
 	{
-		dataPlayer.numberCurrentLevel = parkourGameInstance->currentData.currentLevel;
-		dataPlayer.score = parkourGameInstance->currentData.currentScore;
-		dataPlayer.life = 100;
+		FdataPlayer.numberCurrentLevel = parkourGameInstance->currentData.currentLevel;
+		FdataPlayer.score = parkourGameInstance->currentData.currentScore;
+		FdataPlayer.life = 100;
 	}
 	else 
 	{
@@ -153,9 +153,9 @@ void ADualCombatColor_FPSCharacter::BeginPlay()
 	CreatedVictoryMenu();
 	CreatedDefeatMenu();
 	CreatedUI_Player();
-	UI_PlayerWidget->SetScoreText(dataPlayer.score);
-	UI_PlayerWidget->SetCurrentLifeText(dataPlayer.life);
-	UI_PlayerWidget->SetCurrentLevelText(dataPlayer.numberCurrentLevel);
+	UI_PlayerWidget->SetScoreText(FdataPlayer.score);
+	UI_PlayerWidget->SetCurrentLifeText(FdataPlayer.life);
+	UI_PlayerWidget->SetCurrentLevelText(FdataPlayer.numberCurrentLevel);
 	//---------------
 }
 void ADualCombatColor_FPSCharacter::Tick(float DeltaSeconds)
@@ -193,7 +193,7 @@ void ADualCombatColor_FPSCharacter::Die()
 }
 void ADualCombatColor_FPSCharacter::CheckDie()
 {
-	if (dataPlayer.life <= 0)
+	if (FdataPlayer.life <= 0)
 	{
 		Die();
 	}
@@ -209,8 +209,8 @@ void ADualCombatColor_FPSCharacter::OnComponentBeginOverlap(UPrimitiveComponent*
 			if (!platform->bIsTread) 
 			{
 				platform->bIsTread = true;
-				dataPlayer.score = dataPlayer.score + addScoreForPlatformTread;
-				UI_PlayerWidget->SetScoreText(dataPlayer.score);
+				FdataPlayer.score = FdataPlayer.score + addScoreForPlatformTread;
+				UI_PlayerWidget->SetScoreText(FdataPlayer.score);
 			}
 		}
 	}
@@ -222,7 +222,7 @@ void ADualCombatColor_FPSCharacter::OnComponentBeginOverlap(UPrimitiveComponent*
 		{
 			UParkourGameInstance* parkourGameInstance = Cast<UParkourGameInstance>(GetGameInstance());
 			parkourGameInstance->currentData.currentLevel++;
-			parkourGameInstance->currentData.currentScore = dataPlayer.score;
+			parkourGameInstance->currentData.currentScore = FdataPlayer.score;
 			//parkourGameInstance->SetAssetLoaderInstance(this);
 			victoryPoint->LoadNextLevel();
 		}
@@ -349,7 +349,7 @@ void ADualCombatColor_FPSCharacter::OpenVictoryMenu()
 	if (VictoryMenuWidget != nullptr)
 	{
 		VictoryMenuWidget->ActivateMe();
-		VictoryMenuWidget->SetScoreText(dataPlayer.score);
+		VictoryMenuWidget->SetScoreText(FdataPlayer.score);
 		PauseGame();
 	}
 	else
@@ -363,7 +363,7 @@ void ADualCombatColor_FPSCharacter::OpenDefeatMenu()
 	if (DefeatMenuWidget != nullptr)
 	{
 		DefeatMenuWidget->ActivateMe();
-		DefeatMenuWidget->SetScoreText(dataPlayer.score);
+		DefeatMenuWidget->SetScoreText(FdataPlayer.score);
 		PauseGame();
 	}
 	else

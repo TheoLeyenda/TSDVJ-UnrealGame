@@ -18,8 +18,8 @@ public:
 	AActorContainerWidget();
 
 	UPROPERTY(EditAnywhere, Category = "UI HUD")
-		TSubclassOf<UUserWidget> Player_Menu_Widget_Class;
-	UUserWidget* Player_Menu_Widget;
+		TSubclassOf<UUserWidget> SPlayer_Menu_Widget_Class;
+	UUserWidget* SPlayer_Menu_Widget;
 
 protected:
 	// Called when the game starts or when spawned
