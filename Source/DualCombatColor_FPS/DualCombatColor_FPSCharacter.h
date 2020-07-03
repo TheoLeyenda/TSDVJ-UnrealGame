@@ -67,18 +67,25 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = "UI HUD")
 		TSubclassOf<UUI_PlayerWidget> UI_PlayerWidget_Class;
+	UPROPERTY()
 	UUI_PlayerWidget* UI_PlayerWidget;
 
 	UPROPERTY(EditAnywhere, Category = "UI HUD")
 		TSubclassOf<UPauseMenuWidget> PauseMenuWidget_Class;
+
+	UPROPERTY()
 	UPauseMenuWidget* PauseMenuWidget;
 
 	UPROPERTY(EditAnywhere, Category = "UI HUD")
 		TSubclassOf<UVictoryMenuWidget> VictoryMenuWidget_Class;
+
+	UPROPERTY()
 	UVictoryMenuWidget* VictoryMenuWidget;
 
 	UPROPERTY(EditAnywhere, Category = "UI HUD")
 		TSubclassOf<UDefeatMenuWidget> DefeatMenuWidget_Class;
+
+	UPROPERTY()
 	UDefeatMenuWidget* DefeatMenuWidget;
 
 	UPROPERTY()
