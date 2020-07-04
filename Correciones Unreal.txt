@@ -1,0 +1,14 @@
+- Codigo:
+	
+	General: Ticks implementados sin usar, codigo desprolijo, mucho codigo comentado
+	
+	MenuHUD: BeginPlay no llama al super
+	ActorContainerWidget: Puntero local sin UPROPERTY
+	ActorDataController: Nombre raro, ya que controller en UE4 es otra cosa
+	ActorObstacleRay::CheckShootRay() : le saca vida al character
+	DefeatMenuWidget: coding standard...
+	DualCombatColor_FPSCharacter: FDataPlayer todos los campos sin UpperCamalCase, todo lo de UI deberia estar en el HUD
+								  Ademas se guarda los punteros sin UPROPERTY, responsabilidad del menu en el character,
+								  Tick no llama a Super!
+							
+	AParkour_GameMode: coding standards!!
